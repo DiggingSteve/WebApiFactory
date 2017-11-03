@@ -1,0 +1,984 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WcStore_2011Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="WcStore_2011ModelStoreContainer">
+    <EntitySet Name="Ex_BqModify" EntityType="WcStore_2011Model.Store.Ex_BqModify" store:Type="Tables" store:Schema="dbo" store:Name="Ex_BqModify">
+      <DefiningQuery>SELECT 
+      [Ex_BqModify].[ID] AS [ID], 
+      [Ex_BqModify].[mawb] AS [mawb], 
+      [Ex_BqModify].[gzdno] AS [gzdno], 
+      [Ex_BqModify].[oldmsg] AS [oldmsg], 
+      [Ex_BqModify].[newmsg] AS [newmsg], 
+      [Ex_BqModify].[newdate] AS [newdate], 
+      [Ex_BqModify].[recvdate] AS [recvdate], 
+      [Ex_BqModify].[recvman] AS [recvman], 
+      [Ex_BqModify].[ready1] AS [ready1], 
+      [Ex_BqModify].[ready2] AS [ready2], 
+      [Ex_BqModify].[ready3] AS [ready3], 
+      [Ex_BqModify].[ready4] AS [ready4], 
+      [Ex_BqModify].[ready5] AS [ready5], 
+      [Ex_BqModify].[ready6] AS [ready6], 
+      [Ex_BqModify].[ready7] AS [ready7], 
+      [Ex_BqModify].[ready8] AS [ready8], 
+      [Ex_BqModify].[ready9] AS [ready9], 
+      [Ex_BqModify].[ready10] AS [ready10]
+      FROM [dbo].[Ex_BqModify] AS [Ex_BqModify]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Ex_Dcb_Detaile" EntityType="WcStore_2011Model.Store.Ex_Dcb_Detaile" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ex_Dcb_Protect" EntityType="WcStore_2011Model.Store.Ex_Dcb_Protect" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ex_Document_Detaile" EntityType="WcStore_2011Model.Store.Ex_Document_Detaile" store:Type="Tables" store:Schema="dbo" store:Name="Ex_Document_Detaile">
+      <DefiningQuery>SELECT 
+      [Ex_Document_Detaile].[ID] AS [ID], 
+      [Ex_Document_Detaile].[JcNo] AS [JcNo], 
+      [Ex_Document_Detaile].[Mawb] AS [Mawb], 
+      [Ex_Document_Detaile].[FileType] AS [FileType], 
+      [Ex_Document_Detaile].[FileNumber] AS [FileNumber], 
+      [Ex_Document_Detaile].[Remark] AS [Remark], 
+      [Ex_Document_Detaile].[Indate] AS [Indate], 
+      [Ex_Document_Detaile].[Inman] AS [Inman], 
+      [Ex_Document_Detaile].[ready1] AS [ready1], 
+      [Ex_Document_Detaile].[ready2] AS [ready2], 
+      [Ex_Document_Detaile].[ready3] AS [ready3], 
+      [Ex_Document_Detaile].[ready4] AS [ready4], 
+      [Ex_Document_Detaile].[ready5] AS [ready5], 
+      [Ex_Document_Detaile].[ready6] AS [ready6], 
+      [Ex_Document_Detaile].[ready7] AS [ready7], 
+      [Ex_Document_Detaile].[ready8] AS [ready8], 
+      [Ex_Document_Detaile].[ready9] AS [ready9], 
+      [Ex_Document_Detaile].[ready10] AS [ready10]
+      FROM [dbo].[Ex_Document_Detaile] AS [Ex_Document_Detaile]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Ex_ExpDataLog" EntityType="WcStore_2011Model.Store.Ex_ExpDataLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ex_Hawb" EntityType="WcStore_2011Model.Store.Ex_Hawb" store:Type="Tables" store:Schema="dbo" store:Name="Ex_Hawb">
+      <DefiningQuery>SELECT 
+      [Ex_Hawb].[id] AS [id], 
+      [Ex_Hawb].[mawb] AS [mawb], 
+      [Ex_Hawb].[hawb] AS [hawb], 
+      [Ex_Hawb].[ready1] AS [ready1], 
+      [Ex_Hawb].[ready2] AS [ready2], 
+      [Ex_Hawb].[reaady3] AS [reaady3], 
+      [Ex_Hawb].[ready4] AS [ready4], 
+      [Ex_Hawb].[ready5] AS [ready5], 
+      [Ex_Hawb].[ready6] AS [ready6], 
+      [Ex_Hawb].[ready7] AS [ready7], 
+      [Ex_Hawb].[ready8] AS [ready8], 
+      [Ex_Hawb].[reawdy9] AS [reawdy9], 
+      [Ex_Hawb].[ready10] AS [ready10], 
+      [Ex_Hawb].[ready11] AS [ready11], 
+      [Ex_Hawb].[ready12] AS [ready12], 
+      [Ex_Hawb].[ready13] AS [ready13], 
+      [Ex_Hawb].[ready14] AS [ready14], 
+      [Ex_Hawb].[ready15] AS [ready15], 
+      [Ex_Hawb].[ready16] AS [ready16], 
+      [Ex_Hawb].[ready17] AS [ready17], 
+      [Ex_Hawb].[ready18] AS [ready18], 
+      [Ex_Hawb].[ready19] AS [ready19], 
+      [Ex_Hawb].[ready20] AS [ready20]
+      FROM [dbo].[Ex_Hawb] AS [Ex_Hawb]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Ex_HbqScan" EntityType="WcStore_2011Model.Store.Ex_HbqScan" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ex_Jjd" EntityType="WcStore_2011Model.Store.Ex_Jjd" store:Type="Tables" store:Schema="dbo" store:Name="Ex_Jjd">
+      <DefiningQuery>SELECT 
+      [Ex_Jjd].[ID] AS [ID], 
+      [Ex_Jjd].[GzdNo] AS [GzdNo], 
+      [Ex_Jjd].[Mawb] AS [Mawb], 
+      [Ex_Jjd].[Hawb] AS [Hawb], 
+      [Ex_Jjd].[JjTypeCode] AS [JjTypeCode], 
+      [Ex_Jjd].[JjTypeName] AS [JjTypeName], 
+      [Ex_Jjd].[JjdateTime] AS [JjdateTime], 
+      [Ex_Jjd].[BxWeight] AS [BxWeight], 
+      [Ex_Jjd].[BW] AS [BW], 
+      [Ex_Jjd].[BxNo] AS [BxNo], 
+      [Ex_Jjd].[ZbPiece] AS [ZbPiece], 
+      [Ex_Jjd].[ZbWeight] AS [ZbWeight], 
+      [Ex_Jjd].[Remark] AS [Remark], 
+      [Ex_Jjd].[ready1] AS [ready1], 
+      [Ex_Jjd].[ready2] AS [ready2], 
+      [Ex_Jjd].[ready3] AS [ready3], 
+      [Ex_Jjd].[ready4] AS [ready4], 
+      [Ex_Jjd].[ready5] AS [ready5], 
+      [Ex_Jjd].[ready6] AS [ready6], 
+      [Ex_Jjd].[ready7] AS [ready7], 
+      [Ex_Jjd].[ready8] AS [ready8], 
+      [Ex_Jjd].[ready9] AS [ready9], 
+      [Ex_Jjd].[ready10] AS [ready10]
+      FROM [dbo].[Ex_Jjd] AS [Ex_Jjd]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Ex_Kw" EntityType="WcStore_2011Model.Store.Ex_Kw" store:Type="Tables" store:Schema="dbo" store:Name="Ex_Kw">
+      <DefiningQuery>SELECT 
+      [Ex_Kw].[ID] AS [ID], 
+      [Ex_Kw].[qyid] AS [qyid], 
+      [Ex_Kw].[Kwh] AS [Kwh], 
+      [Ex_Kw].[KwUse] AS [KwUse], 
+      [Ex_Kw].[KwStatus] AS [KwStatus], 
+      [Ex_Kw].[KwNum] AS [KwNum], 
+      [Ex_Kw].[UseKwNum] AS [UseKwNum], 
+      [Ex_Kw].[ready1] AS [ready1], 
+      [Ex_Kw].[ready2] AS [ready2], 
+      [Ex_Kw].[ready3] AS [ready3], 
+      [Ex_Kw].[ready4] AS [ready4], 
+      [Ex_Kw].[ready5] AS [ready5], 
+      [Ex_Kw].[ready6] AS [ready6], 
+      [Ex_Kw].[ready7] AS [ready7], 
+      [Ex_Kw].[ready8] AS [ready8], 
+      [Ex_Kw].[ready9] AS [ready9], 
+      [Ex_Kw].[ready10] AS [ready10]
+      FROM [dbo].[Ex_Kw] AS [Ex_Kw]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ex_kw_kwqy" EntityType="WcStore_2011Model.Store.ex_kw_kwqy" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ex_Log" EntityType="WcStore_2011Model.Store.Ex_Log" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ex_Mawb" EntityType="WcStore_2011Model.Store.Ex_Mawb" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ex_Photo_Detaile" EntityType="WcStore_2011Model.Store.Ex_Photo_Detaile" store:Type="Tables" store:Schema="dbo" store:Name="Ex_Photo_Detaile">
+      <DefiningQuery>SELECT 
+      [Ex_Photo_Detaile].[ID] AS [ID], 
+      [Ex_Photo_Detaile].[JcNo] AS [JcNo], 
+      [Ex_Photo_Detaile].[PhotoUrl] AS [PhotoUrl], 
+      [Ex_Photo_Detaile].[ready1] AS [ready1], 
+      [Ex_Photo_Detaile].[ready2] AS [ready2], 
+      [Ex_Photo_Detaile].[ready3] AS [ready3], 
+      [Ex_Photo_Detaile].[ready4] AS [ready4], 
+      [Ex_Photo_Detaile].[ready5] AS [ready5]
+      FROM [dbo].[Ex_Photo_Detaile] AS [Ex_Photo_Detaile]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Ex_SandK" EntityType="WcStore_2011Model.Store.Ex_SandK" store:Type="Tables" store:Schema="dbo" store:Name="Ex_SandK">
+      <DefiningQuery>SELECT 
+      [Ex_SandK].[ID] AS [ID], 
+      [Ex_SandK].[GzdNo] AS [GzdNo], 
+      [Ex_SandK].[KhJcxh] AS [KhJcxh], 
+      [Ex_SandK].[OperateMan] AS [OperateMan], 
+      [Ex_SandK].[OperateDate] AS [OperateDate], 
+      [Ex_SandK].[ConsumMan] AS [ConsumMan], 
+      [Ex_SandK].[ConsumDate] AS [ConsumDate], 
+      [Ex_SandK].[ready1] AS [ready1], 
+      [Ex_SandK].[ready2] AS [ready2], 
+      [Ex_SandK].[ready3] AS [ready3], 
+      [Ex_SandK].[ready4] AS [ready4], 
+      [Ex_SandK].[ready5] AS [ready5]
+      FROM [dbo].[Ex_SandK] AS [Ex_SandK]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Ex_Store" EntityType="WcStore_2011Model.Store.Ex_Store" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ex_Store_Expand" EntityType="WcStore_2011Model.Store.Ex_Store_Expand" store:Type="Tables" store:Schema="dbo" store:Name="Ex_Store_Expand">
+      <DefiningQuery>SELECT 
+      [Ex_Store_Expand].[ID] AS [ID], 
+      [Ex_Store_Expand].[Gzdno] AS [Gzdno], 
+      [Ex_Store_Expand].[PcStatus] AS [PcStatus], 
+      [Ex_Store_Expand].[GoosInStatus] AS [GoosInStatus], 
+      [Ex_Store_Expand].[GoosOutStatus] AS [GoosOutStatus], 
+      [Ex_Store_Expand].[GoosLockStatus] AS [GoosLockStatus], 
+      [Ex_Store_Expand].[JssqStatus] AS [JssqStatus], 
+      [Ex_Store_Expand].[JsspStatus] AS [JsspStatus], 
+      [Ex_Store_Expand].[ZcStatus] AS [ZcStatus], 
+      [Ex_Store_Expand].[ready1] AS [ready1], 
+      [Ex_Store_Expand].[ready2] AS [ready2], 
+      [Ex_Store_Expand].[ready3] AS [ready3], 
+      [Ex_Store_Expand].[ready4] AS [ready4], 
+      [Ex_Store_Expand].[ready5] AS [ready5], 
+      [Ex_Store_Expand].[ready6] AS [ready6], 
+      [Ex_Store_Expand].[ready7] AS [ready7], 
+      [Ex_Store_Expand].[ready8] AS [ready8], 
+      [Ex_Store_Expand].[ready9] AS [ready9], 
+      [Ex_Store_Expand].[ready10] AS [ready10]
+      FROM [dbo].[Ex_Store_Expand] AS [Ex_Store_Expand]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Ex_Store_Kh" EntityType="WcStore_2011Model.Store.Ex_Store_Kh" store:Type="Tables" store:Schema="dbo" store:Name="Ex_Store_Kh">
+      <DefiningQuery>SELECT 
+      [Ex_Store_Kh].[ID] AS [ID], 
+      [Ex_Store_Kh].[KhJcxh] AS [KhJcxh], 
+      [Ex_Store_Kh].[YjStore] AS [YjStore], 
+      [Ex_Store_Kh].[Mawb] AS [Mawb], 
+      [Ex_Store_Kh].[Hawb] AS [Hawb], 
+      [Ex_Store_Kh].[Hbh] AS [Hbh], 
+      [Ex_Store_Kh].[Hbrq] AS [Hbrq], 
+      [Ex_Store_Kh].[Hbsj] AS [Hbsj], 
+      [Ex_Store_Kh].[YjStoreTime] AS [YjStoreTime], 
+      [Ex_Store_Kh].[KPiece] AS [KPiece], 
+      [Ex_Store_Kh].[KWeight] AS [KWeight], 
+      [Ex_Store_Kh].[KVolum] AS [KVolum], 
+      [Ex_Store_Kh].[KhCode] AS [KhCode], 
+      [Ex_Store_Kh].[KhName] AS [KhName], 
+      [Ex_Store_Kh].[KhJcbh] AS [KhJcbh], 
+      [Ex_Store_Kh].[GoodsMark] AS [GoodsMark], 
+      [Ex_Store_Kh].[Remark] AS [Remark], 
+      [Ex_Store_Kh].[ready1] AS [ready1], 
+      [Ex_Store_Kh].[ready2] AS [ready2], 
+      [Ex_Store_Kh].[ready3] AS [ready3], 
+      [Ex_Store_Kh].[ready4] AS [ready4], 
+      [Ex_Store_Kh].[ready5] AS [ready5], 
+      [Ex_Store_Kh].[ready6] AS [ready6], 
+      [Ex_Store_Kh].[ready7] AS [ready7], 
+      [Ex_Store_Kh].[ready8] AS [ready8], 
+      [Ex_Store_Kh].[ready9] AS [ready9], 
+      [Ex_Store_Kh].[ready10] AS [ready10]
+      FROM [dbo].[Ex_Store_Kh] AS [Ex_Store_Kh]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Ex_StoreManager" EntityType="WcStore_2011Model.Store.Ex_StoreManager" store:Type="Tables" store:Schema="dbo" store:Name="Ex_StoreManager">
+      <DefiningQuery>SELECT 
+      [Ex_StoreManager].[id] AS [id], 
+      [Ex_StoreManager].[storename] AS [storename], 
+      [Ex_StoreManager].[begintime] AS [begintime], 
+      [Ex_StoreManager].[endtime] AS [endtime], 
+      [Ex_StoreManager].[isjg] AS [isjg], 
+      [Ex_StoreManager].[remark] AS [remark], 
+      [Ex_StoreManager].[ready1] AS [ready1], 
+      [Ex_StoreManager].[ready2] AS [ready2], 
+      [Ex_StoreManager].[ready3] AS [ready3], 
+      [Ex_StoreManager].[ready4] AS [ready4], 
+      [Ex_StoreManager].[ready5] AS [ready5], 
+      [Ex_StoreManager].[ready6] AS [ready6], 
+      [Ex_StoreManager].[ready7] AS [ready7], 
+      [Ex_StoreManager].[ready8] AS [ready8], 
+      [Ex_StoreManager].[ready9] AS [ready9], 
+      [Ex_StoreManager].[ready10] AS [ready10]
+      FROM [dbo].[Ex_StoreManager] AS [Ex_StoreManager]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Ex_StoreNewValue" EntityType="WcStore_2011Model.Store.Ex_StoreNewValue" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ex_Truck" EntityType="WcStore_2011Model.Store.Ex_Truck" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ex_Truck_Detaile" EntityType="WcStore_2011Model.Store.Ex_Truck_Detaile" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ex_Truck_Protect" EntityType="WcStore_2011Model.Store.Ex_Truck_Protect" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ex_Volume_Detaile" EntityType="WcStore_2011Model.Store.Ex_Volume_Detaile" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="IM_Gzd" EntityType="WcStore_2011Model.Store.IM_Gzd" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Log" EntityType="WcStore_2011Model.Store.Log" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tmp_#Ex_Dcb_Protect" EntityType="WcStore_2011Model.Store.Tmp_#Ex_Dcb_Protect" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'WcStore_2011.dbo.Ex_BqModify' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Ex_BqModify">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="mawb" Type="nvarchar" MaxLength="50" />
+    <Property Name="gzdno" Type="nvarchar" MaxLength="50" />
+    <Property Name="oldmsg" Type="nvarchar" MaxLength="500" />
+    <Property Name="newmsg" Type="nvarchar" MaxLength="500" />
+    <Property Name="newdate" Type="nvarchar" MaxLength="50" />
+    <Property Name="recvdate" Type="nvarchar" MaxLength="50" />
+    <Property Name="recvman" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready2" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready3" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready4" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready5" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready6" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready7" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready8" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready9" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready10" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Ex_Dcb_Detaile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="GzdNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="DcbNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="DcbWeight" Type="decimal" Scale="2" />
+    <Property Name="Kwh" Type="nvarchar" MaxLength="50" />
+    <Property Name="BreakPiece" Type="int" />
+    <Property Name="MoistPiece" Type="int" />
+    <Property Name="DeformPiece" Type="int" />
+    <Property Name="Piece" Type="int" />
+    <Property Name="Weight" Type="decimal" Scale="2" />
+    <Property Name="Bh" Type="nvarchar" MaxLength="20" />
+    <Property Name="Storeid" Type="int" />
+    <Property Name="Zcstatus" Type="int" />
+    <Property Name="Photos" Type="nvarchar" MaxLength="500" />
+    <Property Name="Czman" Type="nvarchar" MaxLength="20" />
+    <Property Name="Czdate" Type="datetime" />
+    <Property Name="Czmethod" Type="int" />
+    <Property Name="ready1" Type="decimal" Scale="2" />
+    <Property Name="ready2" Type="int" />
+    <Property Name="ready3" Type="int" />
+    <Property Name="ready4" Type="datetime" />
+    <Property Name="ready5" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready6" Type="int" />
+    <Property Name="ready7" Type="nvarchar" MaxLength="500" />
+    <Property Name="ready8" Type="int" />
+    <Property Name="ready9" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready10" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready11" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready12" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready13" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready14" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready15" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready16" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready17" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready18" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready19" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready20" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Ex_Dcb_Protect">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="DcbNo" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DcbNo" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DcbType" Type="nvarchar" MaxLength="50" />
+    <Property Name="DcbWeight" Type="decimal" Scale="2" />
+    <Property Name="DcbStatus" Type="int" />
+    <Property Name="Dcbkwh" Type="nvarchar" MaxLength="50" />
+    <Property Name="DcbStoreid" Type="int" />
+    <Property Name="DcbTp" Type="nvarchar" MaxLength="50" />
+    <Property Name="DcbRemark" Type="nvarchar" MaxLength="500" />
+    <Property Name="Ckr" Type="nvarchar" MaxLength="30" />
+    <Property Name="Ckdate" Type="datetime" />
+    <Property Name="ready1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready2" Type="datetime" />
+    <Property Name="ready3" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready4" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready5" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready6" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready7" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready8" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready9" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready10" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'WcStore_2011.dbo.Ex_Document_Detaile' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Ex_Document_Detaile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="JcNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mawb" Type="nvarchar" MaxLength="50" />
+    <Property Name="FileType" Type="int" />
+    <Property Name="FileNumber" Type="int" />
+    <Property Name="Remark" Type="nvarchar" MaxLength="500" />
+    <Property Name="Indate" Type="nvarchar" MaxLength="50" />
+    <Property Name="Inman" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready2" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready3" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready4" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready5" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready6" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready7" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready8" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready9" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready10" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Ex_ExpDataLog">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="wtkhcode" Type="nvarchar" MaxLength="50" />
+    <Property Name="wtkhname" Type="nvarchar" MaxLength="50" />
+    <Property Name="expdate" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'WcStore_2011.dbo.Ex_Hawb' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Ex_Hawb">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="mawb" Type="nvarchar" MaxLength="50" />
+    <Property Name="hawb" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready2" Type="nvarchar" MaxLength="50" />
+    <Property Name="reaady3" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready4" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready5" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready6" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready7" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready8" Type="nvarchar" MaxLength="50" />
+    <Property Name="reawdy9" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready10" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready11" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready12" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready13" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready14" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready15" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready16" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready17" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready18" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready19" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready20" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Ex_HbqScan">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="scannum" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'WcStore_2011.dbo.Ex_Jjd' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Ex_Jjd">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="GzdNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mawb" Type="nvarchar" MaxLength="12" />
+    <Property Name="Hawb" Type="nchar" MaxLength="10" />
+    <Property Name="JjTypeCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="JjTypeName" Type="nvarchar" MaxLength="50" />
+    <Property Name="JjdateTime" Type="datetime" />
+    <Property Name="BxWeight" Type="decimal" Scale="2" />
+    <Property Name="BW" Type="nvarchar" MaxLength="50" />
+    <Property Name="BxNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="ZbPiece" Type="int" />
+    <Property Name="ZbWeight" Type="decimal" Scale="2" />
+    <Property Name="Remark" Type="nvarchar" MaxLength="100" />
+    <Property Name="ready1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready2" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready3" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready4" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready5" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready6" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready7" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready8" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready9" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready10" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'WcStore_2011.dbo.Ex_Kw' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Ex_Kw">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="qyid" Type="int" />
+    <Property Name="Kwh" Type="nvarchar" MaxLength="50" />
+    <Property Name="KwUse" Type="int" />
+    <Property Name="KwStatus" Type="int" />
+    <Property Name="KwNum" Type="int" />
+    <Property Name="UseKwNum" Type="int" />
+    <Property Name="ready1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready2" Type="int" />
+    <Property Name="ready3" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready4" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready5" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready6" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready7" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready8" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready9" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready10" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ex_kw_kwqy">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="storeid" Type="int" />
+    <Property Name="kwqy" Type="nvarchar" MaxLength="50" />
+    <Property Name="bh" Type="nvarchar" MaxLength="50" />
+    <Property Name="hwlx" Type="nvarchar" MaxLength="50" />
+    <Property Name="isauto" Type="int" />
+    <Property Name="kwpackage" Type="nvarchar" MaxLength="50" />
+    <Property Name="kwlx" Type="nvarchar" MaxLength="50" />
+    <Property Name="kwrl" Type="int" />
+    <Property Name="kqheight" Type="decimal" Scale="2" />
+    <Property Name="oper" Type="nvarchar" MaxLength="50" />
+    <Property Name="operdate" Type="nvarchar" MaxLength="50" />
+    <Property Name="remark" Type="nvarchar" MaxLength="500" />
+    <Property Name="usekwrl" Type="int" />
+    <Property Name="ready1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready2" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready3" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready4" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready5" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready6" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready7" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready8" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready9" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready10" Type="nvarchar" MaxLength="50" />
+    <Property Name="lockstatus" Type="int" />
+  </EntityType>
+  <EntityType Name="Ex_Log">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="g_title" Type="nvarchar" MaxLength="30" />
+    <Property Name="g_content" Type="nvarchar" MaxLength="200" />
+    <Property Name="czman" Type="nvarchar" MaxLength="30" />
+    <Property Name="czdate" Type="datetime" />
+    <Property Name="cdate" Type="datetime" />
+    <Property Name="remark" Type="nvarchar" MaxLength="200" />
+    <Property Name="ready01" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready02" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready03" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready04" Type="int" />
+    <Property Name="ready05" Type="int" />
+    <Property Name="ready06" Type="int" />
+    <Property Name="ready07" Type="datetime" />
+    <Property Name="ready08" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Ex_Mawb">
+    <Key>
+      <PropertyRef Name="mawb" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="mawb" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="hbh" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="hbrq" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="qyg" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="dest" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ready1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready2" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready3" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready4" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready5" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready6" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready7" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready8" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready9" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready10" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready11" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready12" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready13" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready14" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready15" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready16" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready17" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready18" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready19" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready20" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'WcStore_2011.dbo.Ex_Photo_Detaile' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Ex_Photo_Detaile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="JcNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="PhotoUrl" Type="nvarchar" MaxLength="500" />
+    <Property Name="ready1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready2" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready3" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready4" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready5" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'WcStore_2011.dbo.Ex_SandK' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Ex_SandK">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="GzdNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="KhJcxh" Type="nvarchar" MaxLength="50" />
+    <Property Name="OperateMan" Type="nvarchar" MaxLength="50" />
+    <Property Name="OperateDate" Type="datetime" />
+    <Property Name="ConsumMan" Type="nvarchar" MaxLength="50" />
+    <Property Name="ConsumDate" Type="datetime" />
+    <Property Name="ready1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready2" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready3" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready4" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready5" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Ex_Store">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="JcNo" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Gzdno" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mawb" Type="nvarchar" MaxLength="12" />
+    <Property Name="Hawb" Type="nvarchar" MaxLength="12" />
+    <Property Name="StoreId" Type="int" />
+    <Property Name="JcDate" Type="datetime" />
+    <Property Name="JcTime" Type="datetime" />
+    <Property Name="JcNo" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="KhJcNo" Type="nvarchar" MaxLength="300" />
+    <Property Name="ShMan" Type="nvarchar" MaxLength="50" />
+    <Property Name="ShDw" Type="nvarchar" MaxLength="50" />
+    <Property Name="WtKhCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="WtKhName" Type="nvarchar" MaxLength="50" />
+    <Property Name="HzdNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="CarNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Goodstype" Type="nvarchar" MaxLength="50" />
+    <Property Name="DressNorm" Type="varchar" MaxLength="1" />
+    <Property Name="Dress" Type="varchar" MaxLength="1" />
+    <Property Name="BreakPiece" Type="int" />
+    <Property Name="MoistPiece" Type="int" />
+    <Property Name="DeformPiece" Type="int" />
+    <Property Name="GoodsMark" Type="nvarchar" MaxLength="500" />
+    <Property Name="GoodsRemark" Type="nvarchar" MaxLength="500" />
+    <Property Name="GfWeight" Type="decimal" Scale="2" />
+    <Property Name="FDocument" Type="nvarchar" MaxLength="50" />
+    <Property Name="AllPiece" Type="int" />
+    <Property Name="LPiece" Type="int" />
+    <Property Name="AllWeight" Type="decimal" Scale="2" />
+    <Property Name="AllVolum" Type="decimal" Scale="2" />
+    <Property Name="IsCx" Type="int" />
+    <Property Name="DcbNum" Type="int" />
+    <Property Name="CkType" Type="int" />
+    <Property Name="GoodsTp" Type="nvarchar" MaxLength="30" />
+    <Property Name="CkDate" Type="datetime" />
+    <Property Name="CkMan" Type="nvarchar" MaxLength="20" />
+    <Property Name="Cksd" Type="int" />
+    <Property Name="NCkReason" Type="nvarchar" MaxLength="50" />
+    <Property Name="YqCkDate" Type="datetime" />
+    <Property Name="IsReadyCk" Type="int" />
+    <Property Name="Rkman" Type="nvarchar" MaxLength="20" />
+    <Property Name="Modifyman" Type="nvarchar" MaxLength="20" />
+    <Property Name="Modifydate" Type="datetime" />
+    <Property Name="Photos" Type="nvarchar" MaxLength="500" />
+    <Property Name="Photos_basic" Type="int" />
+    <Property Name="Iskh" Type="int" />
+    <Property Name="Kh_Jcno" Type="nvarchar" MaxLength="50" />
+    <Property Name="Kh_Storeid" Type="int" />
+    <Property Name="Kh_Jcdate" Type="datetime" />
+    <Property Name="Kh_Jctime" Type="datetime" />
+    <Property Name="Kh_Rkman" Type="nvarchar" MaxLength="20" />
+    <Property Name="Kh_AllPiece" Type="int" />
+    <Property Name="Kh_AllWeight" Type="decimal" Scale="2" />
+    <Property Name="Kh_AllVolum" Type="decimal" Scale="2" />
+    <Property Name="Kh_Status" Type="int" />
+    <Property Name="Kh_Remark" Type="nvarchar" MaxLength="500" />
+    <Property Name="IsBackStore" Type="int" />
+    <Property Name="ready1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready2" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready3" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready4" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready5" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready6" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready7" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready8" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready9" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready10" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready11" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready12" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready13" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready14" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready15" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready16" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready17" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready18" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready19" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready20" Type="nvarchar" MaxLength="50" />
+    <Property Name="Isdel" Type="int" />
+    <Property Name="KhHawbid" Type="int" />
+    <Property Name="KhStoreStatus" Type="int" />
+    <Property Name="hwstatus" Type="int" />
+    <Property Name="gid" Type="int" />
+    <Property Name="rkyq" Type="nvarchar" MaxLength="50" />
+    <Property Name="labelman" Type="nvarchar" MaxLength="6" />
+    <Property Name="labeldate" Type="datetime" />
+    <Property Name="accman" Type="nvarchar" MaxLength="6" />
+    <Property Name="accdate" Type="datetime" />
+    <Property Name="securityman" Type="nvarchar" MaxLength="6" />
+    <Property Name="securitydate" Type="datetime" />
+    <Property Name="securitycheckman" Type="nvarchar" MaxLength="6" />
+    <Property Name="securitycheckdate" Type="datetime" />
+    <Property Name="securitybukleman" Type="nvarchar" MaxLength="6" />
+    <Property Name="securitybukledate" Type="datetime" />
+    <Property Name="securityreleaseman" Type="nvarchar" MaxLength="6" />
+    <Property Name="securityreleasedate" Type="datetime" />
+    <Property Name="connman" Type="nvarchar" MaxLength="6" />
+    <Property Name="conndate" Type="datetime" />
+    <Property Name="securityshutoutman" Type="nvarchar" MaxLength="6" />
+    <Property Name="securityshutoutdate" Type="datetime" />
+    <Property Name="timestamp" Type="nvarchar" MaxLength="50" />
+    <Property Name="phman" Type="nvarchar" MaxLength="6" />
+    <Property Name="phdate" Type="datetime" />
+    <Property Name="zcman" Type="nvarchar" MaxLength="6" />
+    <Property Name="zcdate" Type="datetime" />
+    <Property Name="sealpiece" Type="int" />
+    <Property Name="arrowpiece" Type="int" />
+    <Property Name="dangerpiece" Type="int" />
+    <Property Name="otherbreakinfo" Type="nvarchar" MaxLength="50" />
+    <Property Name="sharegoodstype" Type="int" />
+    <Property Name="packagetype" Type="nvarchar" MaxLength="100" />
+    <Property Name="fdocumenttype" Type="nvarchar" MaxLength="100" />
+    <Property Name="productname" Type="nvarchar" MaxLength="100" />
+    <Property Name="drivermobile" Type="nvarchar" MaxLength="40" />
+    <Property Name="KhJcnoHead" Type="nvarchar" MaxLength="300" />
+    <Property Name="KhJcnoEnd" Type="nvarchar" MaxLength="300" />
+    <Property Name="TallyState" Type="int" />
+    <Property Name="TallyDate" Type="datetime" />
+    <Property Name="TallyMan" Type="nvarchar" MaxLength="20" />
+    <Property Name="LabelState" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'WcStore_2011.dbo.Ex_Store_Expand' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Ex_Store_Expand">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Gzdno" Type="nvarchar" MaxLength="50" />
+    <Property Name="PcStatus" Type="int" />
+    <Property Name="GoosInStatus" Type="int" />
+    <Property Name="GoosOutStatus" Type="int" />
+    <Property Name="GoosLockStatus" Type="int" />
+    <Property Name="JssqStatus" Type="int" />
+    <Property Name="JsspStatus" Type="int" />
+    <Property Name="ZcStatus" Type="int" />
+    <Property Name="ready1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready2" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready3" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready4" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready5" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready6" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready7" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready8" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready9" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready10" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'WcStore_2011.dbo.Ex_Store_Kh' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Ex_Store_Kh">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="KhJcxh" Type="nvarchar" MaxLength="50" />
+    <Property Name="YjStore" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mawb" Type="nvarchar" MaxLength="50" />
+    <Property Name="Hawb" Type="nvarchar" MaxLength="50" />
+    <Property Name="Hbh" Type="nvarchar" MaxLength="50" />
+    <Property Name="Hbrq" Type="datetime" />
+    <Property Name="Hbsj" Type="datetime" />
+    <Property Name="YjStoreTime" Type="datetime" />
+    <Property Name="KPiece" Type="int" />
+    <Property Name="KWeight" Type="decimal" Scale="2" />
+    <Property Name="KVolum" Type="decimal" Scale="2" />
+    <Property Name="KhCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="KhName" Type="nvarchar" MaxLength="50" />
+    <Property Name="KhJcbh" Type="nvarchar" MaxLength="50" />
+    <Property Name="GoodsMark" Type="nvarchar" MaxLength="50" />
+    <Property Name="Remark" Type="nvarchar" MaxLength="500" />
+    <Property Name="ready1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready2" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready3" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready4" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready5" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready6" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready7" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready8" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready9" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready10" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'WcStore_2011.dbo.Ex_StoreManager' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Ex_StoreManager">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="storename" Type="nvarchar" MaxLength="50" />
+    <Property Name="begintime" Type="datetime" />
+    <Property Name="endtime" Type="datetime" />
+    <Property Name="isjg" Type="nvarchar" MaxLength="50" />
+    <Property Name="remark" Type="nvarchar" MaxLength="1000" />
+    <Property Name="ready1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready2" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready3" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready4" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready5" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready6" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready7" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready8" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready9" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready10" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Ex_StoreNewValue">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="mawbno" Type="nvarchar" MaxLength="50" />
+    <Property Name="jcno" Type="nvarchar" MaxLength="50" />
+    <Property Name="piece" Type="int" />
+    <Property Name="mawbtype" Type="int" />
+    <Property Name="Weight" Type="decimal" Scale="2" />
+    <Property Name="Volum" Type="decimal" Scale="2" />
+    <Property Name="AddMan" Type="nvarchar" MaxLength="10" />
+    <Property Name="AddDate" Type="datetime" />
+    <Property Name="Zcstatus" Type="int" />
+    <Property Name="isdel" Type="int" />
+    <Property Name="Remark" Type="nvarchar" MaxLength="100" />
+    <Property Name="Ready01" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ready02" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ready03" Type="money" />
+    <Property Name="Ready04" Type="money" />
+    <Property Name="Ready05" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Ex_Truck">
+    <Key>
+      <PropertyRef Name="GzdNo" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="GzdNo" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Sfg" Type="nvarchar" MaxLength="10" />
+    <Property Name="Sfd" Type="nvarchar" MaxLength="20" />
+    <Property Name="Servicetype" Type="nvarchar" MaxLength="20" />
+    <Property Name="Dest" Type="nvarchar" MaxLength="20" />
+    <Property Name="Truckid" Type="int" />
+    <Property Name="TruckNo" Type="nvarchar" MaxLength="20" />
+    <Property Name="TruckName" Type="nvarchar" MaxLength="20" />
+    <Property Name="TruckPhone" Type="nvarchar" MaxLength="20" />
+    <Property Name="TruckStype" Type="nvarchar" MaxLength="20" />
+    <Property Name="TruckTime" Type="datetime" />
+    <Property Name="truckaddman" Type="nvarchar" MaxLength="50" />
+    <Property Name="price" Type="money" />
+    <Property Name="weight" Type="decimal" Scale="2" />
+    <Property Name="hgprice" Type="money" />
+    <Property Name="hgweight" Type="decimal" Scale="2" />
+    <Property Name="FengNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="CusCarNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="islockstatus" Type="int" />
+    <Property Name="islockaddman" Type="nvarchar" MaxLength="20" />
+    <Property Name="islockaddtime" Type="datetime" />
+    <Property Name="AddMan" Type="nvarchar" MaxLength="10" />
+    <Property Name="AddDate" Type="datetime" />
+    <Property Name="isdel" Type="int" />
+    <Property Name="DelMan" Type="nvarchar" MaxLength="10" />
+    <Property Name="DelDate" Type="datetime" />
+    <Property Name="isedit" Type="int" />
+    <Property Name="ishgedit" Type="int" />
+    <Property Name="wooddcbnum" Type="int" />
+    <Property Name="othernum" Type="int" />
+    <Property Name="Remark" Type="nvarchar" MaxLength="100" />
+    <Property Name="Ready01" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ready02" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ready03" Type="money" />
+    <Property Name="Ready04" Type="money" />
+    <Property Name="Ready05" Type="datetime" />
+    <Property Name="Receiptno" Type="nvarchar" MaxLength="20" />
+    <Property Name="TranStatus" Type="int" />
+    <Property Name="TruckBackTime" Type="datetime" />
+    <Property Name="BreakPiece" Type="int" />
+    <Property Name="MoistPiece" Type="int" />
+    <Property Name="DeformPiece" Type="int" />
+    <Property Name="TruckGrade" Type="int" />
+    <Property Name="Truckfee1" Type="decimal" Scale="2" />
+    <Property Name="Truckfee2" Type="decimal" Scale="2" />
+    <Property Name="TruckJobno" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ischeck1" Type="int" />
+    <Property Name="Ischeck2" Type="int" />
+    <Property Name="type" Type="int" />
+    <Property Name="TGroup" Type="int" />
+    <Property Name="Truckfeeremark" Type="varchar(max)" />
+    <Property Name="jcno" Type="nvarchar" MaxLength="50" />
+    <Property Name="dcbid" Type="int" />
+  </EntityType>
+  <EntityType Name="Ex_Truck_Detaile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Tid" Type="int" />
+    <Property Name="DcbNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="AddMan" Type="nvarchar" MaxLength="10" />
+    <Property Name="AddDate" Type="datetime" />
+    <Property Name="Remark" Type="nvarchar" MaxLength="100" />
+    <Property Name="Ready01" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ready02" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ready03" Type="money" />
+    <Property Name="Ready04" Type="money" />
+    <Property Name="Ready05" Type="datetime" />
+    <Property Name="dcbid" Type="int" />
+    <Property Name="jcno" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Ex_Truck_Protect">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Tid" Type="int" />
+    <Property Name="jcNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="DCBNO" Type="nvarchar" MaxLength="50" />
+    <Property Name="AddMan" Type="nvarchar" MaxLength="10" />
+    <Property Name="AddDate" Type="datetime" />
+    <Property Name="Remark" Type="nvarchar" MaxLength="100" />
+    <Property Name="Ready01" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ready02" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ready03" Type="money" />
+    <Property Name="Ready04" Type="money" />
+    <Property Name="Ready05" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Ex_Volume_Detaile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="GzdNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Longs" Type="decimal" Scale="2" />
+    <Property Name="Widths" Type="decimal" Scale="2" />
+    <Property Name="Heights" Type="decimal" Scale="2" />
+    <Property Name="Piece" Type="int" />
+    <Property Name="PackageTypeCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="PackageTypeName" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsLimit" Type="varchar" MaxLength="1" />
+    <Property Name="ready1" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready2" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready3" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready4" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready5" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready6" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready7" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready8" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready9" Type="nvarchar" MaxLength="50" />
+    <Property Name="ready10" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="IM_Gzd">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="TCID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="GzdNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="mawb" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="hawb" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="TCID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PPCC" Type="nchar" Nullable="false" MaxLength="2" />
+    <Property Name="YJmark" Type="bit" Nullable="false" />
+    <Property Name="EndDate" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="oper" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Area" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Piece" Type="int" Nullable="false" />
+    <Property Name="Weight" Type="money" Nullable="false" />
+    <Property Name="IsEnd" Type="bit" Nullable="false" />
+    <Property Name="Ready1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Ready2" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Ready3" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Ready4" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Ready5" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Ready6" Type="int" Nullable="false" />
+    <Property Name="Ready7" Type="int" Nullable="false" />
+    <Property Name="Ready8" Type="int" Nullable="false" />
+    <Property Name="Ready9" Type="int" Nullable="false" />
+    <Property Name="Ready10" Type="nvarchar" MaxLength="50" />
+    <Property Name="InvoiceTime" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Log">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AddTime" Type="datetime" Nullable="false" />
+    <Property Name="Thread" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Level" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Logger" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Message" Type="nvarchar" MaxLength="3000" />
+    <Property Name="Exception" Type="nvarchar" />
+  </EntityType>
+  <EntityType Name="Tmp_#Ex_Dcb_Protect">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="dcbno" Type="nvarchar" MaxLength="50" />
+    <Property Name="dcbweight" Type="decimal" Scale="2" />
+    <Property Name="status" Type="int" />
+  </EntityType>
+</Schema>

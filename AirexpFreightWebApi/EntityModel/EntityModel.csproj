@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE6A36C0-C04E-42FC-BC7B-9A83861CF714}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EntityModel</RootNamespace>
+    <AssemblyName>EntityModel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AirexpFreight\Ex_axpline.cs" />
+    <Compile Include="AirexpFreight\Ex_AxpPreline.cs" />
+    <Compile Include="AirexpFreight\Ex_axplinewage.cs" />
+    <Compile Include="AirexpFreight\Ex_AxpPrelineHawb.cs" />
+    <Compile Include="AirexpFreight\Ex_FailCallback.cs" />
+    <Compile Include="Basic\NodeView.cs" />
+    <Compile Include="Ex_AiraxpAccount.cs">
+      <DependentUpon>Po_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_AiraxpAccountWage.cs">
+      <DependentUpon>Po_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_AiraxpCheckBillPch.cs">
+      <DependentUpon>Po_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_AiraxpCheckBillPchWage.cs">
+      <DependentUpon>Po_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_AiraxpInvoice.cs">
+      <DependentUpon>Po_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_AiraxpInvoiceWage.cs">
+      <DependentUpon>Po_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_AiraxpNode.cs">
+      <DependentUpon>Po_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Axpline.cs">
+      <DependentUpon>Po_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_AxplineWage.cs">
+      <DependentUpon>Po_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_BqModify.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Dcb_Detaile.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Dcb_Protect.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Document_Detaile.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_ExpDataLog.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Hawb.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_HbqScan.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_HpoAxpline.cs">
+      <DependentUpon>Po_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_HpoAxplineWage.cs">
+      <DependentUpon>Po_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Jjd.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Kw.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ex_kw_kwqy.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Log.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Mawb.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Photo_Detaile.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_PoImages.cs">
+      <DependentUpon>Po_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_SandK.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Store.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_StoreManager.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_StoreNewValue.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Store_Expand.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Store_Kh.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Truck.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Truck_Detaile.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Truck_Protect.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_Volume_Detaile.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_WffAaxplineWage.cs">
+      <DependentUpon>Po_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ex_WffAxpline.cs">
+      <DependentUpon>Po_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IM_Gzd.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Log.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Po\Ex_Axpline.cs" />
+    <Compile Include="Po\Ex_HpoAxpline.cs" />
+    <Compile Include="Po\Ex_Store.cs" />
+    <Compile Include="Po_2011.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Po_2011.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Po_2011.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Po_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Po_2011.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Po_2011.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Store\Ex_Store.cs" />
+    <Compile Include="Store_2011.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Store_2011.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Store_2011.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Store_2011.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Store_2011.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Tmp__Ex_Dcb_Protect.cs">
+      <DependentUpon>Store_2011.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+    <EntityDeploy Include="Store_2011.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Store_2011.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <EntityDeploy Include="Po_2011.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Po_2011.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Po_2011.edmx.diagram">
+      <DependentUpon>Po_2011.edmx</DependentUpon>
+    </None>
+    <None Include="Store_2011.edmx.diagram">
+      <DependentUpon>Store_2011.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Po_2011.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Po_2011.edmx</DependentUpon>
+      <LastGenOutput>Po_2011.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Po_2011.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Po_2011.edmx</DependentUpon>
+      <LastGenOutput>Po_2011.cs</LastGenOutput>
+    </Content>
+    <Content Include="Store_2011.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Store_2011.edmx</DependentUpon>
+      <LastGenOutput>Store_2011.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Store_2011.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Store_2011.edmx</DependentUpon>
+      <LastGenOutput>Store_2011.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

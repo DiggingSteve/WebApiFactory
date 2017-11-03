@@ -1,0 +1,1964 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="WcPoManagementNew_2011Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="WcPoManagementNew_2011ModelStoreContainer">
+          <EntitySet Name="Ex_AiraxpAccount" EntityType="WcPoManagementNew_2011Model.Store.Ex_AiraxpAccount" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ex_AiraxpAccountWage" EntityType="WcPoManagementNew_2011Model.Store.Ex_AiraxpAccountWage" store:Type="Tables" store:Schema="dbo" store:Name="Ex_AiraxpAccountWage">
+            <DefiningQuery>SELECT 
+      [Ex_AiraxpAccountWage].[id] AS [id], 
+      [Ex_AiraxpAccountWage].[sid] AS [sid], 
+      [Ex_AiraxpAccountWage].[accountid] AS [accountid], 
+      [Ex_AiraxpAccountWage].[wageid] AS [wageid], 
+      [Ex_AiraxpAccountWage].[wageall] AS [wageall], 
+      [Ex_AiraxpAccountWage].[finishwageall] AS [finishwageall], 
+      [Ex_AiraxpAccountWage].[billwageid] AS [billwageid], 
+      [Ex_AiraxpAccountWage].[wagedom] AS [wagedom], 
+      [Ex_AiraxpAccountWage].[addman] AS [addman], 
+      [Ex_AiraxpAccountWage].[adddate] AS [adddate], 
+      [Ex_AiraxpAccountWage].[remark] AS [remark], 
+      [Ex_AiraxpAccountWage].[ready01] AS [ready01], 
+      [Ex_AiraxpAccountWage].[ready02] AS [ready02], 
+      [Ex_AiraxpAccountWage].[ready03] AS [ready03], 
+      [Ex_AiraxpAccountWage].[ready04] AS [ready04], 
+      [Ex_AiraxpAccountWage].[ready05] AS [ready05], 
+      [Ex_AiraxpAccountWage].[ready06] AS [ready06], 
+      [Ex_AiraxpAccountWage].[ready07] AS [ready07], 
+      [Ex_AiraxpAccountWage].[ready08] AS [ready08], 
+      [Ex_AiraxpAccountWage].[ready09] AS [ready09], 
+      [Ex_AiraxpAccountWage].[ready10] AS [ready10], 
+      [Ex_AiraxpAccountWage].[oldid] AS [oldid]
+      FROM [dbo].[Ex_AiraxpAccountWage] AS [Ex_AiraxpAccountWage]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Ex_AiraxpCheckBillPch" EntityType="WcPoManagementNew_2011Model.Store.Ex_AiraxpCheckBillPch" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ex_AiraxpCheckBillPchWage" EntityType="WcPoManagementNew_2011Model.Store.Ex_AiraxpCheckBillPchWage" store:Type="Tables" store:Schema="dbo" store:Name="Ex_AiraxpCheckBillPchWage">
+            <DefiningQuery>SELECT 
+      [Ex_AiraxpCheckBillPchWage].[id] AS [id], 
+      [Ex_AiraxpCheckBillPchWage].[sid] AS [sid], 
+      [Ex_AiraxpCheckBillPchWage].[billid] AS [billid], 
+      [Ex_AiraxpCheckBillPchWage].[wageid] AS [wageid], 
+      [Ex_AiraxpCheckBillPchWage].[wageall] AS [wageall], 
+      [Ex_AiraxpCheckBillPchWage].[finishwageall] AS [finishwageall], 
+      [Ex_AiraxpCheckBillPchWage].[wagedom] AS [wagedom], 
+      [Ex_AiraxpCheckBillPchWage].[addman] AS [addman], 
+      [Ex_AiraxpCheckBillPchWage].[adddate] AS [adddate], 
+      [Ex_AiraxpCheckBillPchWage].[remark] AS [remark], 
+      [Ex_AiraxpCheckBillPchWage].[ready01] AS [ready01], 
+      [Ex_AiraxpCheckBillPchWage].[ready02] AS [ready02], 
+      [Ex_AiraxpCheckBillPchWage].[ready03] AS [ready03], 
+      [Ex_AiraxpCheckBillPchWage].[ready04] AS [ready04], 
+      [Ex_AiraxpCheckBillPchWage].[ready05] AS [ready05], 
+      [Ex_AiraxpCheckBillPchWage].[ready06] AS [ready06], 
+      [Ex_AiraxpCheckBillPchWage].[ready07] AS [ready07], 
+      [Ex_AiraxpCheckBillPchWage].[ready08] AS [ready08], 
+      [Ex_AiraxpCheckBillPchWage].[ready09] AS [ready09], 
+      [Ex_AiraxpCheckBillPchWage].[ready10] AS [ready10], 
+      [Ex_AiraxpCheckBillPchWage].[oldid] AS [oldid]
+      FROM [dbo].[Ex_AiraxpCheckBillPchWage] AS [Ex_AiraxpCheckBillPchWage]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Ex_AiraxpInvoice" EntityType="WcPoManagementNew_2011Model.Store.Ex_AiraxpInvoice" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ex_AiraxpInvoiceWage" EntityType="WcPoManagementNew_2011Model.Store.Ex_AiraxpInvoiceWage" store:Type="Tables" store:Schema="dbo" store:Name="Ex_AiraxpInvoiceWage">
+            <DefiningQuery>SELECT 
+      [Ex_AiraxpInvoiceWage].[id] AS [id], 
+      [Ex_AiraxpInvoiceWage].[sid] AS [sid], 
+      [Ex_AiraxpInvoiceWage].[invoiceid] AS [invoiceid], 
+      [Ex_AiraxpInvoiceWage].[wageid] AS [wageid], 
+      [Ex_AiraxpInvoiceWage].[wageall] AS [wageall], 
+      [Ex_AiraxpInvoiceWage].[finishwageall] AS [finishwageall], 
+      [Ex_AiraxpInvoiceWage].[billwageid] AS [billwageid], 
+      [Ex_AiraxpInvoiceWage].[wagedom] AS [wagedom], 
+      [Ex_AiraxpInvoiceWage].[addman] AS [addman], 
+      [Ex_AiraxpInvoiceWage].[adddate] AS [adddate], 
+      [Ex_AiraxpInvoiceWage].[remark] AS [remark], 
+      [Ex_AiraxpInvoiceWage].[ready01] AS [ready01], 
+      [Ex_AiraxpInvoiceWage].[ready02] AS [ready02], 
+      [Ex_AiraxpInvoiceWage].[ready03] AS [ready03], 
+      [Ex_AiraxpInvoiceWage].[ready04] AS [ready04], 
+      [Ex_AiraxpInvoiceWage].[ready05] AS [ready05], 
+      [Ex_AiraxpInvoiceWage].[ready06] AS [ready06], 
+      [Ex_AiraxpInvoiceWage].[ready07] AS [ready07], 
+      [Ex_AiraxpInvoiceWage].[ready08] AS [ready08], 
+      [Ex_AiraxpInvoiceWage].[ready09] AS [ready09], 
+      [Ex_AiraxpInvoiceWage].[ready10] AS [ready10], 
+      [Ex_AiraxpInvoiceWage].[oldid] AS [oldid]
+      FROM [dbo].[Ex_AiraxpInvoiceWage] AS [Ex_AiraxpInvoiceWage]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Ex_AiraxpNode" EntityType="WcPoManagementNew_2011Model.Store.Ex_AiraxpNode" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ex_Axpline" EntityType="WcPoManagementNew_2011Model.Store.Ex_Axpline" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ex_AxplineWage" EntityType="WcPoManagementNew_2011Model.Store.Ex_AxplineWage" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ex_HpoAxpline" EntityType="WcPoManagementNew_2011Model.Store.Ex_HpoAxpline" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ex_HpoAxplineWage" EntityType="WcPoManagementNew_2011Model.Store.Ex_HpoAxplineWage" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ex_PoImages" EntityType="WcPoManagementNew_2011Model.Store.Ex_PoImages" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ex_Store" EntityType="WcPoManagementNew_2011Model.Store.Ex_Store" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ex_Volume_Detaile" EntityType="WcPoManagementNew_2011Model.Store.Ex_Volume_Detaile" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ex_WffAaxplineWage" EntityType="WcPoManagementNew_2011Model.Store.Ex_WffAaxplineWage" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Ex_WffAxpline" EntityType="WcPoManagementNew_2011Model.Store.Ex_WffAxpline" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Ex_Axpline_Ex_Axpline" Association="WcPoManagementNew_2011Model.Store.FK_Ex_Axpline_Ex_Axpline">
+            <End Role="Ex_Axpline" EntitySet="Ex_Axpline" />
+            <End Role="Ex_Axpline1" EntitySet="Ex_Axpline" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Ex_AiraxpAccount">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="jobno" Type="nvarchar" MaxLength="50" />
+          <Property Name="accountcode" Type="nvarchar" MaxLength="50" />
+          <Property Name="accountdom" Type="nvarchar" MaxLength="20" />
+          <Property Name="taxrate" Type="decimal" Scale="4" />
+          <Property Name="relid" Type="int" />
+          <Property Name="wageinout" Type="int" />
+          <Property Name="sett_gid" Type="int" />
+          <Property Name="payment_gid" Type="int" />
+          <Property Name="payment_code" Type="nvarchar" MaxLength="50" />
+          <Property Name="payment_name" Type="nvarchar" MaxLength="100" />
+          <Property Name="payment_accountno" Type="nvarchar" MaxLength="100" />
+          <Property Name="payment_lxr" Type="nvarchar" MaxLength="8" />
+          <Property Name="payment_fax" Type="nvarchar" MaxLength="30" />
+          <Property Name="payment_deadline" Type="datetime" />
+          <Property Name="accountman" Type="nvarchar" MaxLength="8" />
+          <Property Name="accountdate" Type="datetime" />
+          <Property Name="hbh" Type="nvarchar" MaxLength="8" />
+          <Property Name="hbrq" Type="datetime" />
+          <Property Name="mawb" Type="nvarchar" MaxLength="16" />
+          <Property Name="hawb" Type="nvarchar" MaxLength="50" />
+          <Property Name="sfg" Type="nvarchar" MaxLength="6" />
+          <Property Name="mdg" Type="nvarchar" MaxLength="6" />
+          <Property Name="zzg" Type="nvarchar" MaxLength="6" />
+          <Property Name="description" Type="nvarchar" MaxLength="200" />
+          <Property Name="wageall" Type="money" />
+          <Property Name="currency" Type="nvarchar" MaxLength="50" />
+          <Property Name="changerate" Type="decimal" Scale="10" />
+          <Property Name="packagetype" Type="nvarchar" MaxLength="20" />
+          <Property Name="piece" Type="int" />
+          <Property Name="weight" Type="decimal" Scale="2" />
+          <Property Name="volume" Type="decimal" Scale="2" />
+          <Property Name="jfweight" Type="decimal" Scale="2" />
+          <Property Name="remark" Type="nvarchar" MaxLength="100" />
+          <Property Name="addman" Type="nvarchar" MaxLength="8" />
+          <Property Name="adddate" Type="datetime" />
+          <Property Name="modifyman" Type="nvarchar" MaxLength="8" />
+          <Property Name="modifydate" Type="datetime" />
+          <Property Name="delman" Type="nvarchar" MaxLength="8" />
+          <Property Name="deldate" Type="datetime" />
+          <Property Name="isdel" Type="int" />
+          <Property Name="isincl" Type="int" />
+          <Property Name="isexport" Type="int" />
+          <Property Name="exportman" Type="nvarchar" MaxLength="8" />
+          <Property Name="exportdate" Type="datetime" />
+          <Property Name="ready01" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready02" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready03" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready04" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready05" Type="int" />
+          <Property Name="ready06" Type="int" />
+          <Property Name="ready07" Type="int" />
+          <Property Name="ready08" Type="datetime" />
+          <Property Name="ready09" Type="datetime" />
+          <Property Name="ready10" Type="money" />
+          <Property Name="system" Type="nvarchar" MaxLength="10" />
+          <Property Name="oldid" Type="int" />
+          <Property Name="accountweight" Type="decimal" Scale="3" />
+          <Property Name="zdweight" Type="decimal" Scale="3" />
+          <Property Name="axpjobno" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'WcPoManagementNew_2011.dbo.Ex_AiraxpAccountWage' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="Ex_AiraxpAccountWage">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="int" />
+          <Property Name="accountid" Type="int" />
+          <Property Name="wageid" Type="int" />
+          <Property Name="wageall" Type="money" />
+          <Property Name="finishwageall" Type="money" />
+          <Property Name="billwageid" Type="int" />
+          <Property Name="wagedom" Type="nvarchar" MaxLength="50" />
+          <Property Name="addman" Type="nvarchar" MaxLength="8" />
+          <Property Name="adddate" Type="datetime" />
+          <Property Name="remark" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready01" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready02" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready03" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready04" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready05" Type="int" />
+          <Property Name="ready06" Type="int" />
+          <Property Name="ready07" Type="int" />
+          <Property Name="ready08" Type="datetime" />
+          <Property Name="ready09" Type="datetime" />
+          <Property Name="ready10" Type="money" />
+          <Property Name="oldid" Type="int" />
+        </EntityType>
+        <EntityType Name="Ex_AiraxpCheckBillPch">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="pchno" Type="nvarchar" MaxLength="20" />
+          <Property Name="wageinout" Type="int" />
+          <Property Name="gid" Type="int" />
+          <Property Name="billstatus" Type="int" />
+          <Property Name="isdel" Type="int" />
+          <Property Name="confirmman" Type="nvarchar" MaxLength="20" />
+          <Property Name="confirmdate" Type="datetime" />
+          <Property Name="confirmremark" Type="nvarchar" MaxLength="1000" />
+          <Property Name="addman" Type="nvarchar" MaxLength="8" />
+          <Property Name="adddate" Type="datetime" />
+          <Property Name="modifyman" Type="nvarchar" MaxLength="8" />
+          <Property Name="modifydate" Type="datetime" />
+          <Property Name="delman" Type="nvarchar" MaxLength="8" />
+          <Property Name="deldate" Type="datetime" />
+          <Property Name="remark" Type="nvarchar" MaxLength="1000" />
+          <Property Name="ready01" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready02" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready03" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready04" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready05" Type="int" />
+          <Property Name="ready06" Type="int" />
+          <Property Name="ready07" Type="int" />
+          <Property Name="ready08" Type="decimal" Scale="2" />
+          <Property Name="ready09" Type="decimal" Scale="2" />
+          <Property Name="ready10" Type="datetime" />
+          <Property Name="system" Type="nvarchar" MaxLength="10" />
+          <Property Name="oldid" Type="int" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'WcPoManagementNew_2011.dbo.Ex_AiraxpCheckBillPchWage' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="Ex_AiraxpCheckBillPchWage">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="int" />
+          <Property Name="billid" Type="int" />
+          <Property Name="wageid" Type="int" />
+          <Property Name="wageall" Type="money" />
+          <Property Name="finishwageall" Type="money" />
+          <Property Name="wagedom" Type="nvarchar" MaxLength="50" />
+          <Property Name="addman" Type="nvarchar" MaxLength="8" />
+          <Property Name="adddate" Type="datetime" />
+          <Property Name="remark" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready01" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready02" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready03" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready04" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready05" Type="int" />
+          <Property Name="ready06" Type="int" />
+          <Property Name="ready07" Type="int" />
+          <Property Name="ready08" Type="datetime" />
+          <Property Name="ready09" Type="datetime" />
+          <Property Name="ready10" Type="money" />
+          <Property Name="oldid" Type="int" />
+        </EntityType>
+        <EntityType Name="Ex_AiraxpInvoice">
+          <Key>
+            <PropertyRef Name="id" />
+            <PropertyRef Name="invoicecode" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="invoicecode" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="invoiceDom" Type="nvarchar" MaxLength="50" />
+          <Property Name="sett_gid" Type="int" />
+          <Property Name="payment_gid" Type="int" />
+          <Property Name="payment_code" Type="nvarchar" MaxLength="50" />
+          <Property Name="payment_name" Type="nvarchar" MaxLength="100" />
+          <Property Name="payment_accountno" Type="nvarchar" MaxLength="100" />
+          <Property Name="bank" Type="nvarchar" MaxLength="80" />
+          <Property Name="bankaccount" Type="nvarchar" MaxLength="50" />
+          <Property Name="hbh" Type="nvarchar" MaxLength="50" />
+          <Property Name="hbrq" Type="datetime" />
+          <Property Name="sfg" Type="nvarchar" MaxLength="6" />
+          <Property Name="mdg" Type="nvarchar" MaxLength="6" />
+          <Property Name="xhg" Type="nvarchar" MaxLength="6" />
+          <Property Name="arrivedate" Type="datetime" />
+          <Property Name="description" Type="nvarchar" MaxLength="200" />
+          <Property Name="currency" Type="nvarchar" MaxLength="50" />
+          <Property Name="wageall" Type="money" />
+          <Property Name="taxrate" Type="decimal" Scale="4" />
+          <Property Name="remark" Type="nvarchar" MaxLength="100" />
+          <Property Name="invoiceman" Type="nvarchar" MaxLength="8" />
+          <Property Name="invoicedate" Type="datetime" />
+          <Property Name="addman" Type="nvarchar" MaxLength="8" />
+          <Property Name="adddate" Type="datetime" />
+          <Property Name="delman" Type="nvarchar" MaxLength="8" />
+          <Property Name="deldate" Type="datetime" />
+          <Property Name="invalidreason" Type="nvarchar" MaxLength="100" />
+          <Property Name="hwnames" Type="nvarchar" MaxLength="500" />
+          <Property Name="servicenames" Type="nvarchar" MaxLength="500" />
+          <Property Name="prices" Type="nvarchar" MaxLength="500" />
+          <Property Name="nums" Type="nvarchar" MaxLength="500" />
+          <Property Name="wagealls" Type="nvarchar" MaxLength="500" />
+          <Property Name="changerates" Type="nvarchar" MaxLength="500" />
+          <Property Name="changerwagealls" Type="nvarchar" MaxLength="500" />
+          <Property Name="wagesources" Type="nvarchar(max)" />
+          <Property Name="otheritems" Type="nvarchar" MaxLength="500" />
+          <Property Name="otherinfo" Type="nvarchar" MaxLength="500" />
+          <Property Name="isdel" Type="int" />
+          <Property Name="remarks" Type="nvarchar" MaxLength="500" />
+          <Property Name="isexport" Type="int" />
+          <Property Name="exportman" Type="nvarchar" MaxLength="8" />
+          <Property Name="exportdate" Type="datetime" />
+          <Property Name="ready01" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready02" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready03" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready04" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready05" Type="int" />
+          <Property Name="ready06" Type="int" />
+          <Property Name="ready07" Type="int" />
+          <Property Name="ready08" Type="datetime" />
+          <Property Name="ready09" Type="datetime" />
+          <Property Name="ready10" Type="money" />
+          <Property Name="MAWB" Type="nvarchar" MaxLength="20" />
+          <Property Name="system" Type="nvarchar" MaxLength="10" />
+          <Property Name="oldid" Type="int" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'WcPoManagementNew_2011.dbo.Ex_AiraxpInvoiceWage' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="Ex_AiraxpInvoiceWage">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="int" />
+          <Property Name="invoiceid" Type="int" />
+          <Property Name="wageid" Type="int" />
+          <Property Name="wageall" Type="money" />
+          <Property Name="finishwageall" Type="money" />
+          <Property Name="billwageid" Type="int" />
+          <Property Name="wagedom" Type="nvarchar" MaxLength="50" />
+          <Property Name="addman" Type="nvarchar" MaxLength="8" />
+          <Property Name="adddate" Type="datetime" />
+          <Property Name="remark" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready01" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready02" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready03" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready04" Type="nvarchar" MaxLength="50" />
+          <Property Name="ready05" Type="int" />
+          <Property Name="ready06" Type="int" />
+          <Property Name="ready07" Type="int" />
+          <Property Name="ready08" Type="datetime" />
+          <Property Name="ready09" Type="datetime" />
+          <Property Name="ready10" Type="money" />
+          <Property Name="oldid" Type="int" />
+        </EntityType>
+        <EntityType Name="Ex_AiraxpNode">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="int" Nullable="false" />
+          <Property Name="codetype" Type="int" />
+          <Property Name="nodename" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="nodeman" Type="nvarchar" Nullable="false" MaxLength="8" />
+          <Property Name="codedate" Type="datetime" Nullable="false" />
+          <Property Name="remark" Type="nvarchar" MaxLength="500" />
+          <Property Name="addman" Type="nvarchar" Nullable="false" MaxLength="8" />
+          <Property Name="adddate" Type="datetime" Nullable="false" />
+          <Property Name="modifyman" Type="nvarchar" MaxLength="8" />
+          <Property Name="modifydate" Type="datetime" />
+          <Property Name="timestamp" Type="int" />
+        </EntityType>
+        <EntityType Name="Ex_Axpline">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="int" />
+          <Property Name="orderno" Type="varchar" MaxLength="20" />
+          <Property Name="pono" Type="varchar" MaxLength="20" />
+          <Property Name="hpoid" Type="int" />
+          <Property Name="dom" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="gid" Type="int" Nullable="false" />
+          <Property Name="hawb" Type="varchar" MaxLength="50" />
+          <Property Name="dzarriverq" Type="datetime" />
+          <Property Name="yqsfg" Type="varchar" MaxLength="3" />
+          <Property Name="mdg" Type="varchar" MaxLength="3" />
+          <Property Name="yqhbh" Type="varchar" MaxLength="8" />
+          <Property Name="yqhbrq" Type="datetime" />
+          <Property Name="ybpiece" Type="int" Nullable="false" />
+          <Property Name="ybweight" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="ybvolume" Type="decimal" Nullable="false" Scale="3" />
+          <Property Name="tradeterm" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="czremark" Type="nvarchar" MaxLength="500" />
+          <Property Name="otherremark" Type="nvarchar" MaxLength="500" />
+          <Property Name="area" Type="nvarchar" MaxLength="10" />
+          <Property Name="system" Type="nvarchar" MaxLength="10" />
+          <Property Name="status" Type="int" />
+          <Property Name="hwlx" Type="nvarchar" MaxLength="50" />
+          <Property Name="pm" Type="nvarchar" MaxLength="200" />
+          <Property Name="khjcno" Type="varchar" MaxLength="200" />
+          <Property Name="bgfs" Type="nvarchar" MaxLength="20" />
+          <Property Name="yjjcdate" Type="datetime" />
+          <Property Name="jhjcdate" Type="datetime" />
+          <Property Name="bzlxpiece" Type="nvarchar" MaxLength="500" />
+          <Property Name="inwageallinprice" Type="money" />
+          <Property Name="isinwageallin" Type="int" />
+          <Property Name="self_real_bp_freight_in" Type="decimal" Scale="1" />
+          <Property Name="cus_real_bp_freight_in" Type="decimal" Scale="1" />
+          <Property Name="address_thr" Type="nvarchar" MaxLength="500" />
+          <Property Name="lxr_thr" Type="nvarchar" MaxLength="50" />
+          <Property Name="phone_thr" Type="nvarchar" MaxLength="50" />
+          <Property Name="address_shr" Type="nvarchar" MaxLength="500" />
+          <Property Name="lxr_shr" Type="nvarchar" MaxLength="50" />
+          <Property Name="phone_shr" Type="nvarchar" MaxLength="50" />
+          <Property Name="mawb_shr" Type="nvarchar" MaxLength="500" />
+          <Property Name="mawb_fhr" Type="nvarchar" MaxLength="500" />
+          <Property Name="hawb_shr" Type="nvarchar" MaxLength="500" />
+          <Property Name="hawb_fhr" Type="nvarchar" MaxLength="500" />
+          <Property Name="addman" Type="nvarchar" Nullable="false" MaxLength="8" />
+          <Property Name="adddate" Type="datetime" Nullable="false" />
+          <Property Name="modifyman" Type="nvarchar" MaxLength="8" />
+          <Property Name="modifydate" Type="datetime" />
+          <Property Name="delman" Type="nvarchar" MaxLength="8" />
+          <Property Name="deldate" Type="datetime" />
+          <Property Name="isdel" Type="int" Nullable="false" />
+          <Property Name="assignman" Type="nvarchar" MaxLength="8" />
+          <Property Name="assigndate" Type="datetime" />
+          <Property Name="acceptanceman" Type="nvarchar" MaxLength="8" />
+          <Property Name="acceptancedate" Type="datetime" />
+          <Property Name="acceptanceremark" Type="nvarchar" MaxLength="500" />
+          <Property Name="confirmman" Type="nvarchar" MaxLength="8" />
+          <Property Name="confirmdate" Type="datetime" />
+          <Property Name="confirmremark" Type="nvarchar" MaxLength="500" />
+          <Property Name="submitman" Type="nvarchar" MaxLength="8" />
+          <Property Name="submitdate" Type="datetime" />
+          <Property Name="timestamp" Type="int" />
+        </EntityType>
+        <EntityType Name="Ex_AxplineWage">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="int" Nullable="false" />
+          <Property Name="items" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="gid" Type="int" Nullable="false" />
+          <Property Name="quote" Type="money" Nullable="false" />
+          <Property Name="wageinout" Type="int" Nullable="false" />
+          <Property Name="wagetype" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="wagedom" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="changerate" Type="decimal" Nullable="false" Scale="4" />
+          <Property Name="num" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="currency" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="price" Type="money" Nullable="false" />
+          <Property Name="wageall" Type="money" Nullable="false" />
+          <Property Name="leastwageall" Type="money" Nullable="false" />
+          <Property Name="finishwageall_checkbill" Type="money" />
+          <Property Name="finishwageall_invoice" Type="money" />
+          <Property Name="isfree" Type="nchar" Nullable="false" MaxLength="10" />
+          <Property Name="confirmstatus" Type="int" Nullable="false" />
+          <Property Name="confirmman" Type="nvarchar" MaxLength="20" />
+          <Property Name="confirmdate" Type="datetime" />
+          <Property Name="isdel" Type="int" Nullable="false" />
+          <Property Name="addman" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="adddate" Type="datetime" Nullable="false" />
+          <Property Name="modifyman" Type="nvarchar" MaxLength="20" />
+          <Property Name="modifydate" Type="datetime" />
+          <Property Name="delman" Type="nvarchar" MaxLength="20" />
+          <Property Name="deldate" Type="datetime" />
+          <Property Name="remark" Type="nvarchar" MaxLength="500" />
+          <Property Name="isshare" Type="int" />
+          <Property Name="sharetype" Type="nvarchar" MaxLength="20" />
+          <Property Name="yssys" Type="int" Nullable="false" />
+          <Property Name="isallin" Type="int" Nullable="false" />
+          <Property Name="ismodify" Type="int" Nullable="false" />
+          <Property Name="timestamp" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Ex_HpoAxpline">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="int" />
+          <Property Name="hpono" Type="varchar" MaxLength="20" />
+          <Property Name="dom" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="gid" Type="int" Nullable="false" />
+          <Property Name="hawb" Type="varchar" MaxLength="50" />
+          <Property Name="dzarriverq" Type="datetime" />
+          <Property Name="yqsfg" Type="varchar" MaxLength="3" />
+          <Property Name="mdg" Type="varchar" MaxLength="3" />
+          <Property Name="yqhbh" Type="varchar" MaxLength="8" />
+          <Property Name="yqhbrq" Type="datetime" />
+          <Property Name="ybpiece" Type="int" Nullable="false" />
+          <Property Name="ybweight" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="ybvolume" Type="decimal" Nullable="false" Scale="3" />
+          <Property Name="tradeterm" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="czremark" Type="nvarchar" MaxLength="500" />
+          <Property Name="otherremark" Type="nvarchar" MaxLength="500" />
+          <Property Name="area" Type="nvarchar" MaxLength="10" />
+          <Property Name="system" Type="nvarchar" MaxLength="10" />
+          <Property Name="status" Type="int" Nullable="false" />
+          <Property Name="hwlx" Type="nvarchar" MaxLength="50" />
+          <Property Name="pm" Type="nvarchar" MaxLength="200" />
+          <Property Name="khjcno" Type="varchar" MaxLength="200" />
+          <Property Name="bgfs" Type="nvarchar" MaxLength="20" />
+          <Property Name="yjjcdate" Type="datetime" />
+          <Property Name="jhjcdate" Type="datetime" />
+          <Property Name="inwageallinprice" Type="money" />
+          <Property Name="isinwageallin" Type="int" />
+          <Property Name="self_real_bp_freight_in" Type="decimal" Scale="1" />
+          <Property Name="cus_real_bp_freight_in" Type="decimal" Scale="1" />
+          <Property Name="address_thr" Type="nvarchar" MaxLength="500" />
+          <Property Name="lxr_thr" Type="nvarchar" MaxLength="50" />
+          <Property Name="phone_thr" Type="nvarchar" MaxLength="50" />
+          <Property Name="address_shr" Type="nvarchar" MaxLength="500" />
+          <Property Name="lxr_shr" Type="nvarchar" MaxLength="50" />
+          <Property Name="phone_shr" Type="nvarchar" MaxLength="50" />
+          <Property Name="mawb_shr" Type="nvarchar" MaxLength="500" />
+          <Property Name="mawb_fhr" Type="nvarchar" MaxLength="500" />
+          <Property Name="hawb_shr" Type="nvarchar" MaxLength="500" />
+          <Property Name="hawb_fhr" Type="nvarchar" MaxLength="500" />
+          <Property Name="addman" Type="nvarchar" Nullable="false" MaxLength="8" />
+          <Property Name="adddate" Type="datetime" Nullable="false" />
+          <Property Name="modifyman" Type="nvarchar" MaxLength="8" />
+          <Property Name="modifydate" Type="datetime" />
+          <Property Name="delman" Type="nvarchar" MaxLength="8" />
+          <Property Name="deldate" Type="datetime" />
+          <Property Name="isdel" Type="int" Nullable="false" />
+          <Property Name="assignman" Type="nvarchar" MaxLength="8" />
+          <Property Name="assigndate" Type="datetime" />
+          <Property Name="timestamp" Type="int" />
+        </EntityType>
+        <EntityType Name="Ex_HpoAxplineWage">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="int" Nullable="false" />
+          <Property Name="items" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="gid" Type="int" Nullable="false" />
+          <Property Name="quote" Type="money" Nullable="false" />
+          <Property Name="wageinout" Type="int" Nullable="false" />
+          <Property Name="wagetype" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="wagedom" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="changerate" Type="decimal" Nullable="false" Scale="4" />
+          <Property Name="num" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="currency" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="price" Type="money" Nullable="false" />
+          <Property Name="wageall" Type="money" Nullable="false" />
+          <Property Name="leastwageall" Type="money" Nullable="false" />
+          <Property Name="isfree" Type="nchar" Nullable="false" MaxLength="10" />
+          <Property Name="confirmstatus" Type="int" Nullable="false" />
+          <Property Name="confirmman" Type="nvarchar" MaxLength="20" />
+          <Property Name="confirmdate" Type="datetime" />
+          <Property Name="isdel" Type="int" />
+          <Property Name="addman" Type="nvarchar" MaxLength="20" />
+          <Property Name="adddate" Type="datetime" />
+          <Property Name="modifyman" Type="nvarchar" MaxLength="20" />
+          <Property Name="modifydate" Type="datetime" />
+          <Property Name="delman" Type="nvarchar" MaxLength="20" />
+          <Property Name="deldate" Type="datetime" />
+          <Property Name="remark" Type="nvarchar" MaxLength="500" />
+          <Property Name="yssys" Type="int" />
+          <Property Name="isallin" Type="int" />
+          <Property Name="ismodify" Type="int" />
+          <Property Name="timestamp" Type="int" />
+        </EntityType>
+        <EntityType Name="Ex_PoImages">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="jobno" Type="nvarchar" MaxLength="20" />
+          <Property Name="ftpaddress" Type="nvarchar" MaxLength="500" />
+          <Property Name="fileaddress" Type="nvarchar" MaxLength="500" />
+          <Property Name="filename" Type="nvarchar" MaxLength="500" />
+          <Property Name="rel_filename" Type="nvarchar" MaxLength="500" />
+          <Property Name="addman" Type="nvarchar" MaxLength="8" />
+          <Property Name="adddate" Type="datetime" />
+          <Property Name="remark" Type="nvarchar" MaxLength="500" />
+          <Property Name="fileType" Type="int" />
+          <Property Name="timestamp" Type="int" />
+        </EntityType>
+        <EntityType Name="Ex_Store">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="gzdno" Type="varchar" MaxLength="20" />
+          <Property Name="storename" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="jcdate" Type="datetime" Nullable="false" />
+          <Property Name="jcno" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="khjcno" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="hzdno" Type="varchar" MaxLength="50" />
+          <Property Name="breakpiece" Type="int" />
+          <Property Name="moistpiece" Type="int" />
+          <Property Name="deformpiece" Type="int" />
+          <Property Name="arrowpiece" Type="int" />
+          <Property Name="dangerpiece" Type="int" />
+          <Property Name="otherbreakinfo" Type="nvarchar" MaxLength="50" />
+          <Property Name="allpiece" Type="int" Nullable="false" />
+          <Property Name="lpiece" Type="int" />
+          <Property Name="allweight" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="allvolume" Type="decimal" Nullable="false" Scale="3" />
+          <Property Name="hwstatus" Type="int" Nullable="false" />
+          <Property Name="timestamp" Type="int" />
+        </EntityType>
+        <EntityType Name="Ex_Volume_Detaile">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="jcno" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="longs" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="widths" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="heighs" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="piece" Type="int" Nullable="false" />
+          <Property Name="packagetypecode" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="packagetypename" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="islimit" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Ex_WffAaxplineWage">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="int" Nullable="false" />
+          <Property Name="wffwageid" Type="int" />
+          <Property Name="items" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="gid" Type="int" Nullable="false" />
+          <Property Name="quote" Type="money" Nullable="false" />
+          <Property Name="wageinout" Type="int" Nullable="false" />
+          <Property Name="wagetype" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="wagedom" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="changerate" Type="decimal" Nullable="false" Scale="4" />
+          <Property Name="num" Type="decimal" Nullable="false" Scale="2" />
+          <Property Name="currency" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="price" Type="money" Nullable="false" />
+          <Property Name="wageall" Type="money" Nullable="false" />
+          <Property Name="leastwageall" Type="money" Nullable="false" />
+          <Property Name="isfree" Type="nchar" Nullable="false" MaxLength="10" />
+          <Property Name="confirmstatus" Type="int" Nullable="false" />
+          <Property Name="confirmman" Type="nvarchar" MaxLength="20" />
+          <Property Name="confirmdate" Type="datetime" />
+          <Property Name="isdel" Type="int" />
+          <Property Name="addman" Type="nvarchar" MaxLength="20" />
+          <Property Name="adddate" Type="datetime" />
+          <Property Name="modifyman" Type="nvarchar" MaxLength="20" />
+          <Property Name="modifydate" Type="datetime" />
+          <Property Name="delman" Type="nvarchar" MaxLength="20" />
+          <Property Name="deldate" Type="datetime" />
+          <Property Name="remark" Type="nvarchar" MaxLength="500" />
+          <Property Name="yssys" Type="int" />
+          <Property Name="isallin" Type="int" />
+          <Property Name="ismodify" Type="int" />
+          <Property Name="timestamp" Type="int" />
+        </EntityType>
+        <EntityType Name="Ex_WffAxpline">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="wffid" Type="int" Nullable="false" />
+          <Property Name="area" Type="nvarchar" Nullable="false" MaxLength="10" />
+          <Property Name="system" Type="nvarchar" Nullable="false" MaxLength="10" />
+          <Property Name="jobno" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="czlx" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="gid" Type="int" Nullable="false" />
+          <Property Name="hwxz" Type="nvarchar" MaxLength="20" />
+          <Property Name="khjcbh" Type="varchar" MaxLength="200" />
+          <Property Name="mawb" Type="nvarchar" MaxLength="20" />
+          <Property Name="realpiece" Type="int" />
+          <Property Name="realweight" Type="decimal" Scale="2" />
+          <Property Name="realvolume" Type="decimal" Scale="3" />
+          <Property Name="zdpiece" Type="int" />
+          <Property Name="zdweight" Type="decimal" Scale="2" />
+          <Property Name="zdvolume" Type="decimal" Scale="3" />
+          <Property Name="accountweightin" Type="decimal" Scale="2" />
+          <Property Name="accountweightout" Type="decimal" Scale="2" />
+          <Property Name="jfweightin" Type="decimal" Scale="2" />
+          <Property Name="sfg" Type="varchar" MaxLength="3" />
+          <Property Name="zzg" Type="varchar" MaxLength="3" />
+          <Property Name="hbh" Type="varchar" MaxLength="10" />
+          <Property Name="hbrq" Type="datetime" />
+          <Property Name="qfsj" Type="datetime" />
+          <Property Name="bgxx" Type="nvarchar" MaxLength="20" />
+          <Property Name="bglx" Type="nvarchar" MaxLength="30" />
+          <Property Name="dzstatus" Type="int" Nullable="false" />
+          <Property Name="pcstatus" Type="int" Nullable="false" />
+          <Property Name="bgstatus" Type="int" Nullable="false" />
+          <Property Name="remark" Type="nvarchar" MaxLength="200" />
+          <Property Name="addman" Type="nvarchar" Nullable="false" MaxLength="6" />
+          <Property Name="adddate" Type="datetime" Nullable="false" />
+          <Property Name="modifyman" Type="nvarchar" MaxLength="6" />
+          <Property Name="modifydate" Type="datetime" Nullable="false" />
+          <Property Name="delman" Type="nvarchar" MaxLength="6" />
+          <Property Name="deldate" Type="datetime" Nullable="false" />
+          <Property Name="isdel" Type="int" />
+          <Property Name="delreason" Type="nvarchar" MaxLength="30" />
+        </EntityType>
+        <Association Name="FK_Ex_Axpline_Ex_Axpline">
+          <End Role="Ex_Axpline" Type="WcPoManagementNew_2011Model.Store.Ex_Axpline" Multiplicity="1" />
+          <End Role="Ex_Axpline1" Type="WcPoManagementNew_2011Model.Store.Ex_Axpline" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Ex_Axpline">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Ex_Axpline1">
+              <PropertyRef Name="id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="WcPoManagementNew_2011Model" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="WcPoManagementNew_2011Entities1" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Ex_AiraxpAccount" EntityType="WcPoManagementNew_2011Model.Ex_AiraxpAccount" />
+          <EntitySet Name="Ex_AiraxpAccountWage" EntityType="WcPoManagementNew_2011Model.Ex_AiraxpAccountWage" />
+          <EntitySet Name="Ex_AiraxpCheckBillPch" EntityType="WcPoManagementNew_2011Model.Ex_AiraxpCheckBillPch" />
+          <EntitySet Name="Ex_AiraxpCheckBillPchWage" EntityType="WcPoManagementNew_2011Model.Ex_AiraxpCheckBillPchWage" />
+          <EntitySet Name="Ex_AiraxpInvoice" EntityType="WcPoManagementNew_2011Model.Ex_AiraxpInvoice" />
+          <EntitySet Name="Ex_AiraxpInvoiceWage" EntityType="WcPoManagementNew_2011Model.Ex_AiraxpInvoiceWage" />
+          <EntitySet Name="Ex_AiraxpNode" EntityType="WcPoManagementNew_2011Model.Ex_AiraxpNode" />
+          <EntitySet Name="Ex_Axpline" EntityType="WcPoManagementNew_2011Model.Ex_Axpline" />
+          <EntitySet Name="Ex_AxplineWage" EntityType="WcPoManagementNew_2011Model.Ex_AxplineWage" />
+          <EntitySet Name="Ex_HpoAxpline" EntityType="WcPoManagementNew_2011Model.Ex_HpoAxpline" />
+          <EntitySet Name="Ex_HpoAxplineWage" EntityType="WcPoManagementNew_2011Model.Ex_HpoAxplineWage" />
+          <EntitySet Name="Ex_PoImages" EntityType="WcPoManagementNew_2011Model.Ex_PoImages" />
+          <EntitySet Name="Ex_Store" EntityType="WcPoManagementNew_2011Model.Ex_Store" />
+          <EntitySet Name="Ex_Volume_Detaile" EntityType="WcPoManagementNew_2011Model.Ex_Volume_Detaile" />
+          <EntitySet Name="Ex_WffAaxplineWage" EntityType="WcPoManagementNew_2011Model.Ex_WffAaxplineWage" />
+          <EntitySet Name="Ex_WffAxpline" EntityType="WcPoManagementNew_2011Model.Ex_WffAxpline" />
+          <AssociationSet Name="FK_Ex_Axpline_Ex_Axpline" Association="WcPoManagementNew_2011Model.FK_Ex_Axpline_Ex_Axpline">
+            <End Role="Ex_Axpline" EntitySet="Ex_Axpline" />
+            <End Role="Ex_Axpline1" EntitySet="Ex_Axpline" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Ex_AiraxpAccount">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="jobno" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="accountcode" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="accountdom" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="taxrate" Type="Decimal" Precision="18" Scale="4" />
+          <Property Name="relid" Type="Int32" />
+          <Property Name="wageinout" Type="Int32" />
+          <Property Name="sett_gid" Type="Int32" />
+          <Property Name="payment_gid" Type="Int32" />
+          <Property Name="payment_code" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="payment_name" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="payment_accountno" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="payment_lxr" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="payment_fax" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="payment_deadline" Type="DateTime" Precision="3" />
+          <Property Name="accountman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="accountdate" Type="DateTime" Precision="3" />
+          <Property Name="hbh" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="hbrq" Type="DateTime" Precision="3" />
+          <Property Name="mawb" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+          <Property Name="hawb" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="sfg" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+          <Property Name="mdg" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+          <Property Name="zzg" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+          <Property Name="description" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="wageall" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="currency" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="changerate" Type="Decimal" Precision="18" Scale="10" />
+          <Property Name="packagetype" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="piece" Type="Int32" />
+          <Property Name="weight" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="volume" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="jfweight" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="remark" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="addman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="adddate" Type="DateTime" Precision="3" />
+          <Property Name="modifyman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="modifydate" Type="DateTime" Precision="3" />
+          <Property Name="delman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="deldate" Type="DateTime" Precision="3" />
+          <Property Name="isdel" Type="Int32" />
+          <Property Name="isincl" Type="Int32" />
+          <Property Name="isexport" Type="Int32" />
+          <Property Name="exportman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="exportdate" Type="DateTime" Precision="3" />
+          <Property Name="ready01" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready02" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready03" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready04" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready05" Type="Int32" />
+          <Property Name="ready06" Type="Int32" />
+          <Property Name="ready07" Type="Int32" />
+          <Property Name="ready08" Type="DateTime" Precision="3" />
+          <Property Name="ready09" Type="DateTime" Precision="3" />
+          <Property Name="ready10" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="system" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="oldid" Type="Int32" />
+          <Property Name="accountweight" Type="Decimal" Precision="18" Scale="3" />
+          <Property Name="zdweight" Type="Decimal" Precision="18" Scale="3" />
+          <Property Name="axpjobno" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Ex_AiraxpAccountWage">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="Int32" />
+          <Property Name="accountid" Type="Int32" />
+          <Property Name="wageid" Type="Int32" />
+          <Property Name="wageall" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="finishwageall" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="billwageid" Type="Int32" />
+          <Property Name="wagedom" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="addman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="adddate" Type="DateTime" Precision="3" />
+          <Property Name="remark" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready01" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready02" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready03" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready04" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready05" Type="Int32" />
+          <Property Name="ready06" Type="Int32" />
+          <Property Name="ready07" Type="Int32" />
+          <Property Name="ready08" Type="DateTime" Precision="3" />
+          <Property Name="ready09" Type="DateTime" Precision="3" />
+          <Property Name="ready10" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="oldid" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Ex_AiraxpCheckBillPch">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="pchno" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="wageinout" Type="Int32" />
+          <Property Name="gid" Type="Int32" />
+          <Property Name="billstatus" Type="Int32" />
+          <Property Name="isdel" Type="Int32" />
+          <Property Name="confirmman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="confirmdate" Type="DateTime" Precision="3" />
+          <Property Name="confirmremark" Type="String" MaxLength="1000" Unicode="true" FixedLength="false" />
+          <Property Name="addman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="adddate" Type="DateTime" Precision="3" />
+          <Property Name="modifyman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="modifydate" Type="DateTime" Precision="3" />
+          <Property Name="delman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="deldate" Type="DateTime" Precision="3" />
+          <Property Name="remark" Type="String" MaxLength="1000" Unicode="true" FixedLength="false" />
+          <Property Name="ready01" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready02" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready03" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready04" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready05" Type="Int32" />
+          <Property Name="ready06" Type="Int32" />
+          <Property Name="ready07" Type="Int32" />
+          <Property Name="ready08" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="ready09" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="ready10" Type="DateTime" Precision="3" />
+          <Property Name="system" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="oldid" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Ex_AiraxpCheckBillPchWage">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="Int32" />
+          <Property Name="billid" Type="Int32" />
+          <Property Name="wageid" Type="Int32" />
+          <Property Name="wageall" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="finishwageall" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="wagedom" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="addman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="adddate" Type="DateTime" Precision="3" />
+          <Property Name="remark" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready01" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready02" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready03" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready04" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready05" Type="Int32" />
+          <Property Name="ready06" Type="Int32" />
+          <Property Name="ready07" Type="Int32" />
+          <Property Name="ready08" Type="DateTime" Precision="3" />
+          <Property Name="ready09" Type="DateTime" Precision="3" />
+          <Property Name="ready10" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="oldid" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Ex_AiraxpInvoice">
+          <Key>
+            <PropertyRef Name="id" />
+            <PropertyRef Name="invoicecode" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="invoicecode" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="invoiceDom" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="sett_gid" Type="Int32" />
+          <Property Name="payment_gid" Type="Int32" />
+          <Property Name="payment_code" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="payment_name" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="payment_accountno" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="bank" Type="String" MaxLength="80" Unicode="true" FixedLength="false" />
+          <Property Name="bankaccount" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="hbh" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="hbrq" Type="DateTime" Precision="3" />
+          <Property Name="sfg" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+          <Property Name="mdg" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+          <Property Name="xhg" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+          <Property Name="arrivedate" Type="DateTime" Precision="3" />
+          <Property Name="description" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="currency" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="wageall" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="taxrate" Type="Decimal" Precision="18" Scale="4" />
+          <Property Name="remark" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="invoiceman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="invoicedate" Type="DateTime" Precision="3" />
+          <Property Name="addman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="adddate" Type="DateTime" Precision="3" />
+          <Property Name="delman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="deldate" Type="DateTime" Precision="3" />
+          <Property Name="invalidreason" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="hwnames" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="servicenames" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="prices" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="nums" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="wagealls" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="changerates" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="changerwagealls" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="wagesources" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="otheritems" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="otherinfo" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="isdel" Type="Int32" />
+          <Property Name="remarks" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="isexport" Type="Int32" />
+          <Property Name="exportman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="exportdate" Type="DateTime" Precision="3" />
+          <Property Name="ready01" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready02" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready03" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready04" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready05" Type="Int32" />
+          <Property Name="ready06" Type="Int32" />
+          <Property Name="ready07" Type="Int32" />
+          <Property Name="ready08" Type="DateTime" Precision="3" />
+          <Property Name="ready09" Type="DateTime" Precision="3" />
+          <Property Name="ready10" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="MAWB" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="system" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="oldid" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Ex_AiraxpInvoiceWage">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="Int32" />
+          <Property Name="invoiceid" Type="Int32" />
+          <Property Name="wageid" Type="Int32" />
+          <Property Name="wageall" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="finishwageall" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="billwageid" Type="Int32" />
+          <Property Name="wagedom" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="addman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="adddate" Type="DateTime" Precision="3" />
+          <Property Name="remark" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready01" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready02" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready03" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready04" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ready05" Type="Int32" />
+          <Property Name="ready06" Type="Int32" />
+          <Property Name="ready07" Type="Int32" />
+          <Property Name="ready08" Type="DateTime" Precision="3" />
+          <Property Name="ready09" Type="DateTime" Precision="3" />
+          <Property Name="ready10" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="oldid" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Ex_AiraxpNode">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="Int32" Nullable="false" />
+          <Property Name="codetype" Type="Int32" />
+          <Property Name="nodename" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="nodeman" Type="String" Nullable="false" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="codedate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="remark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="addman" Type="String" Nullable="false" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="adddate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="modifyman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="modifydate" Type="DateTime" Precision="3" />
+          <Property Name="timestamp" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Ex_Axpline">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="Int32" />
+          <Property Name="orderno" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="pono" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="hpoid" Type="Int32" />
+          <Property Name="dom" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="gid" Type="Int32" Nullable="false" />
+          <Property Name="hawb" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="dzarriverq" Type="DateTime" Precision="3" />
+          <Property Name="yqsfg" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+          <Property Name="mdg" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+          <Property Name="yqhbh" Type="String" MaxLength="8" Unicode="false" FixedLength="false" />
+          <Property Name="yqhbrq" Type="DateTime" Precision="3" />
+          <Property Name="ybpiece" Type="Int32" Nullable="false" />
+          <Property Name="ybweight" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="ybvolume" Type="Decimal" Nullable="false" Precision="18" Scale="3" />
+          <Property Name="tradeterm" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="czremark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="otherremark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="area" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="system" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="status" Type="Int32" />
+          <Property Name="hwlx" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="pm" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="khjcno" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="bgfs" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="yjjcdate" Type="DateTime" Precision="3" />
+          <Property Name="jhjcdate" Type="DateTime" Precision="3" />
+          <Property Name="bzlxpiece" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="inwageallinprice" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="isinwageallin" Type="Int32" />
+          <Property Name="self_real_bp_freight_in" Type="Decimal" Precision="18" Scale="1" />
+          <Property Name="cus_real_bp_freight_in" Type="Decimal" Precision="18" Scale="1" />
+          <Property Name="address_thr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="lxr_thr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="phone_thr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="address_shr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="lxr_shr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="phone_shr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="mawb_shr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="mawb_fhr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="hawb_shr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="hawb_fhr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="addman" Type="String" Nullable="false" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="adddate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="modifyman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="modifydate" Type="DateTime" Precision="3" />
+          <Property Name="delman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="deldate" Type="DateTime" Precision="3" />
+          <Property Name="isdel" Type="Int32" Nullable="false" />
+          <Property Name="assignman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="assigndate" Type="DateTime" Precision="3" />
+          <Property Name="acceptanceman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="acceptancedate" Type="DateTime" Precision="3" />
+          <Property Name="acceptanceremark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="confirmman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="confirmdate" Type="DateTime" Precision="3" />
+          <Property Name="confirmremark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="submitman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="submitdate" Type="DateTime" Precision="3" />
+          <Property Name="timestamp" Type="Int32" />
+          <NavigationProperty Name="Ex_Axpline1" Relationship="WcPoManagementNew_2011Model.FK_Ex_Axpline_Ex_Axpline" FromRole="Ex_Axpline" ToRole="Ex_Axpline1" />
+          <NavigationProperty Name="Ex_Axpline2" Relationship="WcPoManagementNew_2011Model.FK_Ex_Axpline_Ex_Axpline" FromRole="Ex_Axpline1" ToRole="Ex_Axpline" />
+        </EntityType>
+        <EntityType Name="Ex_AxplineWage">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="Int32" Nullable="false" />
+          <Property Name="items" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="gid" Type="Int32" Nullable="false" />
+          <Property Name="quote" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="wageinout" Type="Int32" Nullable="false" />
+          <Property Name="wagetype" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="wagedom" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="changerate" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+          <Property Name="num" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="currency" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="price" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="wageall" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="leastwageall" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="finishwageall_checkbill" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="finishwageall_invoice" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="isfree" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+          <Property Name="confirmstatus" Type="Int32" Nullable="false" />
+          <Property Name="confirmman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="confirmdate" Type="DateTime" Precision="3" />
+          <Property Name="isdel" Type="Int32" Nullable="false" />
+          <Property Name="addman" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="adddate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="modifyman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="modifydate" Type="DateTime" Precision="3" />
+          <Property Name="delman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="deldate" Type="DateTime" Precision="3" />
+          <Property Name="remark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="isshare" Type="Int32" />
+          <Property Name="sharetype" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="yssys" Type="Int32" Nullable="false" />
+          <Property Name="isallin" Type="Int32" Nullable="false" />
+          <Property Name="ismodify" Type="Int32" Nullable="false" />
+          <Property Name="timestamp" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Ex_HpoAxpline">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="Int32" />
+          <Property Name="hpono" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="dom" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="gid" Type="Int32" Nullable="false" />
+          <Property Name="hawb" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="dzarriverq" Type="DateTime" Precision="3" />
+          <Property Name="yqsfg" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+          <Property Name="mdg" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+          <Property Name="yqhbh" Type="String" MaxLength="8" Unicode="false" FixedLength="false" />
+          <Property Name="yqhbrq" Type="DateTime" Precision="3" />
+          <Property Name="ybpiece" Type="Int32" Nullable="false" />
+          <Property Name="ybweight" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="ybvolume" Type="Decimal" Nullable="false" Precision="18" Scale="3" />
+          <Property Name="tradeterm" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="czremark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="otherremark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="area" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="system" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="status" Type="Int32" Nullable="false" />
+          <Property Name="hwlx" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="pm" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="khjcno" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="bgfs" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="yjjcdate" Type="DateTime" Precision="3" />
+          <Property Name="jhjcdate" Type="DateTime" Precision="3" />
+          <Property Name="inwageallinprice" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="isinwageallin" Type="Int32" />
+          <Property Name="self_real_bp_freight_in" Type="Decimal" Precision="18" Scale="1" />
+          <Property Name="cus_real_bp_freight_in" Type="Decimal" Precision="18" Scale="1" />
+          <Property Name="address_thr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="lxr_thr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="phone_thr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="address_shr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="lxr_shr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="phone_shr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="mawb_shr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="mawb_fhr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="hawb_shr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="hawb_fhr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="addman" Type="String" Nullable="false" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="adddate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="modifyman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="modifydate" Type="DateTime" Precision="3" />
+          <Property Name="delman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="deldate" Type="DateTime" Precision="3" />
+          <Property Name="isdel" Type="Int32" Nullable="false" />
+          <Property Name="assignman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="assigndate" Type="DateTime" Precision="3" />
+          <Property Name="timestamp" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Ex_HpoAxplineWage">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="Int32" Nullable="false" />
+          <Property Name="items" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="gid" Type="Int32" Nullable="false" />
+          <Property Name="quote" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="wageinout" Type="Int32" Nullable="false" />
+          <Property Name="wagetype" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="wagedom" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="changerate" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+          <Property Name="num" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="currency" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="price" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="wageall" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="leastwageall" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="isfree" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+          <Property Name="confirmstatus" Type="Int32" Nullable="false" />
+          <Property Name="confirmman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="confirmdate" Type="DateTime" Precision="3" />
+          <Property Name="isdel" Type="Int32" />
+          <Property Name="addman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="adddate" Type="DateTime" Precision="3" />
+          <Property Name="modifyman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="modifydate" Type="DateTime" Precision="3" />
+          <Property Name="delman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="deldate" Type="DateTime" Precision="3" />
+          <Property Name="remark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="yssys" Type="Int32" />
+          <Property Name="isallin" Type="Int32" />
+          <Property Name="ismodify" Type="Int32" />
+          <Property Name="timestamp" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Ex_PoImages">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="jobno" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="ftpaddress" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="fileaddress" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="filename" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="rel_filename" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="addman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+          <Property Name="adddate" Type="DateTime" Precision="3" />
+          <Property Name="remark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="fileType" Type="Int32" />
+          <Property Name="timestamp" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Ex_Store">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="gzdno" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="storename" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="jcdate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="jcno" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="khjcno" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="hzdno" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="breakpiece" Type="Int32" />
+          <Property Name="moistpiece" Type="Int32" />
+          <Property Name="deformpiece" Type="Int32" />
+          <Property Name="arrowpiece" Type="Int32" />
+          <Property Name="dangerpiece" Type="Int32" />
+          <Property Name="otherbreakinfo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="allpiece" Type="Int32" Nullable="false" />
+          <Property Name="lpiece" Type="Int32" />
+          <Property Name="allweight" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="allvolume" Type="Decimal" Nullable="false" Precision="18" Scale="3" />
+          <Property Name="hwstatus" Type="Int32" Nullable="false" />
+          <Property Name="timestamp" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Ex_Volume_Detaile">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="jcno" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="longs" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="widths" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="heighs" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="piece" Type="Int32" Nullable="false" />
+          <Property Name="packagetypecode" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="packagetypename" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="islimit" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Ex_WffAaxplineWage">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="Int32" Nullable="false" />
+          <Property Name="wffwageid" Type="Int32" />
+          <Property Name="items" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="gid" Type="Int32" Nullable="false" />
+          <Property Name="quote" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="wageinout" Type="Int32" Nullable="false" />
+          <Property Name="wagetype" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="wagedom" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="changerate" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+          <Property Name="num" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="currency" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="price" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="wageall" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="leastwageall" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="isfree" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+          <Property Name="confirmstatus" Type="Int32" Nullable="false" />
+          <Property Name="confirmman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="confirmdate" Type="DateTime" Precision="3" />
+          <Property Name="isdel" Type="Int32" />
+          <Property Name="addman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="adddate" Type="DateTime" Precision="3" />
+          <Property Name="modifyman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="modifydate" Type="DateTime" Precision="3" />
+          <Property Name="delman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="deldate" Type="DateTime" Precision="3" />
+          <Property Name="remark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="yssys" Type="Int32" />
+          <Property Name="isallin" Type="Int32" />
+          <Property Name="ismodify" Type="Int32" />
+          <Property Name="timestamp" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Ex_WffAxpline">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="wffid" Type="Int32" Nullable="false" />
+          <Property Name="area" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="system" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="jobno" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="czlx" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="gid" Type="Int32" Nullable="false" />
+          <Property Name="hwxz" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="khjcbh" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="mawb" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="realpiece" Type="Int32" />
+          <Property Name="realweight" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="realvolume" Type="Decimal" Precision="18" Scale="3" />
+          <Property Name="zdpiece" Type="Int32" />
+          <Property Name="zdweight" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="zdvolume" Type="Decimal" Precision="18" Scale="3" />
+          <Property Name="accountweightin" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="accountweightout" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="jfweightin" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="sfg" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+          <Property Name="zzg" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+          <Property Name="hbh" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="hbrq" Type="DateTime" Precision="3" />
+          <Property Name="qfsj" Type="DateTime" Precision="3" />
+          <Property Name="bgxx" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="bglx" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="dzstatus" Type="Int32" Nullable="false" />
+          <Property Name="pcstatus" Type="Int32" Nullable="false" />
+          <Property Name="bgstatus" Type="Int32" Nullable="false" />
+          <Property Name="remark" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="addman" Type="String" Nullable="false" MaxLength="6" Unicode="true" FixedLength="false" />
+          <Property Name="adddate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="modifyman" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+          <Property Name="modifydate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="delman" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+          <Property Name="deldate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="isdel" Type="Int32" />
+          <Property Name="delreason" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <Association Name="FK_Ex_Axpline_Ex_Axpline">
+          <End Role="Ex_Axpline" Type="WcPoManagementNew_2011Model.Ex_Axpline" Multiplicity="1" />
+          <End Role="Ex_Axpline1" Type="WcPoManagementNew_2011Model.Ex_Axpline" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Ex_Axpline">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Ex_Axpline1">
+              <PropertyRef Name="id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="WcPoManagementNew_2011ModelStoreContainer" CdmEntityContainer="WcPoManagementNew_2011Entities1">
+          <EntitySetMapping Name="Ex_AiraxpAccount">
+            <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_AiraxpAccount">
+              <MappingFragment StoreEntitySet="Ex_AiraxpAccount">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="jobno" ColumnName="jobno" />
+                <ScalarProperty Name="accountcode" ColumnName="accountcode" />
+                <ScalarProperty Name="accountdom" ColumnName="accountdom" />
+                <ScalarProperty Name="taxrate" ColumnName="taxrate" />
+                <ScalarProperty Name="relid" ColumnName="relid" />
+                <ScalarProperty Name="wageinout" ColumnName="wageinout" />
+                <ScalarProperty Name="sett_gid" ColumnName="sett_gid" />
+                <ScalarProperty Name="payment_gid" ColumnName="payment_gid" />
+                <ScalarProperty Name="payment_code" ColumnName="payment_code" />
+                <ScalarProperty Name="payment_name" ColumnName="payment_name" />
+                <ScalarProperty Name="payment_accountno" ColumnName="payment_accountno" />
+                <ScalarProperty Name="payment_lxr" ColumnName="payment_lxr" />
+                <ScalarProperty Name="payment_fax" ColumnName="payment_fax" />
+                <ScalarProperty Name="payment_deadline" ColumnName="payment_deadline" />
+                <ScalarProperty Name="accountman" ColumnName="accountman" />
+                <ScalarProperty Name="accountdate" ColumnName="accountdate" />
+                <ScalarProperty Name="hbh" ColumnName="hbh" />
+                <ScalarProperty Name="hbrq" ColumnName="hbrq" />
+                <ScalarProperty Name="mawb" ColumnName="mawb" />
+                <ScalarProperty Name="hawb" ColumnName="hawb" />
+                <ScalarProperty Name="sfg" ColumnName="sfg" />
+                <ScalarProperty Name="mdg" ColumnName="mdg" />
+                <ScalarProperty Name="zzg" ColumnName="zzg" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="wageall" ColumnName="wageall" />
+                <ScalarProperty Name="currency" ColumnName="currency" />
+                <ScalarProperty Name="changerate" ColumnName="changerate" />
+                <ScalarProperty Name="packagetype" ColumnName="packagetype" />
+                <ScalarProperty Name="piece" ColumnName="piece" />
+                <ScalarProperty Name="weight" ColumnName="weight" />
+                <ScalarProperty Name="volume" ColumnName="volume" />
+                <ScalarProperty Name="jfweight" ColumnName="jfweight" />
+                <ScalarProperty Name="remark" ColumnName="remark" />
+                <ScalarProperty Name="addman" ColumnName="addman" />
+                <ScalarProperty Name="adddate" ColumnName="adddate" />
+                <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+                <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+                <ScalarProperty Name="delman" ColumnName="delman" />
+                <ScalarProperty Name="deldate" ColumnName="deldate" />
+                <ScalarProperty Name="isdel" ColumnName="isdel" />
+                <ScalarProperty Name="isincl" ColumnName="isincl" />
+                <ScalarProperty Name="isexport" ColumnName="isexport" />
+                <ScalarProperty Name="exportman" ColumnName="exportman" />
+                <ScalarProperty Name="exportdate" ColumnName="exportdate" />
+                <ScalarProperty Name="ready01" ColumnName="ready01" />
+                <ScalarProperty Name="ready02" ColumnName="ready02" />
+                <ScalarProperty Name="ready03" ColumnName="ready03" />
+                <ScalarProperty Name="ready04" ColumnName="ready04" />
+                <ScalarProperty Name="ready05" ColumnName="ready05" />
+                <ScalarProperty Name="ready06" ColumnName="ready06" />
+                <ScalarProperty Name="ready07" ColumnName="ready07" />
+                <ScalarProperty Name="ready08" ColumnName="ready08" />
+                <ScalarProperty Name="ready09" ColumnName="ready09" />
+                <ScalarProperty Name="ready10" ColumnName="ready10" />
+                <ScalarProperty Name="system" ColumnName="system" />
+                <ScalarProperty Name="oldid" ColumnName="oldid" />
+                <ScalarProperty Name="accountweight" ColumnName="accountweight" />
+                <ScalarProperty Name="zdweight" ColumnName="zdweight" />
+                <ScalarProperty Name="axpjobno" ColumnName="axpjobno" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ex_AiraxpAccountWage">
+            <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_AiraxpAccountWage">
+              <MappingFragment StoreEntitySet="Ex_AiraxpAccountWage">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="sid" ColumnName="sid" />
+                <ScalarProperty Name="accountid" ColumnName="accountid" />
+                <ScalarProperty Name="wageid" ColumnName="wageid" />
+                <ScalarProperty Name="wageall" ColumnName="wageall" />
+                <ScalarProperty Name="finishwageall" ColumnName="finishwageall" />
+                <ScalarProperty Name="billwageid" ColumnName="billwageid" />
+                <ScalarProperty Name="wagedom" ColumnName="wagedom" />
+                <ScalarProperty Name="addman" ColumnName="addman" />
+                <ScalarProperty Name="adddate" ColumnName="adddate" />
+                <ScalarProperty Name="remark" ColumnName="remark" />
+                <ScalarProperty Name="ready01" ColumnName="ready01" />
+                <ScalarProperty Name="ready02" ColumnName="ready02" />
+                <ScalarProperty Name="ready03" ColumnName="ready03" />
+                <ScalarProperty Name="ready04" ColumnName="ready04" />
+                <ScalarProperty Name="ready05" ColumnName="ready05" />
+                <ScalarProperty Name="ready06" ColumnName="ready06" />
+                <ScalarProperty Name="ready07" ColumnName="ready07" />
+                <ScalarProperty Name="ready08" ColumnName="ready08" />
+                <ScalarProperty Name="ready09" ColumnName="ready09" />
+                <ScalarProperty Name="ready10" ColumnName="ready10" />
+                <ScalarProperty Name="oldid" ColumnName="oldid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ex_AiraxpCheckBillPch">
+            <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_AiraxpCheckBillPch">
+              <MappingFragment StoreEntitySet="Ex_AiraxpCheckBillPch">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="pchno" ColumnName="pchno" />
+                <ScalarProperty Name="wageinout" ColumnName="wageinout" />
+                <ScalarProperty Name="gid" ColumnName="gid" />
+                <ScalarProperty Name="billstatus" ColumnName="billstatus" />
+                <ScalarProperty Name="isdel" ColumnName="isdel" />
+                <ScalarProperty Name="confirmman" ColumnName="confirmman" />
+                <ScalarProperty Name="confirmdate" ColumnName="confirmdate" />
+                <ScalarProperty Name="confirmremark" ColumnName="confirmremark" />
+                <ScalarProperty Name="addman" ColumnName="addman" />
+                <ScalarProperty Name="adddate" ColumnName="adddate" />
+                <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+                <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+                <ScalarProperty Name="delman" ColumnName="delman" />
+                <ScalarProperty Name="deldate" ColumnName="deldate" />
+                <ScalarProperty Name="remark" ColumnName="remark" />
+                <ScalarProperty Name="ready01" ColumnName="ready01" />
+                <ScalarProperty Name="ready02" ColumnName="ready02" />
+                <ScalarProperty Name="ready03" ColumnName="ready03" />
+                <ScalarProperty Name="ready04" ColumnName="ready04" />
+                <ScalarProperty Name="ready05" ColumnName="ready05" />
+                <ScalarProperty Name="ready06" ColumnName="ready06" />
+                <ScalarProperty Name="ready07" ColumnName="ready07" />
+                <ScalarProperty Name="ready08" ColumnName="ready08" />
+                <ScalarProperty Name="ready09" ColumnName="ready09" />
+                <ScalarProperty Name="ready10" ColumnName="ready10" />
+                <ScalarProperty Name="system" ColumnName="system" />
+                <ScalarProperty Name="oldid" ColumnName="oldid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ex_AiraxpCheckBillPchWage">
+            <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_AiraxpCheckBillPchWage">
+              <MappingFragment StoreEntitySet="Ex_AiraxpCheckBillPchWage">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="sid" ColumnName="sid" />
+                <ScalarProperty Name="billid" ColumnName="billid" />
+                <ScalarProperty Name="wageid" ColumnName="wageid" />
+                <ScalarProperty Name="wageall" ColumnName="wageall" />
+                <ScalarProperty Name="finishwageall" ColumnName="finishwageall" />
+                <ScalarProperty Name="wagedom" ColumnName="wagedom" />
+                <ScalarProperty Name="addman" ColumnName="addman" />
+                <ScalarProperty Name="adddate" ColumnName="adddate" />
+                <ScalarProperty Name="remark" ColumnName="remark" />
+                <ScalarProperty Name="ready01" ColumnName="ready01" />
+                <ScalarProperty Name="ready02" ColumnName="ready02" />
+                <ScalarProperty Name="ready03" ColumnName="ready03" />
+                <ScalarProperty Name="ready04" ColumnName="ready04" />
+                <ScalarProperty Name="ready05" ColumnName="ready05" />
+                <ScalarProperty Name="ready06" ColumnName="ready06" />
+                <ScalarProperty Name="ready07" ColumnName="ready07" />
+                <ScalarProperty Name="ready08" ColumnName="ready08" />
+                <ScalarProperty Name="ready09" ColumnName="ready09" />
+                <ScalarProperty Name="ready10" ColumnName="ready10" />
+                <ScalarProperty Name="oldid" ColumnName="oldid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ex_AiraxpInvoice">
+            <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_AiraxpInvoice">
+              <MappingFragment StoreEntitySet="Ex_AiraxpInvoice">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="invoicecode" ColumnName="invoicecode" />
+                <ScalarProperty Name="invoiceDom" ColumnName="invoiceDom" />
+                <ScalarProperty Name="sett_gid" ColumnName="sett_gid" />
+                <ScalarProperty Name="payment_gid" ColumnName="payment_gid" />
+                <ScalarProperty Name="payment_code" ColumnName="payment_code" />
+                <ScalarProperty Name="payment_name" ColumnName="payment_name" />
+                <ScalarProperty Name="payment_accountno" ColumnName="payment_accountno" />
+                <ScalarProperty Name="bank" ColumnName="bank" />
+                <ScalarProperty Name="bankaccount" ColumnName="bankaccount" />
+                <ScalarProperty Name="hbh" ColumnName="hbh" />
+                <ScalarProperty Name="hbrq" ColumnName="hbrq" />
+                <ScalarProperty Name="sfg" ColumnName="sfg" />
+                <ScalarProperty Name="mdg" ColumnName="mdg" />
+                <ScalarProperty Name="xhg" ColumnName="xhg" />
+                <ScalarProperty Name="arrivedate" ColumnName="arrivedate" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="currency" ColumnName="currency" />
+                <ScalarProperty Name="wageall" ColumnName="wageall" />
+                <ScalarProperty Name="taxrate" ColumnName="taxrate" />
+                <ScalarProperty Name="remark" ColumnName="remark" />
+                <ScalarProperty Name="invoiceman" ColumnName="invoiceman" />
+                <ScalarProperty Name="invoicedate" ColumnName="invoicedate" />
+                <ScalarProperty Name="addman" ColumnName="addman" />
+                <ScalarProperty Name="adddate" ColumnName="adddate" />
+                <ScalarProperty Name="delman" ColumnName="delman" />
+                <ScalarProperty Name="deldate" ColumnName="deldate" />
+                <ScalarProperty Name="invalidreason" ColumnName="invalidreason" />
+                <ScalarProperty Name="hwnames" ColumnName="hwnames" />
+                <ScalarProperty Name="servicenames" ColumnName="servicenames" />
+                <ScalarProperty Name="prices" ColumnName="prices" />
+                <ScalarProperty Name="nums" ColumnName="nums" />
+                <ScalarProperty Name="wagealls" ColumnName="wagealls" />
+                <ScalarProperty Name="changerates" ColumnName="changerates" />
+                <ScalarProperty Name="changerwagealls" ColumnName="changerwagealls" />
+                <ScalarProperty Name="wagesources" ColumnName="wagesources" />
+                <ScalarProperty Name="otheritems" ColumnName="otheritems" />
+                <ScalarProperty Name="otherinfo" ColumnName="otherinfo" />
+                <ScalarProperty Name="isdel" ColumnName="isdel" />
+                <ScalarProperty Name="remarks" ColumnName="remarks" />
+                <ScalarProperty Name="isexport" ColumnName="isexport" />
+                <ScalarProperty Name="exportman" ColumnName="exportman" />
+                <ScalarProperty Name="exportdate" ColumnName="exportdate" />
+                <ScalarProperty Name="ready01" ColumnName="ready01" />
+                <ScalarProperty Name="ready02" ColumnName="ready02" />
+                <ScalarProperty Name="ready03" ColumnName="ready03" />
+                <ScalarProperty Name="ready04" ColumnName="ready04" />
+                <ScalarProperty Name="ready05" ColumnName="ready05" />
+                <ScalarProperty Name="ready06" ColumnName="ready06" />
+                <ScalarProperty Name="ready07" ColumnName="ready07" />
+                <ScalarProperty Name="ready08" ColumnName="ready08" />
+                <ScalarProperty Name="ready09" ColumnName="ready09" />
+                <ScalarProperty Name="ready10" ColumnName="ready10" />
+                <ScalarProperty Name="MAWB" ColumnName="MAWB" />
+                <ScalarProperty Name="system" ColumnName="system" />
+                <ScalarProperty Name="oldid" ColumnName="oldid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ex_AiraxpInvoiceWage">
+            <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_AiraxpInvoiceWage">
+              <MappingFragment StoreEntitySet="Ex_AiraxpInvoiceWage">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="sid" ColumnName="sid" />
+                <ScalarProperty Name="invoiceid" ColumnName="invoiceid" />
+                <ScalarProperty Name="wageid" ColumnName="wageid" />
+                <ScalarProperty Name="wageall" ColumnName="wageall" />
+                <ScalarProperty Name="finishwageall" ColumnName="finishwageall" />
+                <ScalarProperty Name="billwageid" ColumnName="billwageid" />
+                <ScalarProperty Name="wagedom" ColumnName="wagedom" />
+                <ScalarProperty Name="addman" ColumnName="addman" />
+                <ScalarProperty Name="adddate" ColumnName="adddate" />
+                <ScalarProperty Name="remark" ColumnName="remark" />
+                <ScalarProperty Name="ready01" ColumnName="ready01" />
+                <ScalarProperty Name="ready02" ColumnName="ready02" />
+                <ScalarProperty Name="ready03" ColumnName="ready03" />
+                <ScalarProperty Name="ready04" ColumnName="ready04" />
+                <ScalarProperty Name="ready05" ColumnName="ready05" />
+                <ScalarProperty Name="ready06" ColumnName="ready06" />
+                <ScalarProperty Name="ready07" ColumnName="ready07" />
+                <ScalarProperty Name="ready08" ColumnName="ready08" />
+                <ScalarProperty Name="ready09" ColumnName="ready09" />
+                <ScalarProperty Name="ready10" ColumnName="ready10" />
+                <ScalarProperty Name="oldid" ColumnName="oldid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ex_AiraxpNode">
+            <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_AiraxpNode">
+              <MappingFragment StoreEntitySet="Ex_AiraxpNode">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="sid" ColumnName="sid" />
+                <ScalarProperty Name="codetype" ColumnName="codetype" />
+                <ScalarProperty Name="nodename" ColumnName="nodename" />
+                <ScalarProperty Name="nodeman" ColumnName="nodeman" />
+                <ScalarProperty Name="codedate" ColumnName="codedate" />
+                <ScalarProperty Name="remark" ColumnName="remark" />
+                <ScalarProperty Name="addman" ColumnName="addman" />
+                <ScalarProperty Name="adddate" ColumnName="adddate" />
+                <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+                <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+                <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ex_Axpline">
+            <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_Axpline">
+              <MappingFragment StoreEntitySet="Ex_Axpline">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="sid" ColumnName="sid" />
+                <ScalarProperty Name="orderno" ColumnName="orderno" />
+                <ScalarProperty Name="pono" ColumnName="pono" />
+                <ScalarProperty Name="hpoid" ColumnName="hpoid" />
+                <ScalarProperty Name="dom" ColumnName="dom" />
+                <ScalarProperty Name="gid" ColumnName="gid" />
+                <ScalarProperty Name="hawb" ColumnName="hawb" />
+                <ScalarProperty Name="dzarriverq" ColumnName="dzarriverq" />
+                <ScalarProperty Name="yqsfg" ColumnName="yqsfg" />
+                <ScalarProperty Name="mdg" ColumnName="mdg" />
+                <ScalarProperty Name="yqhbh" ColumnName="yqhbh" />
+                <ScalarProperty Name="yqhbrq" ColumnName="yqhbrq" />
+                <ScalarProperty Name="ybpiece" ColumnName="ybpiece" />
+                <ScalarProperty Name="ybweight" ColumnName="ybweight" />
+                <ScalarProperty Name="ybvolume" ColumnName="ybvolume" />
+                <ScalarProperty Name="tradeterm" ColumnName="tradeterm" />
+                <ScalarProperty Name="czremark" ColumnName="czremark" />
+                <ScalarProperty Name="otherremark" ColumnName="otherremark" />
+                <ScalarProperty Name="area" ColumnName="area" />
+                <ScalarProperty Name="system" ColumnName="system" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="hwlx" ColumnName="hwlx" />
+                <ScalarProperty Name="pm" ColumnName="pm" />
+                <ScalarProperty Name="khjcno" ColumnName="khjcno" />
+                <ScalarProperty Name="bgfs" ColumnName="bgfs" />
+                <ScalarProperty Name="yjjcdate" ColumnName="yjjcdate" />
+                <ScalarProperty Name="jhjcdate" ColumnName="jhjcdate" />
+                <ScalarProperty Name="bzlxpiece" ColumnName="bzlxpiece" />
+                <ScalarProperty Name="inwageallinprice" ColumnName="inwageallinprice" />
+                <ScalarProperty Name="isinwageallin" ColumnName="isinwageallin" />
+                <ScalarProperty Name="self_real_bp_freight_in" ColumnName="self_real_bp_freight_in" />
+                <ScalarProperty Name="cus_real_bp_freight_in" ColumnName="cus_real_bp_freight_in" />
+                <ScalarProperty Name="address_thr" ColumnName="address_thr" />
+                <ScalarProperty Name="lxr_thr" ColumnName="lxr_thr" />
+                <ScalarProperty Name="phone_thr" ColumnName="phone_thr" />
+                <ScalarProperty Name="address_shr" ColumnName="address_shr" />
+                <ScalarProperty Name="lxr_shr" ColumnName="lxr_shr" />
+                <ScalarProperty Name="phone_shr" ColumnName="phone_shr" />
+                <ScalarProperty Name="mawb_shr" ColumnName="mawb_shr" />
+                <ScalarProperty Name="mawb_fhr" ColumnName="mawb_fhr" />
+                <ScalarProperty Name="hawb_shr" ColumnName="hawb_shr" />
+                <ScalarProperty Name="hawb_fhr" ColumnName="hawb_fhr" />
+                <ScalarProperty Name="addman" ColumnName="addman" />
+                <ScalarProperty Name="adddate" ColumnName="adddate" />
+                <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+                <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+                <ScalarProperty Name="delman" ColumnName="delman" />
+                <ScalarProperty Name="deldate" ColumnName="deldate" />
+                <ScalarProperty Name="isdel" ColumnName="isdel" />
+                <ScalarProperty Name="assignman" ColumnName="assignman" />
+                <ScalarProperty Name="assigndate" ColumnName="assigndate" />
+                <ScalarProperty Name="acceptanceman" ColumnName="acceptanceman" />
+                <ScalarProperty Name="acceptancedate" ColumnName="acceptancedate" />
+                <ScalarProperty Name="acceptanceremark" ColumnName="acceptanceremark" />
+                <ScalarProperty Name="confirmman" ColumnName="confirmman" />
+                <ScalarProperty Name="confirmdate" ColumnName="confirmdate" />
+                <ScalarProperty Name="confirmremark" ColumnName="confirmremark" />
+                <ScalarProperty Name="submitman" ColumnName="submitman" />
+                <ScalarProperty Name="submitdate" ColumnName="submitdate" />
+                <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ex_AxplineWage">
+            <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_AxplineWage">
+              <MappingFragment StoreEntitySet="Ex_AxplineWage">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="sid" ColumnName="sid" />
+                <ScalarProperty Name="items" ColumnName="items" />
+                <ScalarProperty Name="gid" ColumnName="gid" />
+                <ScalarProperty Name="quote" ColumnName="quote" />
+                <ScalarProperty Name="wageinout" ColumnName="wageinout" />
+                <ScalarProperty Name="wagetype" ColumnName="wagetype" />
+                <ScalarProperty Name="wagedom" ColumnName="wagedom" />
+                <ScalarProperty Name="changerate" ColumnName="changerate" />
+                <ScalarProperty Name="num" ColumnName="num" />
+                <ScalarProperty Name="currency" ColumnName="currency" />
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="wageall" ColumnName="wageall" />
+                <ScalarProperty Name="leastwageall" ColumnName="leastwageall" />
+                <ScalarProperty Name="finishwageall_checkbill" ColumnName="finishwageall_checkbill" />
+                <ScalarProperty Name="finishwageall_invoice" ColumnName="finishwageall_invoice" />
+                <ScalarProperty Name="isfree" ColumnName="isfree" />
+                <ScalarProperty Name="confirmstatus" ColumnName="confirmstatus" />
+                <ScalarProperty Name="confirmman" ColumnName="confirmman" />
+                <ScalarProperty Name="confirmdate" ColumnName="confirmdate" />
+                <ScalarProperty Name="isdel" ColumnName="isdel" />
+                <ScalarProperty Name="addman" ColumnName="addman" />
+                <ScalarProperty Name="adddate" ColumnName="adddate" />
+                <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+                <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+                <ScalarProperty Name="delman" ColumnName="delman" />
+                <ScalarProperty Name="deldate" ColumnName="deldate" />
+                <ScalarProperty Name="remark" ColumnName="remark" />
+                <ScalarProperty Name="isshare" ColumnName="isshare" />
+                <ScalarProperty Name="sharetype" ColumnName="sharetype" />
+                <ScalarProperty Name="yssys" ColumnName="yssys" />
+                <ScalarProperty Name="isallin" ColumnName="isallin" />
+                <ScalarProperty Name="ismodify" ColumnName="ismodify" />
+                <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ex_HpoAxpline">
+            <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_HpoAxpline">
+              <MappingFragment StoreEntitySet="Ex_HpoAxpline">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="sid" ColumnName="sid" />
+                <ScalarProperty Name="hpono" ColumnName="hpono" />
+                <ScalarProperty Name="dom" ColumnName="dom" />
+                <ScalarProperty Name="gid" ColumnName="gid" />
+                <ScalarProperty Name="hawb" ColumnName="hawb" />
+                <ScalarProperty Name="dzarriverq" ColumnName="dzarriverq" />
+                <ScalarProperty Name="yqsfg" ColumnName="yqsfg" />
+                <ScalarProperty Name="mdg" ColumnName="mdg" />
+                <ScalarProperty Name="yqhbh" ColumnName="yqhbh" />
+                <ScalarProperty Name="yqhbrq" ColumnName="yqhbrq" />
+                <ScalarProperty Name="ybpiece" ColumnName="ybpiece" />
+                <ScalarProperty Name="ybweight" ColumnName="ybweight" />
+                <ScalarProperty Name="ybvolume" ColumnName="ybvolume" />
+                <ScalarProperty Name="tradeterm" ColumnName="tradeterm" />
+                <ScalarProperty Name="czremark" ColumnName="czremark" />
+                <ScalarProperty Name="otherremark" ColumnName="otherremark" />
+                <ScalarProperty Name="area" ColumnName="area" />
+                <ScalarProperty Name="system" ColumnName="system" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="hwlx" ColumnName="hwlx" />
+                <ScalarProperty Name="pm" ColumnName="pm" />
+                <ScalarProperty Name="khjcno" ColumnName="khjcno" />
+                <ScalarProperty Name="bgfs" ColumnName="bgfs" />
+                <ScalarProperty Name="yjjcdate" ColumnName="yjjcdate" />
+                <ScalarProperty Name="jhjcdate" ColumnName="jhjcdate" />
+                <ScalarProperty Name="inwageallinprice" ColumnName="inwageallinprice" />
+                <ScalarProperty Name="isinwageallin" ColumnName="isinwageallin" />
+                <ScalarProperty Name="self_real_bp_freight_in" ColumnName="self_real_bp_freight_in" />
+                <ScalarProperty Name="cus_real_bp_freight_in" ColumnName="cus_real_bp_freight_in" />
+                <ScalarProperty Name="address_thr" ColumnName="address_thr" />
+                <ScalarProperty Name="lxr_thr" ColumnName="lxr_thr" />
+                <ScalarProperty Name="phone_thr" ColumnName="phone_thr" />
+                <ScalarProperty Name="address_shr" ColumnName="address_shr" />
+                <ScalarProperty Name="lxr_shr" ColumnName="lxr_shr" />
+                <ScalarProperty Name="phone_shr" ColumnName="phone_shr" />
+                <ScalarProperty Name="mawb_shr" ColumnName="mawb_shr" />
+                <ScalarProperty Name="mawb_fhr" ColumnName="mawb_fhr" />
+                <ScalarProperty Name="hawb_shr" ColumnName="hawb_shr" />
+                <ScalarProperty Name="hawb_fhr" ColumnName="hawb_fhr" />
+                <ScalarProperty Name="addman" ColumnName="addman" />
+                <ScalarProperty Name="adddate" ColumnName="adddate" />
+                <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+                <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+                <ScalarProperty Name="delman" ColumnName="delman" />
+                <ScalarProperty Name="deldate" ColumnName="deldate" />
+                <ScalarProperty Name="isdel" ColumnName="isdel" />
+                <ScalarProperty Name="assignman" ColumnName="assignman" />
+                <ScalarProperty Name="assigndate" ColumnName="assigndate" />
+                <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ex_HpoAxplineWage">
+            <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_HpoAxplineWage">
+              <MappingFragment StoreEntitySet="Ex_HpoAxplineWage">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="sid" ColumnName="sid" />
+                <ScalarProperty Name="items" ColumnName="items" />
+                <ScalarProperty Name="gid" ColumnName="gid" />
+                <ScalarProperty Name="quote" ColumnName="quote" />
+                <ScalarProperty Name="wageinout" ColumnName="wageinout" />
+                <ScalarProperty Name="wagetype" ColumnName="wagetype" />
+                <ScalarProperty Name="wagedom" ColumnName="wagedom" />
+                <ScalarProperty Name="changerate" ColumnName="changerate" />
+                <ScalarProperty Name="num" ColumnName="num" />
+                <ScalarProperty Name="currency" ColumnName="currency" />
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="wageall" ColumnName="wageall" />
+                <ScalarProperty Name="leastwageall" ColumnName="leastwageall" />
+                <ScalarProperty Name="isfree" ColumnName="isfree" />
+                <ScalarProperty Name="confirmstatus" ColumnName="confirmstatus" />
+                <ScalarProperty Name="confirmman" ColumnName="confirmman" />
+                <ScalarProperty Name="confirmdate" ColumnName="confirmdate" />
+                <ScalarProperty Name="isdel" ColumnName="isdel" />
+                <ScalarProperty Name="addman" ColumnName="addman" />
+                <ScalarProperty Name="adddate" ColumnName="adddate" />
+                <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+                <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+                <ScalarProperty Name="delman" ColumnName="delman" />
+                <ScalarProperty Name="deldate" ColumnName="deldate" />
+                <ScalarProperty Name="remark" ColumnName="remark" />
+                <ScalarProperty Name="yssys" ColumnName="yssys" />
+                <ScalarProperty Name="isallin" ColumnName="isallin" />
+                <ScalarProperty Name="ismodify" ColumnName="ismodify" />
+                <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ex_PoImages">
+            <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_PoImages">
+              <MappingFragment StoreEntitySet="Ex_PoImages">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="jobno" ColumnName="jobno" />
+                <ScalarProperty Name="ftpaddress" ColumnName="ftpaddress" />
+                <ScalarProperty Name="fileaddress" ColumnName="fileaddress" />
+                <ScalarProperty Name="filename" ColumnName="filename" />
+                <ScalarProperty Name="rel_filename" ColumnName="rel_filename" />
+                <ScalarProperty Name="addman" ColumnName="addman" />
+                <ScalarProperty Name="adddate" ColumnName="adddate" />
+                <ScalarProperty Name="remark" ColumnName="remark" />
+                <ScalarProperty Name="fileType" ColumnName="fileType" />
+                <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ex_Store">
+            <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_Store">
+              <MappingFragment StoreEntitySet="Ex_Store">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="gzdno" ColumnName="gzdno" />
+                <ScalarProperty Name="storename" ColumnName="storename" />
+                <ScalarProperty Name="jcdate" ColumnName="jcdate" />
+                <ScalarProperty Name="jcno" ColumnName="jcno" />
+                <ScalarProperty Name="khjcno" ColumnName="khjcno" />
+                <ScalarProperty Name="hzdno" ColumnName="hzdno" />
+                <ScalarProperty Name="breakpiece" ColumnName="breakpiece" />
+                <ScalarProperty Name="moistpiece" ColumnName="moistpiece" />
+                <ScalarProperty Name="deformpiece" ColumnName="deformpiece" />
+                <ScalarProperty Name="arrowpiece" ColumnName="arrowpiece" />
+                <ScalarProperty Name="dangerpiece" ColumnName="dangerpiece" />
+                <ScalarProperty Name="otherbreakinfo" ColumnName="otherbreakinfo" />
+                <ScalarProperty Name="allpiece" ColumnName="allpiece" />
+                <ScalarProperty Name="lpiece" ColumnName="lpiece" />
+                <ScalarProperty Name="allweight" ColumnName="allweight" />
+                <ScalarProperty Name="allvolume" ColumnName="allvolume" />
+                <ScalarProperty Name="hwstatus" ColumnName="hwstatus" />
+                <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ex_Volume_Detaile">
+            <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_Volume_Detaile">
+              <MappingFragment StoreEntitySet="Ex_Volume_Detaile">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="jcno" ColumnName="jcno" />
+                <ScalarProperty Name="longs" ColumnName="longs" />
+                <ScalarProperty Name="widths" ColumnName="widths" />
+                <ScalarProperty Name="heighs" ColumnName="heighs" />
+                <ScalarProperty Name="piece" ColumnName="piece" />
+                <ScalarProperty Name="packagetypecode" ColumnName="packagetypecode" />
+                <ScalarProperty Name="packagetypename" ColumnName="packagetypename" />
+                <ScalarProperty Name="islimit" ColumnName="islimit" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ex_WffAaxplineWage">
+            <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_WffAaxplineWage">
+              <MappingFragment StoreEntitySet="Ex_WffAaxplineWage">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="sid" ColumnName="sid" />
+                <ScalarProperty Name="wffwageid" ColumnName="wffwageid" />
+                <ScalarProperty Name="items" ColumnName="items" />
+                <ScalarProperty Name="gid" ColumnName="gid" />
+                <ScalarProperty Name="quote" ColumnName="quote" />
+                <ScalarProperty Name="wageinout" ColumnName="wageinout" />
+                <ScalarProperty Name="wagetype" ColumnName="wagetype" />
+                <ScalarProperty Name="wagedom" ColumnName="wagedom" />
+                <ScalarProperty Name="changerate" ColumnName="changerate" />
+                <ScalarProperty Name="num" ColumnName="num" />
+                <ScalarProperty Name="currency" ColumnName="currency" />
+                <ScalarProperty Name="price" ColumnName="price" />
+                <ScalarProperty Name="wageall" ColumnName="wageall" />
+                <ScalarProperty Name="leastwageall" ColumnName="leastwageall" />
+                <ScalarProperty Name="isfree" ColumnName="isfree" />
+                <ScalarProperty Name="confirmstatus" ColumnName="confirmstatus" />
+                <ScalarProperty Name="confirmman" ColumnName="confirmman" />
+                <ScalarProperty Name="confirmdate" ColumnName="confirmdate" />
+                <ScalarProperty Name="isdel" ColumnName="isdel" />
+                <ScalarProperty Name="addman" ColumnName="addman" />
+                <ScalarProperty Name="adddate" ColumnName="adddate" />
+                <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+                <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+                <ScalarProperty Name="delman" ColumnName="delman" />
+                <ScalarProperty Name="deldate" ColumnName="deldate" />
+                <ScalarProperty Name="remark" ColumnName="remark" />
+                <ScalarProperty Name="yssys" ColumnName="yssys" />
+                <ScalarProperty Name="isallin" ColumnName="isallin" />
+                <ScalarProperty Name="ismodify" ColumnName="ismodify" />
+                <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ex_WffAxpline">
+            <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_WffAxpline">
+              <MappingFragment StoreEntitySet="Ex_WffAxpline">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="wffid" ColumnName="wffid" />
+                <ScalarProperty Name="area" ColumnName="area" />
+                <ScalarProperty Name="system" ColumnName="system" />
+                <ScalarProperty Name="jobno" ColumnName="jobno" />
+                <ScalarProperty Name="czlx" ColumnName="czlx" />
+                <ScalarProperty Name="gid" ColumnName="gid" />
+                <ScalarProperty Name="hwxz" ColumnName="hwxz" />
+                <ScalarProperty Name="khjcbh" ColumnName="khjcbh" />
+                <ScalarProperty Name="mawb" ColumnName="mawb" />
+                <ScalarProperty Name="realpiece" ColumnName="realpiece" />
+                <ScalarProperty Name="realweight" ColumnName="realweight" />
+                <ScalarProperty Name="realvolume" ColumnName="realvolume" />
+                <ScalarProperty Name="zdpiece" ColumnName="zdpiece" />
+                <ScalarProperty Name="zdweight" ColumnName="zdweight" />
+                <ScalarProperty Name="zdvolume" ColumnName="zdvolume" />
+                <ScalarProperty Name="accountweightin" ColumnName="accountweightin" />
+                <ScalarProperty Name="accountweightout" ColumnName="accountweightout" />
+                <ScalarProperty Name="jfweightin" ColumnName="jfweightin" />
+                <ScalarProperty Name="sfg" ColumnName="sfg" />
+                <ScalarProperty Name="zzg" ColumnName="zzg" />
+                <ScalarProperty Name="hbh" ColumnName="hbh" />
+                <ScalarProperty Name="hbrq" ColumnName="hbrq" />
+                <ScalarProperty Name="qfsj" ColumnName="qfsj" />
+                <ScalarProperty Name="bgxx" ColumnName="bgxx" />
+                <ScalarProperty Name="bglx" ColumnName="bglx" />
+                <ScalarProperty Name="dzstatus" ColumnName="dzstatus" />
+                <ScalarProperty Name="pcstatus" ColumnName="pcstatus" />
+                <ScalarProperty Name="bgstatus" ColumnName="bgstatus" />
+                <ScalarProperty Name="remark" ColumnName="remark" />
+                <ScalarProperty Name="addman" ColumnName="addman" />
+                <ScalarProperty Name="adddate" ColumnName="adddate" />
+                <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+                <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+                <ScalarProperty Name="delman" ColumnName="delman" />
+                <ScalarProperty Name="deldate" ColumnName="deldate" />
+                <ScalarProperty Name="isdel" ColumnName="isdel" />
+                <ScalarProperty Name="delreason" ColumnName="delreason" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WcPoManagementNew_2011Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="WcPoManagementNew_2011ModelStoreContainer">
+    <EntitySet Name="Ex_HpoAxpline" EntityType="WcPoManagementNew_2011Model.Store.Ex_HpoAxpline" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Ex_HpoAxpline">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="sid" Type="int" />
+    <Property Name="hpono" Type="varchar" MaxLength="20" />
+    <Property Name="dom" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="gid" Type="int" Nullable="false" />
+    <Property Name="hawb" Type="varchar" MaxLength="50" />
+    <Property Name="dzarriverq" Type="datetime" />
+    <Property Name="yqsfg" Type="varchar" MaxLength="3" />
+    <Property Name="mdg" Type="varchar" MaxLength="3" />
+    <Property Name="yqhbh" Type="varchar" MaxLength="8" />
+    <Property Name="yqhbrq" Type="datetime" />
+    <Property Name="ybpiece" Type="int" Nullable="false" />
+    <Property Name="ybweight" Type="decimal" Nullable="false" Scale="2" />
+    <Property Name="ybvolume" Type="decimal" Nullable="false" Scale="3" />
+    <Property Name="tradeterm" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="czremark" Type="nvarchar" MaxLength="500" />
+    <Property Name="otherremark" Type="nvarchar" MaxLength="500" />
+    <Property Name="area" Type="nvarchar" MaxLength="10" />
+    <Property Name="system" Type="nvarchar" MaxLength="10" />
+    <Property Name="status" Type="int" Nullable="false" />
+    <Property Name="hwlx" Type="nvarchar" MaxLength="50" />
+    <Property Name="pm" Type="nvarchar" MaxLength="200" />
+    <Property Name="khjcno" Type="varchar" MaxLength="200" />
+    <Property Name="bgfs" Type="nvarchar" MaxLength="20" />
+    <Property Name="yjjcdate" Type="datetime" />
+    <Property Name="jhjcdate" Type="datetime" />
+    <Property Name="inwageallinprice" Type="money" />
+    <Property Name="isinwageallin" Type="int" />
+    <Property Name="self_real_bp_freight_in" Type="decimal" Scale="1" />
+    <Property Name="cus_real_bp_freight_in" Type="decimal" Scale="1" />
+    <Property Name="address_thr" Type="nvarchar" MaxLength="500" />
+    <Property Name="lxr_thr" Type="nvarchar" MaxLength="50" />
+    <Property Name="phone_thr" Type="nvarchar" MaxLength="50" />
+    <Property Name="address_shr" Type="nvarchar" MaxLength="500" />
+    <Property Name="lxr_shr" Type="nvarchar" MaxLength="50" />
+    <Property Name="phone_shr" Type="nvarchar" MaxLength="50" />
+    <Property Name="mawb_shr" Type="nvarchar" MaxLength="500" />
+    <Property Name="mawb_fhr" Type="nvarchar" MaxLength="500" />
+    <Property Name="hawb_shr" Type="nvarchar" MaxLength="500" />
+    <Property Name="hawb_fhr" Type="nvarchar" MaxLength="500" />
+    <Property Name="addman" Type="nvarchar" Nullable="false" MaxLength="8" />
+    <Property Name="adddate" Type="datetime" Nullable="false" />
+    <Property Name="modifyman" Type="nvarchar" MaxLength="8" />
+    <Property Name="modifydate" Type="datetime" />
+    <Property Name="delman" Type="nvarchar" MaxLength="8" />
+    <Property Name="deldate" Type="datetime" />
+    <Property Name="isdel" Type="int" Nullable="false" />
+    <Property Name="assignman" Type="nvarchar" MaxLength="8" />
+    <Property Name="assigndate" Type="datetime" />
+    <Property Name="timestamp" Type="int" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,12 @@
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityMapper\bin\Debug\EntityMapper.dll
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityMapper\bin\Debug\EntityMapper.pdb
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityMapper\bin\Debug\AutoMapper.dll
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityMapper\bin\Debug\EntityModel.dll
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityMapper\bin\Debug\EntityFramework.dll
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityMapper\bin\Debug\EntityModel.pdb
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityMapper\bin\Debug\AutoMapper.xml
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityMapper\bin\Debug\EntityFramework.xml
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityMapper\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityMapper\obj\Debug\EntityMapper.csprojResolveAssemblyReference.cache
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityMapper\obj\Debug\EntityMapper.dll
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityMapper\obj\Debug\EntityMapper.pdb

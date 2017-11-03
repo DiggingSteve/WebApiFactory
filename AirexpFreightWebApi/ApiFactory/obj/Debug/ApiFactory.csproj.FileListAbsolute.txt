@@ -1,0 +1,6 @@
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\ApiFactory\bin\Debug\ApiFactory.dll
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\ApiFactory\bin\Debug\ApiFactory.pdb
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\ApiFactory\obj\Debug\ApiFactory.dll
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\ApiFactory\obj\Debug\ApiFactory.pdb
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\ApiFactory\bin\Debug\Newtonsoft.Json.dll
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\ApiFactory\bin\Debug\Newtonsoft.Json.xml

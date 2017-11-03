@@ -1,0 +1,740 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WcStore_2011ModelStoreContainer" CdmEntityContainer="WcStore_2011Entities">
+    <EntitySetMapping Name="Ex_BqModify">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_BqModify">
+        <MappingFragment StoreEntitySet="Ex_BqModify">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="mawb" ColumnName="mawb" />
+          <ScalarProperty Name="gzdno" ColumnName="gzdno" />
+          <ScalarProperty Name="oldmsg" ColumnName="oldmsg" />
+          <ScalarProperty Name="newmsg" ColumnName="newmsg" />
+          <ScalarProperty Name="newdate" ColumnName="newdate" />
+          <ScalarProperty Name="recvdate" ColumnName="recvdate" />
+          <ScalarProperty Name="recvman" ColumnName="recvman" />
+          <ScalarProperty Name="ready1" ColumnName="ready1" />
+          <ScalarProperty Name="ready2" ColumnName="ready2" />
+          <ScalarProperty Name="ready3" ColumnName="ready3" />
+          <ScalarProperty Name="ready4" ColumnName="ready4" />
+          <ScalarProperty Name="ready5" ColumnName="ready5" />
+          <ScalarProperty Name="ready6" ColumnName="ready6" />
+          <ScalarProperty Name="ready7" ColumnName="ready7" />
+          <ScalarProperty Name="ready8" ColumnName="ready8" />
+          <ScalarProperty Name="ready9" ColumnName="ready9" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Dcb_Detaile">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_Dcb_Detaile">
+        <MappingFragment StoreEntitySet="Ex_Dcb_Detaile">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="GzdNo" ColumnName="GzdNo" />
+          <ScalarProperty Name="DcbNo" ColumnName="DcbNo" />
+          <ScalarProperty Name="DcbWeight" ColumnName="DcbWeight" />
+          <ScalarProperty Name="Kwh" ColumnName="Kwh" />
+          <ScalarProperty Name="BreakPiece" ColumnName="BreakPiece" />
+          <ScalarProperty Name="MoistPiece" ColumnName="MoistPiece" />
+          <ScalarProperty Name="DeformPiece" ColumnName="DeformPiece" />
+          <ScalarProperty Name="Piece" ColumnName="Piece" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="Bh" ColumnName="Bh" />
+          <ScalarProperty Name="Storeid" ColumnName="Storeid" />
+          <ScalarProperty Name="Zcstatus" ColumnName="Zcstatus" />
+          <ScalarProperty Name="Photos" ColumnName="Photos" />
+          <ScalarProperty Name="Czman" ColumnName="Czman" />
+          <ScalarProperty Name="Czdate" ColumnName="Czdate" />
+          <ScalarProperty Name="Czmethod" ColumnName="Czmethod" />
+          <ScalarProperty Name="ready1" ColumnName="ready1" />
+          <ScalarProperty Name="ready2" ColumnName="ready2" />
+          <ScalarProperty Name="ready3" ColumnName="ready3" />
+          <ScalarProperty Name="ready4" ColumnName="ready4" />
+          <ScalarProperty Name="ready5" ColumnName="ready5" />
+          <ScalarProperty Name="ready6" ColumnName="ready6" />
+          <ScalarProperty Name="ready7" ColumnName="ready7" />
+          <ScalarProperty Name="ready8" ColumnName="ready8" />
+          <ScalarProperty Name="ready9" ColumnName="ready9" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+          <ScalarProperty Name="ready11" ColumnName="ready11" />
+          <ScalarProperty Name="ready12" ColumnName="ready12" />
+          <ScalarProperty Name="ready13" ColumnName="ready13" />
+          <ScalarProperty Name="ready14" ColumnName="ready14" />
+          <ScalarProperty Name="ready15" ColumnName="ready15" />
+          <ScalarProperty Name="ready16" ColumnName="ready16" />
+          <ScalarProperty Name="ready17" ColumnName="ready17" />
+          <ScalarProperty Name="ready18" ColumnName="ready18" />
+          <ScalarProperty Name="ready19" ColumnName="ready19" />
+          <ScalarProperty Name="ready20" ColumnName="ready20" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Dcb_Protect">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_Dcb_Protect">
+        <MappingFragment StoreEntitySet="Ex_Dcb_Protect">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DcbNo" ColumnName="DcbNo" />
+          <ScalarProperty Name="DcbType" ColumnName="DcbType" />
+          <ScalarProperty Name="DcbWeight" ColumnName="DcbWeight" />
+          <ScalarProperty Name="DcbStatus" ColumnName="DcbStatus" />
+          <ScalarProperty Name="Dcbkwh" ColumnName="Dcbkwh" />
+          <ScalarProperty Name="DcbStoreid" ColumnName="DcbStoreid" />
+          <ScalarProperty Name="DcbTp" ColumnName="DcbTp" />
+          <ScalarProperty Name="DcbRemark" ColumnName="DcbRemark" />
+          <ScalarProperty Name="Ckr" ColumnName="Ckr" />
+          <ScalarProperty Name="Ckdate" ColumnName="Ckdate" />
+          <ScalarProperty Name="ready1" ColumnName="ready1" />
+          <ScalarProperty Name="ready2" ColumnName="ready2" />
+          <ScalarProperty Name="ready3" ColumnName="ready3" />
+          <ScalarProperty Name="ready4" ColumnName="ready4" />
+          <ScalarProperty Name="ready5" ColumnName="ready5" />
+          <ScalarProperty Name="ready6" ColumnName="ready6" />
+          <ScalarProperty Name="ready7" ColumnName="ready7" />
+          <ScalarProperty Name="ready8" ColumnName="ready8" />
+          <ScalarProperty Name="ready9" ColumnName="ready9" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Document_Detaile">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_Document_Detaile">
+        <MappingFragment StoreEntitySet="Ex_Document_Detaile">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="JcNo" ColumnName="JcNo" />
+          <ScalarProperty Name="Mawb" ColumnName="Mawb" />
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+          <ScalarProperty Name="FileNumber" ColumnName="FileNumber" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="Indate" ColumnName="Indate" />
+          <ScalarProperty Name="Inman" ColumnName="Inman" />
+          <ScalarProperty Name="ready1" ColumnName="ready1" />
+          <ScalarProperty Name="ready2" ColumnName="ready2" />
+          <ScalarProperty Name="ready3" ColumnName="ready3" />
+          <ScalarProperty Name="ready4" ColumnName="ready4" />
+          <ScalarProperty Name="ready5" ColumnName="ready5" />
+          <ScalarProperty Name="ready6" ColumnName="ready6" />
+          <ScalarProperty Name="ready7" ColumnName="ready7" />
+          <ScalarProperty Name="ready8" ColumnName="ready8" />
+          <ScalarProperty Name="ready9" ColumnName="ready9" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_ExpDataLog">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_ExpDataLog">
+        <MappingFragment StoreEntitySet="Ex_ExpDataLog">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="wtkhcode" ColumnName="wtkhcode" />
+          <ScalarProperty Name="wtkhname" ColumnName="wtkhname" />
+          <ScalarProperty Name="expdate" ColumnName="expdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Hawb">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_Hawb">
+        <MappingFragment StoreEntitySet="Ex_Hawb">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mawb" ColumnName="mawb" />
+          <ScalarProperty Name="hawb" ColumnName="hawb" />
+          <ScalarProperty Name="ready1" ColumnName="ready1" />
+          <ScalarProperty Name="ready2" ColumnName="ready2" />
+          <ScalarProperty Name="reaady3" ColumnName="reaady3" />
+          <ScalarProperty Name="ready4" ColumnName="ready4" />
+          <ScalarProperty Name="ready5" ColumnName="ready5" />
+          <ScalarProperty Name="ready6" ColumnName="ready6" />
+          <ScalarProperty Name="ready7" ColumnName="ready7" />
+          <ScalarProperty Name="ready8" ColumnName="ready8" />
+          <ScalarProperty Name="reawdy9" ColumnName="reawdy9" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+          <ScalarProperty Name="ready11" ColumnName="ready11" />
+          <ScalarProperty Name="ready12" ColumnName="ready12" />
+          <ScalarProperty Name="ready13" ColumnName="ready13" />
+          <ScalarProperty Name="ready14" ColumnName="ready14" />
+          <ScalarProperty Name="ready15" ColumnName="ready15" />
+          <ScalarProperty Name="ready16" ColumnName="ready16" />
+          <ScalarProperty Name="ready17" ColumnName="ready17" />
+          <ScalarProperty Name="ready18" ColumnName="ready18" />
+          <ScalarProperty Name="ready19" ColumnName="ready19" />
+          <ScalarProperty Name="ready20" ColumnName="ready20" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_HbqScan">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_HbqScan">
+        <MappingFragment StoreEntitySet="Ex_HbqScan">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="scannum" ColumnName="scannum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Jjd">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_Jjd">
+        <MappingFragment StoreEntitySet="Ex_Jjd">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="GzdNo" ColumnName="GzdNo" />
+          <ScalarProperty Name="Mawb" ColumnName="Mawb" />
+          <ScalarProperty Name="Hawb" ColumnName="Hawb" />
+          <ScalarProperty Name="JjTypeCode" ColumnName="JjTypeCode" />
+          <ScalarProperty Name="JjTypeName" ColumnName="JjTypeName" />
+          <ScalarProperty Name="JjdateTime" ColumnName="JjdateTime" />
+          <ScalarProperty Name="BxWeight" ColumnName="BxWeight" />
+          <ScalarProperty Name="BW" ColumnName="BW" />
+          <ScalarProperty Name="BxNo" ColumnName="BxNo" />
+          <ScalarProperty Name="ZbPiece" ColumnName="ZbPiece" />
+          <ScalarProperty Name="ZbWeight" ColumnName="ZbWeight" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="ready1" ColumnName="ready1" />
+          <ScalarProperty Name="ready2" ColumnName="ready2" />
+          <ScalarProperty Name="ready3" ColumnName="ready3" />
+          <ScalarProperty Name="ready4" ColumnName="ready4" />
+          <ScalarProperty Name="ready5" ColumnName="ready5" />
+          <ScalarProperty Name="ready6" ColumnName="ready6" />
+          <ScalarProperty Name="ready7" ColumnName="ready7" />
+          <ScalarProperty Name="ready8" ColumnName="ready8" />
+          <ScalarProperty Name="ready9" ColumnName="ready9" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Kw">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_Kw">
+        <MappingFragment StoreEntitySet="Ex_Kw">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="qyid" ColumnName="qyid" />
+          <ScalarProperty Name="Kwh" ColumnName="Kwh" />
+          <ScalarProperty Name="KwUse" ColumnName="KwUse" />
+          <ScalarProperty Name="KwStatus" ColumnName="KwStatus" />
+          <ScalarProperty Name="KwNum" ColumnName="KwNum" />
+          <ScalarProperty Name="UseKwNum" ColumnName="UseKwNum" />
+          <ScalarProperty Name="ready1" ColumnName="ready1" />
+          <ScalarProperty Name="ready2" ColumnName="ready2" />
+          <ScalarProperty Name="ready3" ColumnName="ready3" />
+          <ScalarProperty Name="ready4" ColumnName="ready4" />
+          <ScalarProperty Name="ready5" ColumnName="ready5" />
+          <ScalarProperty Name="ready6" ColumnName="ready6" />
+          <ScalarProperty Name="ready7" ColumnName="ready7" />
+          <ScalarProperty Name="ready8" ColumnName="ready8" />
+          <ScalarProperty Name="ready9" ColumnName="ready9" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ex_kw_kwqy">
+      <EntityTypeMapping TypeName="WcStore_2011Model.ex_kw_kwqy">
+        <MappingFragment StoreEntitySet="ex_kw_kwqy">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="storeid" ColumnName="storeid" />
+          <ScalarProperty Name="kwqy" ColumnName="kwqy" />
+          <ScalarProperty Name="bh" ColumnName="bh" />
+          <ScalarProperty Name="hwlx" ColumnName="hwlx" />
+          <ScalarProperty Name="isauto" ColumnName="isauto" />
+          <ScalarProperty Name="kwpackage" ColumnName="kwpackage" />
+          <ScalarProperty Name="kwlx" ColumnName="kwlx" />
+          <ScalarProperty Name="kwrl" ColumnName="kwrl" />
+          <ScalarProperty Name="kqheight" ColumnName="kqheight" />
+          <ScalarProperty Name="oper" ColumnName="oper" />
+          <ScalarProperty Name="operdate" ColumnName="operdate" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="usekwrl" ColumnName="usekwrl" />
+          <ScalarProperty Name="ready1" ColumnName="ready1" />
+          <ScalarProperty Name="ready2" ColumnName="ready2" />
+          <ScalarProperty Name="ready3" ColumnName="ready3" />
+          <ScalarProperty Name="ready4" ColumnName="ready4" />
+          <ScalarProperty Name="ready5" ColumnName="ready5" />
+          <ScalarProperty Name="ready6" ColumnName="ready6" />
+          <ScalarProperty Name="ready7" ColumnName="ready7" />
+          <ScalarProperty Name="ready8" ColumnName="ready8" />
+          <ScalarProperty Name="ready9" ColumnName="ready9" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+          <ScalarProperty Name="lockstatus" ColumnName="lockstatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Log">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_Log">
+        <MappingFragment StoreEntitySet="Ex_Log">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="g_title" ColumnName="g_title" />
+          <ScalarProperty Name="g_content" ColumnName="g_content" />
+          <ScalarProperty Name="czman" ColumnName="czman" />
+          <ScalarProperty Name="czdate" ColumnName="czdate" />
+          <ScalarProperty Name="cdate" ColumnName="cdate" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="ready01" ColumnName="ready01" />
+          <ScalarProperty Name="ready02" ColumnName="ready02" />
+          <ScalarProperty Name="ready03" ColumnName="ready03" />
+          <ScalarProperty Name="ready04" ColumnName="ready04" />
+          <ScalarProperty Name="ready05" ColumnName="ready05" />
+          <ScalarProperty Name="ready06" ColumnName="ready06" />
+          <ScalarProperty Name="ready07" ColumnName="ready07" />
+          <ScalarProperty Name="ready08" ColumnName="ready08" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Mawb">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_Mawb">
+        <MappingFragment StoreEntitySet="Ex_Mawb">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="mawb" ColumnName="mawb" />
+          <ScalarProperty Name="hbh" ColumnName="hbh" />
+          <ScalarProperty Name="hbrq" ColumnName="hbrq" />
+          <ScalarProperty Name="qyg" ColumnName="qyg" />
+          <ScalarProperty Name="dest" ColumnName="dest" />
+          <ScalarProperty Name="ready1" ColumnName="ready1" />
+          <ScalarProperty Name="ready2" ColumnName="ready2" />
+          <ScalarProperty Name="ready3" ColumnName="ready3" />
+          <ScalarProperty Name="ready4" ColumnName="ready4" />
+          <ScalarProperty Name="ready5" ColumnName="ready5" />
+          <ScalarProperty Name="ready6" ColumnName="ready6" />
+          <ScalarProperty Name="ready7" ColumnName="ready7" />
+          <ScalarProperty Name="ready8" ColumnName="ready8" />
+          <ScalarProperty Name="ready9" ColumnName="ready9" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+          <ScalarProperty Name="ready11" ColumnName="ready11" />
+          <ScalarProperty Name="ready12" ColumnName="ready12" />
+          <ScalarProperty Name="ready13" ColumnName="ready13" />
+          <ScalarProperty Name="ready14" ColumnName="ready14" />
+          <ScalarProperty Name="ready15" ColumnName="ready15" />
+          <ScalarProperty Name="ready16" ColumnName="ready16" />
+          <ScalarProperty Name="ready17" ColumnName="ready17" />
+          <ScalarProperty Name="ready18" ColumnName="ready18" />
+          <ScalarProperty Name="ready19" ColumnName="ready19" />
+          <ScalarProperty Name="ready20" ColumnName="ready20" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Photo_Detaile">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_Photo_Detaile">
+        <MappingFragment StoreEntitySet="Ex_Photo_Detaile">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="JcNo" ColumnName="JcNo" />
+          <ScalarProperty Name="PhotoUrl" ColumnName="PhotoUrl" />
+          <ScalarProperty Name="ready1" ColumnName="ready1" />
+          <ScalarProperty Name="ready2" ColumnName="ready2" />
+          <ScalarProperty Name="ready3" ColumnName="ready3" />
+          <ScalarProperty Name="ready4" ColumnName="ready4" />
+          <ScalarProperty Name="ready5" ColumnName="ready5" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_SandK">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_SandK">
+        <MappingFragment StoreEntitySet="Ex_SandK">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="GzdNo" ColumnName="GzdNo" />
+          <ScalarProperty Name="KhJcxh" ColumnName="KhJcxh" />
+          <ScalarProperty Name="OperateMan" ColumnName="OperateMan" />
+          <ScalarProperty Name="OperateDate" ColumnName="OperateDate" />
+          <ScalarProperty Name="ConsumMan" ColumnName="ConsumMan" />
+          <ScalarProperty Name="ConsumDate" ColumnName="ConsumDate" />
+          <ScalarProperty Name="ready1" ColumnName="ready1" />
+          <ScalarProperty Name="ready2" ColumnName="ready2" />
+          <ScalarProperty Name="ready3" ColumnName="ready3" />
+          <ScalarProperty Name="ready4" ColumnName="ready4" />
+          <ScalarProperty Name="ready5" ColumnName="ready5" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Store">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_Store">
+        <MappingFragment StoreEntitySet="Ex_Store">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Gzdno" ColumnName="Gzdno" />
+          <ScalarProperty Name="Mawb" ColumnName="Mawb" />
+          <ScalarProperty Name="Hawb" ColumnName="Hawb" />
+          <ScalarProperty Name="StoreId" ColumnName="StoreId" />
+          <ScalarProperty Name="JcDate" ColumnName="JcDate" />
+          <ScalarProperty Name="JcTime" ColumnName="JcTime" />
+          <ScalarProperty Name="JcNo" ColumnName="JcNo" />
+          <ScalarProperty Name="KhJcNo" ColumnName="KhJcNo" />
+          <ScalarProperty Name="ShMan" ColumnName="ShMan" />
+          <ScalarProperty Name="ShDw" ColumnName="ShDw" />
+          <ScalarProperty Name="WtKhCode" ColumnName="WtKhCode" />
+          <ScalarProperty Name="WtKhName" ColumnName="WtKhName" />
+          <ScalarProperty Name="HzdNo" ColumnName="HzdNo" />
+          <ScalarProperty Name="CarNo" ColumnName="CarNo" />
+          <ScalarProperty Name="Goodstype" ColumnName="Goodstype" />
+          <ScalarProperty Name="DressNorm" ColumnName="DressNorm" />
+          <ScalarProperty Name="Dress" ColumnName="Dress" />
+          <ScalarProperty Name="BreakPiece" ColumnName="BreakPiece" />
+          <ScalarProperty Name="MoistPiece" ColumnName="MoistPiece" />
+          <ScalarProperty Name="DeformPiece" ColumnName="DeformPiece" />
+          <ScalarProperty Name="GoodsMark" ColumnName="GoodsMark" />
+          <ScalarProperty Name="GoodsRemark" ColumnName="GoodsRemark" />
+          <ScalarProperty Name="GfWeight" ColumnName="GfWeight" />
+          <ScalarProperty Name="FDocument" ColumnName="FDocument" />
+          <ScalarProperty Name="AllPiece" ColumnName="AllPiece" />
+          <ScalarProperty Name="LPiece" ColumnName="LPiece" />
+          <ScalarProperty Name="AllWeight" ColumnName="AllWeight" />
+          <ScalarProperty Name="AllVolum" ColumnName="AllVolum" />
+          <ScalarProperty Name="IsCx" ColumnName="IsCx" />
+          <ScalarProperty Name="DcbNum" ColumnName="DcbNum" />
+          <ScalarProperty Name="CkType" ColumnName="CkType" />
+          <ScalarProperty Name="GoodsTp" ColumnName="GoodsTp" />
+          <ScalarProperty Name="CkDate" ColumnName="CkDate" />
+          <ScalarProperty Name="CkMan" ColumnName="CkMan" />
+          <ScalarProperty Name="Cksd" ColumnName="Cksd" />
+          <ScalarProperty Name="NCkReason" ColumnName="NCkReason" />
+          <ScalarProperty Name="YqCkDate" ColumnName="YqCkDate" />
+          <ScalarProperty Name="IsReadyCk" ColumnName="IsReadyCk" />
+          <ScalarProperty Name="Rkman" ColumnName="Rkman" />
+          <ScalarProperty Name="Modifyman" ColumnName="Modifyman" />
+          <ScalarProperty Name="Modifydate" ColumnName="Modifydate" />
+          <ScalarProperty Name="Photos" ColumnName="Photos" />
+          <ScalarProperty Name="Photos_basic" ColumnName="Photos_basic" />
+          <ScalarProperty Name="Iskh" ColumnName="Iskh" />
+          <ScalarProperty Name="Kh_Jcno" ColumnName="Kh_Jcno" />
+          <ScalarProperty Name="Kh_Storeid" ColumnName="Kh_Storeid" />
+          <ScalarProperty Name="Kh_Jcdate" ColumnName="Kh_Jcdate" />
+          <ScalarProperty Name="Kh_Jctime" ColumnName="Kh_Jctime" />
+          <ScalarProperty Name="Kh_Rkman" ColumnName="Kh_Rkman" />
+          <ScalarProperty Name="Kh_AllPiece" ColumnName="Kh_AllPiece" />
+          <ScalarProperty Name="Kh_AllWeight" ColumnName="Kh_AllWeight" />
+          <ScalarProperty Name="Kh_AllVolum" ColumnName="Kh_AllVolum" />
+          <ScalarProperty Name="Kh_Status" ColumnName="Kh_Status" />
+          <ScalarProperty Name="Kh_Remark" ColumnName="Kh_Remark" />
+          <ScalarProperty Name="IsBackStore" ColumnName="IsBackStore" />
+          <ScalarProperty Name="ready1" ColumnName="ready1" />
+          <ScalarProperty Name="ready2" ColumnName="ready2" />
+          <ScalarProperty Name="ready3" ColumnName="ready3" />
+          <ScalarProperty Name="ready4" ColumnName="ready4" />
+          <ScalarProperty Name="ready5" ColumnName="ready5" />
+          <ScalarProperty Name="ready6" ColumnName="ready6" />
+          <ScalarProperty Name="ready7" ColumnName="ready7" />
+          <ScalarProperty Name="ready8" ColumnName="ready8" />
+          <ScalarProperty Name="ready9" ColumnName="ready9" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+          <ScalarProperty Name="ready11" ColumnName="ready11" />
+          <ScalarProperty Name="ready12" ColumnName="ready12" />
+          <ScalarProperty Name="ready13" ColumnName="ready13" />
+          <ScalarProperty Name="ready14" ColumnName="ready14" />
+          <ScalarProperty Name="ready15" ColumnName="ready15" />
+          <ScalarProperty Name="ready16" ColumnName="ready16" />
+          <ScalarProperty Name="ready17" ColumnName="ready17" />
+          <ScalarProperty Name="ready18" ColumnName="ready18" />
+          <ScalarProperty Name="ready19" ColumnName="ready19" />
+          <ScalarProperty Name="ready20" ColumnName="ready20" />
+          <ScalarProperty Name="Isdel" ColumnName="Isdel" />
+          <ScalarProperty Name="KhHawbid" ColumnName="KhHawbid" />
+          <ScalarProperty Name="KhStoreStatus" ColumnName="KhStoreStatus" />
+          <ScalarProperty Name="hwstatus" ColumnName="hwstatus" />
+          <ScalarProperty Name="gid" ColumnName="gid" />
+          <ScalarProperty Name="rkyq" ColumnName="rkyq" />
+          <ScalarProperty Name="labelman" ColumnName="labelman" />
+          <ScalarProperty Name="labeldate" ColumnName="labeldate" />
+          <ScalarProperty Name="accman" ColumnName="accman" />
+          <ScalarProperty Name="accdate" ColumnName="accdate" />
+          <ScalarProperty Name="securityman" ColumnName="securityman" />
+          <ScalarProperty Name="securitydate" ColumnName="securitydate" />
+          <ScalarProperty Name="securitycheckman" ColumnName="securitycheckman" />
+          <ScalarProperty Name="securitycheckdate" ColumnName="securitycheckdate" />
+          <ScalarProperty Name="securitybukleman" ColumnName="securitybukleman" />
+          <ScalarProperty Name="securitybukledate" ColumnName="securitybukledate" />
+          <ScalarProperty Name="securityreleaseman" ColumnName="securityreleaseman" />
+          <ScalarProperty Name="securityreleasedate" ColumnName="securityreleasedate" />
+          <ScalarProperty Name="connman" ColumnName="connman" />
+          <ScalarProperty Name="conndate" ColumnName="conndate" />
+          <ScalarProperty Name="securityshutoutman" ColumnName="securityshutoutman" />
+          <ScalarProperty Name="securityshutoutdate" ColumnName="securityshutoutdate" />
+          <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+          <ScalarProperty Name="phman" ColumnName="phman" />
+          <ScalarProperty Name="phdate" ColumnName="phdate" />
+          <ScalarProperty Name="zcman" ColumnName="zcman" />
+          <ScalarProperty Name="zcdate" ColumnName="zcdate" />
+          <ScalarProperty Name="sealpiece" ColumnName="sealpiece" />
+          <ScalarProperty Name="arrowpiece" ColumnName="arrowpiece" />
+          <ScalarProperty Name="dangerpiece" ColumnName="dangerpiece" />
+          <ScalarProperty Name="otherbreakinfo" ColumnName="otherbreakinfo" />
+          <ScalarProperty Name="sharegoodstype" ColumnName="sharegoodstype" />
+          <ScalarProperty Name="packagetype" ColumnName="packagetype" />
+          <ScalarProperty Name="fdocumenttype" ColumnName="fdocumenttype" />
+          <ScalarProperty Name="productname" ColumnName="productname" />
+          <ScalarProperty Name="drivermobile" ColumnName="drivermobile" />
+          <ScalarProperty Name="KhJcnoHead" ColumnName="KhJcnoHead" />
+          <ScalarProperty Name="KhJcnoEnd" ColumnName="KhJcnoEnd" />
+          <ScalarProperty Name="TallyState" ColumnName="TallyState" />
+          <ScalarProperty Name="TallyDate" ColumnName="TallyDate" />
+          <ScalarProperty Name="TallyMan" ColumnName="TallyMan" />
+          <ScalarProperty Name="LabelState" ColumnName="LabelState" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Store_Expand">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_Store_Expand">
+        <MappingFragment StoreEntitySet="Ex_Store_Expand">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Gzdno" ColumnName="Gzdno" />
+          <ScalarProperty Name="PcStatus" ColumnName="PcStatus" />
+          <ScalarProperty Name="GoosInStatus" ColumnName="GoosInStatus" />
+          <ScalarProperty Name="GoosOutStatus" ColumnName="GoosOutStatus" />
+          <ScalarProperty Name="GoosLockStatus" ColumnName="GoosLockStatus" />
+          <ScalarProperty Name="JssqStatus" ColumnName="JssqStatus" />
+          <ScalarProperty Name="JsspStatus" ColumnName="JsspStatus" />
+          <ScalarProperty Name="ZcStatus" ColumnName="ZcStatus" />
+          <ScalarProperty Name="ready1" ColumnName="ready1" />
+          <ScalarProperty Name="ready2" ColumnName="ready2" />
+          <ScalarProperty Name="ready3" ColumnName="ready3" />
+          <ScalarProperty Name="ready4" ColumnName="ready4" />
+          <ScalarProperty Name="ready5" ColumnName="ready5" />
+          <ScalarProperty Name="ready6" ColumnName="ready6" />
+          <ScalarProperty Name="ready7" ColumnName="ready7" />
+          <ScalarProperty Name="ready8" ColumnName="ready8" />
+          <ScalarProperty Name="ready9" ColumnName="ready9" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Store_Kh">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_Store_Kh">
+        <MappingFragment StoreEntitySet="Ex_Store_Kh">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KhJcxh" ColumnName="KhJcxh" />
+          <ScalarProperty Name="YjStore" ColumnName="YjStore" />
+          <ScalarProperty Name="Mawb" ColumnName="Mawb" />
+          <ScalarProperty Name="Hawb" ColumnName="Hawb" />
+          <ScalarProperty Name="Hbh" ColumnName="Hbh" />
+          <ScalarProperty Name="Hbrq" ColumnName="Hbrq" />
+          <ScalarProperty Name="Hbsj" ColumnName="Hbsj" />
+          <ScalarProperty Name="YjStoreTime" ColumnName="YjStoreTime" />
+          <ScalarProperty Name="KPiece" ColumnName="KPiece" />
+          <ScalarProperty Name="KWeight" ColumnName="KWeight" />
+          <ScalarProperty Name="KVolum" ColumnName="KVolum" />
+          <ScalarProperty Name="KhCode" ColumnName="KhCode" />
+          <ScalarProperty Name="KhName" ColumnName="KhName" />
+          <ScalarProperty Name="KhJcbh" ColumnName="KhJcbh" />
+          <ScalarProperty Name="GoodsMark" ColumnName="GoodsMark" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="ready1" ColumnName="ready1" />
+          <ScalarProperty Name="ready2" ColumnName="ready2" />
+          <ScalarProperty Name="ready3" ColumnName="ready3" />
+          <ScalarProperty Name="ready4" ColumnName="ready4" />
+          <ScalarProperty Name="ready5" ColumnName="ready5" />
+          <ScalarProperty Name="ready6" ColumnName="ready6" />
+          <ScalarProperty Name="ready7" ColumnName="ready7" />
+          <ScalarProperty Name="ready8" ColumnName="ready8" />
+          <ScalarProperty Name="ready9" ColumnName="ready9" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_StoreManager">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_StoreManager">
+        <MappingFragment StoreEntitySet="Ex_StoreManager">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="storename" ColumnName="storename" />
+          <ScalarProperty Name="begintime" ColumnName="begintime" />
+          <ScalarProperty Name="endtime" ColumnName="endtime" />
+          <ScalarProperty Name="isjg" ColumnName="isjg" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="ready1" ColumnName="ready1" />
+          <ScalarProperty Name="ready2" ColumnName="ready2" />
+          <ScalarProperty Name="ready3" ColumnName="ready3" />
+          <ScalarProperty Name="ready4" ColumnName="ready4" />
+          <ScalarProperty Name="ready5" ColumnName="ready5" />
+          <ScalarProperty Name="ready6" ColumnName="ready6" />
+          <ScalarProperty Name="ready7" ColumnName="ready7" />
+          <ScalarProperty Name="ready8" ColumnName="ready8" />
+          <ScalarProperty Name="ready9" ColumnName="ready9" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_StoreNewValue">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_StoreNewValue">
+        <MappingFragment StoreEntitySet="Ex_StoreNewValue">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="mawbno" ColumnName="mawbno" />
+          <ScalarProperty Name="jcno" ColumnName="jcno" />
+          <ScalarProperty Name="piece" ColumnName="piece" />
+          <ScalarProperty Name="mawbtype" ColumnName="mawbtype" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="Volum" ColumnName="Volum" />
+          <ScalarProperty Name="AddMan" ColumnName="AddMan" />
+          <ScalarProperty Name="AddDate" ColumnName="AddDate" />
+          <ScalarProperty Name="Zcstatus" ColumnName="Zcstatus" />
+          <ScalarProperty Name="isdel" ColumnName="isdel" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="Ready01" ColumnName="Ready01" />
+          <ScalarProperty Name="Ready02" ColumnName="Ready02" />
+          <ScalarProperty Name="Ready03" ColumnName="Ready03" />
+          <ScalarProperty Name="Ready04" ColumnName="Ready04" />
+          <ScalarProperty Name="Ready05" ColumnName="Ready05" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Truck">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_Truck">
+        <MappingFragment StoreEntitySet="Ex_Truck">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="GzdNo" ColumnName="GzdNo" />
+          <ScalarProperty Name="Sfg" ColumnName="Sfg" />
+          <ScalarProperty Name="Sfd" ColumnName="Sfd" />
+          <ScalarProperty Name="Servicetype" ColumnName="Servicetype" />
+          <ScalarProperty Name="Dest" ColumnName="Dest" />
+          <ScalarProperty Name="Truckid" ColumnName="Truckid" />
+          <ScalarProperty Name="TruckNo" ColumnName="TruckNo" />
+          <ScalarProperty Name="TruckName" ColumnName="TruckName" />
+          <ScalarProperty Name="TruckPhone" ColumnName="TruckPhone" />
+          <ScalarProperty Name="TruckStype" ColumnName="TruckStype" />
+          <ScalarProperty Name="TruckTime" ColumnName="TruckTime" />
+          <ScalarProperty Name="truckaddman" ColumnName="truckaddman" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="hgprice" ColumnName="hgprice" />
+          <ScalarProperty Name="hgweight" ColumnName="hgweight" />
+          <ScalarProperty Name="FengNo" ColumnName="FengNo" />
+          <ScalarProperty Name="CusCarNo" ColumnName="CusCarNo" />
+          <ScalarProperty Name="islockstatus" ColumnName="islockstatus" />
+          <ScalarProperty Name="islockaddman" ColumnName="islockaddman" />
+          <ScalarProperty Name="islockaddtime" ColumnName="islockaddtime" />
+          <ScalarProperty Name="AddMan" ColumnName="AddMan" />
+          <ScalarProperty Name="AddDate" ColumnName="AddDate" />
+          <ScalarProperty Name="isdel" ColumnName="isdel" />
+          <ScalarProperty Name="DelMan" ColumnName="DelMan" />
+          <ScalarProperty Name="DelDate" ColumnName="DelDate" />
+          <ScalarProperty Name="isedit" ColumnName="isedit" />
+          <ScalarProperty Name="ishgedit" ColumnName="ishgedit" />
+          <ScalarProperty Name="wooddcbnum" ColumnName="wooddcbnum" />
+          <ScalarProperty Name="othernum" ColumnName="othernum" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="Ready01" ColumnName="Ready01" />
+          <ScalarProperty Name="Ready02" ColumnName="Ready02" />
+          <ScalarProperty Name="Ready03" ColumnName="Ready03" />
+          <ScalarProperty Name="Ready04" ColumnName="Ready04" />
+          <ScalarProperty Name="Ready05" ColumnName="Ready05" />
+          <ScalarProperty Name="Receiptno" ColumnName="Receiptno" />
+          <ScalarProperty Name="TranStatus" ColumnName="TranStatus" />
+          <ScalarProperty Name="TruckBackTime" ColumnName="TruckBackTime" />
+          <ScalarProperty Name="BreakPiece" ColumnName="BreakPiece" />
+          <ScalarProperty Name="MoistPiece" ColumnName="MoistPiece" />
+          <ScalarProperty Name="DeformPiece" ColumnName="DeformPiece" />
+          <ScalarProperty Name="TruckGrade" ColumnName="TruckGrade" />
+          <ScalarProperty Name="Truckfee1" ColumnName="Truckfee1" />
+          <ScalarProperty Name="Truckfee2" ColumnName="Truckfee2" />
+          <ScalarProperty Name="TruckJobno" ColumnName="TruckJobno" />
+          <ScalarProperty Name="Ischeck1" ColumnName="Ischeck1" />
+          <ScalarProperty Name="Ischeck2" ColumnName="Ischeck2" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="TGroup" ColumnName="TGroup" />
+          <ScalarProperty Name="Truckfeeremark" ColumnName="Truckfeeremark" />
+          <ScalarProperty Name="jcno" ColumnName="jcno" />
+          <ScalarProperty Name="dcbid" ColumnName="dcbid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Truck_Detaile">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_Truck_Detaile">
+        <MappingFragment StoreEntitySet="Ex_Truck_Detaile">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Tid" ColumnName="Tid" />
+          <ScalarProperty Name="DcbNo" ColumnName="DcbNo" />
+          <ScalarProperty Name="AddMan" ColumnName="AddMan" />
+          <ScalarProperty Name="AddDate" ColumnName="AddDate" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="Ready01" ColumnName="Ready01" />
+          <ScalarProperty Name="Ready02" ColumnName="Ready02" />
+          <ScalarProperty Name="Ready03" ColumnName="Ready03" />
+          <ScalarProperty Name="Ready04" ColumnName="Ready04" />
+          <ScalarProperty Name="Ready05" ColumnName="Ready05" />
+          <ScalarProperty Name="dcbid" ColumnName="dcbid" />
+          <ScalarProperty Name="jcno" ColumnName="jcno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Truck_Protect">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_Truck_Protect">
+        <MappingFragment StoreEntitySet="Ex_Truck_Protect">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Tid" ColumnName="Tid" />
+          <ScalarProperty Name="jcNo" ColumnName="jcNo" />
+          <ScalarProperty Name="DCBNO" ColumnName="DCBNO" />
+          <ScalarProperty Name="AddMan" ColumnName="AddMan" />
+          <ScalarProperty Name="AddDate" ColumnName="AddDate" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="Ready01" ColumnName="Ready01" />
+          <ScalarProperty Name="Ready02" ColumnName="Ready02" />
+          <ScalarProperty Name="Ready03" ColumnName="Ready03" />
+          <ScalarProperty Name="Ready04" ColumnName="Ready04" />
+          <ScalarProperty Name="Ready05" ColumnName="Ready05" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Volume_Detaile">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Ex_Volume_Detaile">
+        <MappingFragment StoreEntitySet="Ex_Volume_Detaile">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="GzdNo" ColumnName="GzdNo" />
+          <ScalarProperty Name="Longs" ColumnName="Longs" />
+          <ScalarProperty Name="Widths" ColumnName="Widths" />
+          <ScalarProperty Name="Heights" ColumnName="Heights" />
+          <ScalarProperty Name="Piece" ColumnName="Piece" />
+          <ScalarProperty Name="PackageTypeCode" ColumnName="PackageTypeCode" />
+          <ScalarProperty Name="PackageTypeName" ColumnName="PackageTypeName" />
+          <ScalarProperty Name="IsLimit" ColumnName="IsLimit" />
+          <ScalarProperty Name="ready1" ColumnName="ready1" />
+          <ScalarProperty Name="ready2" ColumnName="ready2" />
+          <ScalarProperty Name="ready3" ColumnName="ready3" />
+          <ScalarProperty Name="ready4" ColumnName="ready4" />
+          <ScalarProperty Name="ready5" ColumnName="ready5" />
+          <ScalarProperty Name="ready6" ColumnName="ready6" />
+          <ScalarProperty Name="ready7" ColumnName="ready7" />
+          <ScalarProperty Name="ready8" ColumnName="ready8" />
+          <ScalarProperty Name="ready9" ColumnName="ready9" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IM_Gzd">
+      <EntityTypeMapping TypeName="WcStore_2011Model.IM_Gzd">
+        <MappingFragment StoreEntitySet="IM_Gzd">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="GzdNo" ColumnName="GzdNo" />
+          <ScalarProperty Name="mawb" ColumnName="mawb" />
+          <ScalarProperty Name="hawb" ColumnName="hawb" />
+          <ScalarProperty Name="TCID" ColumnName="TCID" />
+          <ScalarProperty Name="PPCC" ColumnName="PPCC" />
+          <ScalarProperty Name="YJmark" ColumnName="YJmark" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="oper" ColumnName="oper" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Piece" ColumnName="Piece" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="IsEnd" ColumnName="IsEnd" />
+          <ScalarProperty Name="Ready1" ColumnName="Ready1" />
+          <ScalarProperty Name="Ready2" ColumnName="Ready2" />
+          <ScalarProperty Name="Ready3" ColumnName="Ready3" />
+          <ScalarProperty Name="Ready4" ColumnName="Ready4" />
+          <ScalarProperty Name="Ready5" ColumnName="Ready5" />
+          <ScalarProperty Name="Ready6" ColumnName="Ready6" />
+          <ScalarProperty Name="Ready7" ColumnName="Ready7" />
+          <ScalarProperty Name="Ready8" ColumnName="Ready8" />
+          <ScalarProperty Name="Ready9" ColumnName="Ready9" />
+          <ScalarProperty Name="Ready10" ColumnName="Ready10" />
+          <ScalarProperty Name="InvoiceTime" ColumnName="InvoiceTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Log">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Log">
+        <MappingFragment StoreEntitySet="Log">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AddTime" ColumnName="AddTime" />
+          <ScalarProperty Name="Thread" ColumnName="Thread" />
+          <ScalarProperty Name="Level" ColumnName="Level" />
+          <ScalarProperty Name="Logger" ColumnName="Logger" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Exception" ColumnName="Exception" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tmp__Ex_Dcb_Protect">
+      <EntityTypeMapping TypeName="WcStore_2011Model.Tmp__Ex_Dcb_Protect">
+        <MappingFragment StoreEntitySet="Tmp_#Ex_Dcb_Protect">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="dcbno" ColumnName="dcbno" />
+          <ScalarProperty Name="dcbweight" ColumnName="dcbweight" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

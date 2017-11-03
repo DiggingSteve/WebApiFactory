@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c99c471347394d1b925a1e41b7f41694" Name="关系图1" ZoomLevel="53">
+        <EntityTypeShape EntityType="WcPoManagementNew_2011Model.Ex_AiraxpAccount" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WcPoManagementNew_2011Model.Ex_AiraxpAccountWage" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WcPoManagementNew_2011Model.Ex_AiraxpCheckBillPch" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WcPoManagementNew_2011Model.Ex_AiraxpCheckBillPchWage" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WcPoManagementNew_2011Model.Ex_AiraxpInvoice" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WcPoManagementNew_2011Model.Ex_AiraxpInvoiceWage" Width="1.5" PointX="8.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WcPoManagementNew_2011Model.Ex_AiraxpNode" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WcPoManagementNew_2011Model.Ex_Axpline" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WcPoManagementNew_2011Model.Ex_AxplineWage" Width="1.5" PointX="10.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WcPoManagementNew_2011Model.Ex_HpoAxpline" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WcPoManagementNew_2011Model.Ex_HpoAxplineWage" Width="1.5" PointX="6.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WcPoManagementNew_2011Model.Ex_PoImages" Width="1.5" PointX="12.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WcPoManagementNew_2011Model.Ex_Store" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WcPoManagementNew_2011Model.Ex_Volume_Detaile" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WcPoManagementNew_2011Model.Ex_WffAaxplineWage" Width="1.5" PointX="14.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WcPoManagementNew_2011Model.Ex_WffAxpline" Width="1.5" PointX="8.75" PointY="14.75" IsExpanded="true" />
+        <AssociationConnector Association="WcPoManagementNew_2011Model.FK_Ex_Axpline_Ex_Axpline" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

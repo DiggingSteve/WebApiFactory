@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WcPoManagementNew_2011ModelStoreContainer" CdmEntityContainer="WcPoManagementNew_2011Entities">
+    <EntitySetMapping Name="Ex_AiraxpAccount">
+      <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_AiraxpAccount">
+        <MappingFragment StoreEntitySet="Ex_AiraxpAccount">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="jobno" ColumnName="jobno" />
+          <ScalarProperty Name="accountcode" ColumnName="accountcode" />
+          <ScalarProperty Name="accountdom" ColumnName="accountdom" />
+          <ScalarProperty Name="taxrate" ColumnName="taxrate" />
+          <ScalarProperty Name="relid" ColumnName="relid" />
+          <ScalarProperty Name="wageinout" ColumnName="wageinout" />
+          <ScalarProperty Name="sett_gid" ColumnName="sett_gid" />
+          <ScalarProperty Name="payment_gid" ColumnName="payment_gid" />
+          <ScalarProperty Name="payment_code" ColumnName="payment_code" />
+          <ScalarProperty Name="payment_name" ColumnName="payment_name" />
+          <ScalarProperty Name="payment_accountno" ColumnName="payment_accountno" />
+          <ScalarProperty Name="payment_lxr" ColumnName="payment_lxr" />
+          <ScalarProperty Name="payment_fax" ColumnName="payment_fax" />
+          <ScalarProperty Name="payment_deadline" ColumnName="payment_deadline" />
+          <ScalarProperty Name="accountman" ColumnName="accountman" />
+          <ScalarProperty Name="accountdate" ColumnName="accountdate" />
+          <ScalarProperty Name="hbh" ColumnName="hbh" />
+          <ScalarProperty Name="hbrq" ColumnName="hbrq" />
+          <ScalarProperty Name="mawb" ColumnName="mawb" />
+          <ScalarProperty Name="hawb" ColumnName="hawb" />
+          <ScalarProperty Name="sfg" ColumnName="sfg" />
+          <ScalarProperty Name="mdg" ColumnName="mdg" />
+          <ScalarProperty Name="zzg" ColumnName="zzg" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="wageall" ColumnName="wageall" />
+          <ScalarProperty Name="currency" ColumnName="currency" />
+          <ScalarProperty Name="changerate" ColumnName="changerate" />
+          <ScalarProperty Name="packagetype" ColumnName="packagetype" />
+          <ScalarProperty Name="piece" ColumnName="piece" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="volume" ColumnName="volume" />
+          <ScalarProperty Name="jfweight" ColumnName="jfweight" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="addman" ColumnName="addman" />
+          <ScalarProperty Name="adddate" ColumnName="adddate" />
+          <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+          <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+          <ScalarProperty Name="delman" ColumnName="delman" />
+          <ScalarProperty Name="deldate" ColumnName="deldate" />
+          <ScalarProperty Name="isdel" ColumnName="isdel" />
+          <ScalarProperty Name="isincl" ColumnName="isincl" />
+          <ScalarProperty Name="isexport" ColumnName="isexport" />
+          <ScalarProperty Name="exportman" ColumnName="exportman" />
+          <ScalarProperty Name="exportdate" ColumnName="exportdate" />
+          <ScalarProperty Name="ready01" ColumnName="ready01" />
+          <ScalarProperty Name="ready02" ColumnName="ready02" />
+          <ScalarProperty Name="ready03" ColumnName="ready03" />
+          <ScalarProperty Name="ready04" ColumnName="ready04" />
+          <ScalarProperty Name="ready05" ColumnName="ready05" />
+          <ScalarProperty Name="ready06" ColumnName="ready06" />
+          <ScalarProperty Name="ready07" ColumnName="ready07" />
+          <ScalarProperty Name="ready08" ColumnName="ready08" />
+          <ScalarProperty Name="ready09" ColumnName="ready09" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+          <ScalarProperty Name="system" ColumnName="system" />
+          <ScalarProperty Name="oldid" ColumnName="oldid" />
+          <ScalarProperty Name="accountweight" ColumnName="accountweight" />
+          <ScalarProperty Name="zdweight" ColumnName="zdweight" />
+          <ScalarProperty Name="axpjobno" ColumnName="axpjobno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_AiraxpAccountWage">
+      <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_AiraxpAccountWage">
+        <MappingFragment StoreEntitySet="Ex_AiraxpAccountWage">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="accountid" ColumnName="accountid" />
+          <ScalarProperty Name="wageid" ColumnName="wageid" />
+          <ScalarProperty Name="wageall" ColumnName="wageall" />
+          <ScalarProperty Name="finishwageall" ColumnName="finishwageall" />
+          <ScalarProperty Name="billwageid" ColumnName="billwageid" />
+          <ScalarProperty Name="wagedom" ColumnName="wagedom" />
+          <ScalarProperty Name="addman" ColumnName="addman" />
+          <ScalarProperty Name="adddate" ColumnName="adddate" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="ready01" ColumnName="ready01" />
+          <ScalarProperty Name="ready02" ColumnName="ready02" />
+          <ScalarProperty Name="ready03" ColumnName="ready03" />
+          <ScalarProperty Name="ready04" ColumnName="ready04" />
+          <ScalarProperty Name="ready05" ColumnName="ready05" />
+          <ScalarProperty Name="ready06" ColumnName="ready06" />
+          <ScalarProperty Name="ready07" ColumnName="ready07" />
+          <ScalarProperty Name="ready08" ColumnName="ready08" />
+          <ScalarProperty Name="ready09" ColumnName="ready09" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+          <ScalarProperty Name="oldid" ColumnName="oldid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_AiraxpCheckBillPch">
+      <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_AiraxpCheckBillPch">
+        <MappingFragment StoreEntitySet="Ex_AiraxpCheckBillPch">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="pchno" ColumnName="pchno" />
+          <ScalarProperty Name="wageinout" ColumnName="wageinout" />
+          <ScalarProperty Name="gid" ColumnName="gid" />
+          <ScalarProperty Name="billstatus" ColumnName="billstatus" />
+          <ScalarProperty Name="isdel" ColumnName="isdel" />
+          <ScalarProperty Name="confirmman" ColumnName="confirmman" />
+          <ScalarProperty Name="confirmdate" ColumnName="confirmdate" />
+          <ScalarProperty Name="confirmremark" ColumnName="confirmremark" />
+          <ScalarProperty Name="addman" ColumnName="addman" />
+          <ScalarProperty Name="adddate" ColumnName="adddate" />
+          <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+          <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+          <ScalarProperty Name="delman" ColumnName="delman" />
+          <ScalarProperty Name="deldate" ColumnName="deldate" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="ready01" ColumnName="ready01" />
+          <ScalarProperty Name="ready02" ColumnName="ready02" />
+          <ScalarProperty Name="ready03" ColumnName="ready03" />
+          <ScalarProperty Name="ready04" ColumnName="ready04" />
+          <ScalarProperty Name="ready05" ColumnName="ready05" />
+          <ScalarProperty Name="ready06" ColumnName="ready06" />
+          <ScalarProperty Name="ready07" ColumnName="ready07" />
+          <ScalarProperty Name="ready08" ColumnName="ready08" />
+          <ScalarProperty Name="ready09" ColumnName="ready09" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+          <ScalarProperty Name="system" ColumnName="system" />
+          <ScalarProperty Name="oldid" ColumnName="oldid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_AiraxpCheckBillPchWage">
+      <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_AiraxpCheckBillPchWage">
+        <MappingFragment StoreEntitySet="Ex_AiraxpCheckBillPchWage">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="billid" ColumnName="billid" />
+          <ScalarProperty Name="wageid" ColumnName="wageid" />
+          <ScalarProperty Name="wageall" ColumnName="wageall" />
+          <ScalarProperty Name="finishwageall" ColumnName="finishwageall" />
+          <ScalarProperty Name="wagedom" ColumnName="wagedom" />
+          <ScalarProperty Name="addman" ColumnName="addman" />
+          <ScalarProperty Name="adddate" ColumnName="adddate" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="ready01" ColumnName="ready01" />
+          <ScalarProperty Name="ready02" ColumnName="ready02" />
+          <ScalarProperty Name="ready03" ColumnName="ready03" />
+          <ScalarProperty Name="ready04" ColumnName="ready04" />
+          <ScalarProperty Name="ready05" ColumnName="ready05" />
+          <ScalarProperty Name="ready06" ColumnName="ready06" />
+          <ScalarProperty Name="ready07" ColumnName="ready07" />
+          <ScalarProperty Name="ready08" ColumnName="ready08" />
+          <ScalarProperty Name="ready09" ColumnName="ready09" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+          <ScalarProperty Name="oldid" ColumnName="oldid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_AiraxpInvoice">
+      <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_AiraxpInvoice">
+        <MappingFragment StoreEntitySet="Ex_AiraxpInvoice">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="invoicecode" ColumnName="invoicecode" />
+          <ScalarProperty Name="invoiceDom" ColumnName="invoiceDom" />
+          <ScalarProperty Name="sett_gid" ColumnName="sett_gid" />
+          <ScalarProperty Name="payment_gid" ColumnName="payment_gid" />
+          <ScalarProperty Name="payment_code" ColumnName="payment_code" />
+          <ScalarProperty Name="payment_name" ColumnName="payment_name" />
+          <ScalarProperty Name="payment_accountno" ColumnName="payment_accountno" />
+          <ScalarProperty Name="bank" ColumnName="bank" />
+          <ScalarProperty Name="bankaccount" ColumnName="bankaccount" />
+          <ScalarProperty Name="hbh" ColumnName="hbh" />
+          <ScalarProperty Name="hbrq" ColumnName="hbrq" />
+          <ScalarProperty Name="sfg" ColumnName="sfg" />
+          <ScalarProperty Name="mdg" ColumnName="mdg" />
+          <ScalarProperty Name="xhg" ColumnName="xhg" />
+          <ScalarProperty Name="arrivedate" ColumnName="arrivedate" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="currency" ColumnName="currency" />
+          <ScalarProperty Name="wageall" ColumnName="wageall" />
+          <ScalarProperty Name="taxrate" ColumnName="taxrate" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="invoiceman" ColumnName="invoiceman" />
+          <ScalarProperty Name="invoicedate" ColumnName="invoicedate" />
+          <ScalarProperty Name="addman" ColumnName="addman" />
+          <ScalarProperty Name="adddate" ColumnName="adddate" />
+          <ScalarProperty Name="delman" ColumnName="delman" />
+          <ScalarProperty Name="deldate" ColumnName="deldate" />
+          <ScalarProperty Name="invalidreason" ColumnName="invalidreason" />
+          <ScalarProperty Name="hwnames" ColumnName="hwnames" />
+          <ScalarProperty Name="servicenames" ColumnName="servicenames" />
+          <ScalarProperty Name="prices" ColumnName="prices" />
+          <ScalarProperty Name="nums" ColumnName="nums" />
+          <ScalarProperty Name="wagealls" ColumnName="wagealls" />
+          <ScalarProperty Name="changerates" ColumnName="changerates" />
+          <ScalarProperty Name="changerwagealls" ColumnName="changerwagealls" />
+          <ScalarProperty Name="wagesources" ColumnName="wagesources" />
+          <ScalarProperty Name="otheritems" ColumnName="otheritems" />
+          <ScalarProperty Name="otherinfo" ColumnName="otherinfo" />
+          <ScalarProperty Name="isdel" ColumnName="isdel" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="isexport" ColumnName="isexport" />
+          <ScalarProperty Name="exportman" ColumnName="exportman" />
+          <ScalarProperty Name="exportdate" ColumnName="exportdate" />
+          <ScalarProperty Name="ready01" ColumnName="ready01" />
+          <ScalarProperty Name="ready02" ColumnName="ready02" />
+          <ScalarProperty Name="ready03" ColumnName="ready03" />
+          <ScalarProperty Name="ready04" ColumnName="ready04" />
+          <ScalarProperty Name="ready05" ColumnName="ready05" />
+          <ScalarProperty Name="ready06" ColumnName="ready06" />
+          <ScalarProperty Name="ready07" ColumnName="ready07" />
+          <ScalarProperty Name="ready08" ColumnName="ready08" />
+          <ScalarProperty Name="ready09" ColumnName="ready09" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+          <ScalarProperty Name="MAWB" ColumnName="MAWB" />
+          <ScalarProperty Name="system" ColumnName="system" />
+          <ScalarProperty Name="oldid" ColumnName="oldid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_AiraxpInvoiceWage">
+      <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_AiraxpInvoiceWage">
+        <MappingFragment StoreEntitySet="Ex_AiraxpInvoiceWage">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="invoiceid" ColumnName="invoiceid" />
+          <ScalarProperty Name="wageid" ColumnName="wageid" />
+          <ScalarProperty Name="wageall" ColumnName="wageall" />
+          <ScalarProperty Name="finishwageall" ColumnName="finishwageall" />
+          <ScalarProperty Name="billwageid" ColumnName="billwageid" />
+          <ScalarProperty Name="wagedom" ColumnName="wagedom" />
+          <ScalarProperty Name="addman" ColumnName="addman" />
+          <ScalarProperty Name="adddate" ColumnName="adddate" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="ready01" ColumnName="ready01" />
+          <ScalarProperty Name="ready02" ColumnName="ready02" />
+          <ScalarProperty Name="ready03" ColumnName="ready03" />
+          <ScalarProperty Name="ready04" ColumnName="ready04" />
+          <ScalarProperty Name="ready05" ColumnName="ready05" />
+          <ScalarProperty Name="ready06" ColumnName="ready06" />
+          <ScalarProperty Name="ready07" ColumnName="ready07" />
+          <ScalarProperty Name="ready08" ColumnName="ready08" />
+          <ScalarProperty Name="ready09" ColumnName="ready09" />
+          <ScalarProperty Name="ready10" ColumnName="ready10" />
+          <ScalarProperty Name="oldid" ColumnName="oldid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_AiraxpNode">
+      <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_AiraxpNode">
+        <MappingFragment StoreEntitySet="Ex_AiraxpNode">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="codetype" ColumnName="codetype" />
+          <ScalarProperty Name="nodename" ColumnName="nodename" />
+          <ScalarProperty Name="nodeman" ColumnName="nodeman" />
+          <ScalarProperty Name="codedate" ColumnName="codedate" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="addman" ColumnName="addman" />
+          <ScalarProperty Name="adddate" ColumnName="adddate" />
+          <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+          <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+          <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Axpline">
+      <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_Axpline">
+        <MappingFragment StoreEntitySet="Ex_Axpline">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="orderno" ColumnName="orderno" />
+          <ScalarProperty Name="pono" ColumnName="pono" />
+          <ScalarProperty Name="hpoid" ColumnName="hpoid" />
+          <ScalarProperty Name="dom" ColumnName="dom" />
+          <ScalarProperty Name="gid" ColumnName="gid" />
+          <ScalarProperty Name="hawb" ColumnName="hawb" />
+          <ScalarProperty Name="dzarriverq" ColumnName="dzarriverq" />
+          <ScalarProperty Name="yqsfg" ColumnName="yqsfg" />
+          <ScalarProperty Name="mdg" ColumnName="mdg" />
+          <ScalarProperty Name="yqhbh" ColumnName="yqhbh" />
+          <ScalarProperty Name="yqhbrq" ColumnName="yqhbrq" />
+          <ScalarProperty Name="ybpiece" ColumnName="ybpiece" />
+          <ScalarProperty Name="ybweight" ColumnName="ybweight" />
+          <ScalarProperty Name="ybvolume" ColumnName="ybvolume" />
+          <ScalarProperty Name="tradeterm" ColumnName="tradeterm" />
+          <ScalarProperty Name="czremark" ColumnName="czremark" />
+          <ScalarProperty Name="otherremark" ColumnName="otherremark" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="system" ColumnName="system" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="hwlx" ColumnName="hwlx" />
+          <ScalarProperty Name="pm" ColumnName="pm" />
+          <ScalarProperty Name="khjcno" ColumnName="khjcno" />
+          <ScalarProperty Name="bgfs" ColumnName="bgfs" />
+          <ScalarProperty Name="yjjcdate" ColumnName="yjjcdate" />
+          <ScalarProperty Name="jhjcdate" ColumnName="jhjcdate" />
+          <ScalarProperty Name="bzlxpiece" ColumnName="bzlxpiece" />
+          <ScalarProperty Name="inwageallinprice" ColumnName="inwageallinprice" />
+          <ScalarProperty Name="isinwageallin" ColumnName="isinwageallin" />
+          <ScalarProperty Name="self_real_bp_freight_in" ColumnName="self_real_bp_freight_in" />
+          <ScalarProperty Name="cus_real_bp_freight_in" ColumnName="cus_real_bp_freight_in" />
+          <ScalarProperty Name="address_thr" ColumnName="address_thr" />
+          <ScalarProperty Name="lxr_thr" ColumnName="lxr_thr" />
+          <ScalarProperty Name="phone_thr" ColumnName="phone_thr" />
+          <ScalarProperty Name="address_shr" ColumnName="address_shr" />
+          <ScalarProperty Name="lxr_shr" ColumnName="lxr_shr" />
+          <ScalarProperty Name="phone_shr" ColumnName="phone_shr" />
+          <ScalarProperty Name="mawb_shr" ColumnName="mawb_shr" />
+          <ScalarProperty Name="mawb_fhr" ColumnName="mawb_fhr" />
+          <ScalarProperty Name="hawb_shr" ColumnName="hawb_shr" />
+          <ScalarProperty Name="hawb_fhr" ColumnName="hawb_fhr" />
+          <ScalarProperty Name="addman" ColumnName="addman" />
+          <ScalarProperty Name="adddate" ColumnName="adddate" />
+          <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+          <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+          <ScalarProperty Name="delman" ColumnName="delman" />
+          <ScalarProperty Name="deldate" ColumnName="deldate" />
+          <ScalarProperty Name="isdel" ColumnName="isdel" />
+          <ScalarProperty Name="assignman" ColumnName="assignman" />
+          <ScalarProperty Name="assigndate" ColumnName="assigndate" />
+          <ScalarProperty Name="acceptanceman" ColumnName="acceptanceman" />
+          <ScalarProperty Name="acceptancedate" ColumnName="acceptancedate" />
+          <ScalarProperty Name="acceptanceremark" ColumnName="acceptanceremark" />
+          <ScalarProperty Name="confirmman" ColumnName="confirmman" />
+          <ScalarProperty Name="confirmdate" ColumnName="confirmdate" />
+          <ScalarProperty Name="confirmremark" ColumnName="confirmremark" />
+          <ScalarProperty Name="submitman" ColumnName="submitman" />
+          <ScalarProperty Name="submitdate" ColumnName="submitdate" />
+          <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_AxplineWage">
+      <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_AxplineWage">
+        <MappingFragment StoreEntitySet="Ex_AxplineWage">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="items" ColumnName="items" />
+          <ScalarProperty Name="gid" ColumnName="gid" />
+          <ScalarProperty Name="quote" ColumnName="quote" />
+          <ScalarProperty Name="wageinout" ColumnName="wageinout" />
+          <ScalarProperty Name="wagetype" ColumnName="wagetype" />
+          <ScalarProperty Name="wagedom" ColumnName="wagedom" />
+          <ScalarProperty Name="changerate" ColumnName="changerate" />
+          <ScalarProperty Name="num" ColumnName="num" />
+          <ScalarProperty Name="currency" ColumnName="currency" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="wageall" ColumnName="wageall" />
+          <ScalarProperty Name="leastwageall" ColumnName="leastwageall" />
+          <ScalarProperty Name="finishwageall_checkbill" ColumnName="finishwageall_checkbill" />
+          <ScalarProperty Name="finishwageall_invoice" ColumnName="finishwageall_invoice" />
+          <ScalarProperty Name="isfree" ColumnName="isfree" />
+          <ScalarProperty Name="confirmstatus" ColumnName="confirmstatus" />
+          <ScalarProperty Name="confirmman" ColumnName="confirmman" />
+          <ScalarProperty Name="confirmdate" ColumnName="confirmdate" />
+          <ScalarProperty Name="isdel" ColumnName="isdel" />
+          <ScalarProperty Name="addman" ColumnName="addman" />
+          <ScalarProperty Name="adddate" ColumnName="adddate" />
+          <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+          <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+          <ScalarProperty Name="delman" ColumnName="delman" />
+          <ScalarProperty Name="deldate" ColumnName="deldate" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="isshare" ColumnName="isshare" />
+          <ScalarProperty Name="yssys" ColumnName="yssys" />
+          <ScalarProperty Name="isallin" ColumnName="isallin" />
+          <ScalarProperty Name="ismodify" ColumnName="ismodify" />
+          <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_HpoAxpline">
+      <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_HpoAxpline">
+        <MappingFragment StoreEntitySet="Ex_HpoAxpline">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="hpono" ColumnName="hpono" />
+          <ScalarProperty Name="dom" ColumnName="dom" />
+          <ScalarProperty Name="gid" ColumnName="gid" />
+          <ScalarProperty Name="hawb" ColumnName="hawb" />
+          <ScalarProperty Name="dzarriverq" ColumnName="dzarriverq" />
+          <ScalarProperty Name="yqsfg" ColumnName="yqsfg" />
+          <ScalarProperty Name="mdg" ColumnName="mdg" />
+          <ScalarProperty Name="yqhbh" ColumnName="yqhbh" />
+          <ScalarProperty Name="yqhbrq" ColumnName="yqhbrq" />
+          <ScalarProperty Name="ybpiece" ColumnName="ybpiece" />
+          <ScalarProperty Name="ybweight" ColumnName="ybweight" />
+          <ScalarProperty Name="ybvolume" ColumnName="ybvolume" />
+          <ScalarProperty Name="tradeterm" ColumnName="tradeterm" />
+          <ScalarProperty Name="czremark" ColumnName="czremark" />
+          <ScalarProperty Name="otherremark" ColumnName="otherremark" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="system" ColumnName="system" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="hwlx" ColumnName="hwlx" />
+          <ScalarProperty Name="pm" ColumnName="pm" />
+          <ScalarProperty Name="khjcno" ColumnName="khjcno" />
+          <ScalarProperty Name="bgfs" ColumnName="bgfs" />
+          <ScalarProperty Name="yjjcdate" ColumnName="yjjcdate" />
+          <ScalarProperty Name="jhjcdate" ColumnName="jhjcdate" />
+          <ScalarProperty Name="inwageallinprice" ColumnName="inwageallinprice" />
+          <ScalarProperty Name="isinwageallin" ColumnName="isinwageallin" />
+          <ScalarProperty Name="self_real_bp_freight_in" ColumnName="self_real_bp_freight_in" />
+          <ScalarProperty Name="cus_real_bp_freight_in" ColumnName="cus_real_bp_freight_in" />
+          <ScalarProperty Name="address_thr" ColumnName="address_thr" />
+          <ScalarProperty Name="lxr_thr" ColumnName="lxr_thr" />
+          <ScalarProperty Name="phone_thr" ColumnName="phone_thr" />
+          <ScalarProperty Name="address_shr" ColumnName="address_shr" />
+          <ScalarProperty Name="lxr_shr" ColumnName="lxr_shr" />
+          <ScalarProperty Name="phone_shr" ColumnName="phone_shr" />
+          <ScalarProperty Name="mawb_shr" ColumnName="mawb_shr" />
+          <ScalarProperty Name="mawb_fhr" ColumnName="mawb_fhr" />
+          <ScalarProperty Name="hawb_shr" ColumnName="hawb_shr" />
+          <ScalarProperty Name="hawb_fhr" ColumnName="hawb_fhr" />
+          <ScalarProperty Name="addman" ColumnName="addman" />
+          <ScalarProperty Name="adddate" ColumnName="adddate" />
+          <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+          <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+          <ScalarProperty Name="delman" ColumnName="delman" />
+          <ScalarProperty Name="deldate" ColumnName="deldate" />
+          <ScalarProperty Name="isdel" ColumnName="isdel" />
+          <ScalarProperty Name="assignman" ColumnName="assignman" />
+          <ScalarProperty Name="assigndate" ColumnName="assigndate" />
+          <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_HpoAxplineWage">
+      <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_HpoAxplineWage">
+        <MappingFragment StoreEntitySet="Ex_HpoAxplineWage">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="items" ColumnName="items" />
+          <ScalarProperty Name="gid" ColumnName="gid" />
+          <ScalarProperty Name="quote" ColumnName="quote" />
+          <ScalarProperty Name="wageinout" ColumnName="wageinout" />
+          <ScalarProperty Name="wagetype" ColumnName="wagetype" />
+          <ScalarProperty Name="wagedom" ColumnName="wagedom" />
+          <ScalarProperty Name="changerate" ColumnName="changerate" />
+          <ScalarProperty Name="num" ColumnName="num" />
+          <ScalarProperty Name="currency" ColumnName="currency" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="wageall" ColumnName="wageall" />
+          <ScalarProperty Name="leastwageall" ColumnName="leastwageall" />
+          <ScalarProperty Name="isfree" ColumnName="isfree" />
+          <ScalarProperty Name="confirmstatus" ColumnName="confirmstatus" />
+          <ScalarProperty Name="confirmman" ColumnName="confirmman" />
+          <ScalarProperty Name="confirmdate" ColumnName="confirmdate" />
+          <ScalarProperty Name="isdel" ColumnName="isdel" />
+          <ScalarProperty Name="addman" ColumnName="addman" />
+          <ScalarProperty Name="adddate" ColumnName="adddate" />
+          <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+          <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+          <ScalarProperty Name="delman" ColumnName="delman" />
+          <ScalarProperty Name="deldate" ColumnName="deldate" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="yssys" ColumnName="yssys" />
+          <ScalarProperty Name="isallin" ColumnName="isallin" />
+          <ScalarProperty Name="ismodify" ColumnName="ismodify" />
+          <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_PoImages">
+      <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_PoImages">
+        <MappingFragment StoreEntitySet="Ex_PoImages">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="jobno" ColumnName="jobno" />
+          <ScalarProperty Name="ftpaddress" ColumnName="ftpaddress" />
+          <ScalarProperty Name="fileaddress" ColumnName="fileaddress" />
+          <ScalarProperty Name="filename" ColumnName="filename" />
+          <ScalarProperty Name="rel_filename" ColumnName="rel_filename" />
+          <ScalarProperty Name="addman" ColumnName="addman" />
+          <ScalarProperty Name="adddate" ColumnName="adddate" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="fileType" ColumnName="fileType" />
+          <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Store">
+      <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_Store">
+        <MappingFragment StoreEntitySet="Ex_Store">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="gzdno" ColumnName="gzdno" />
+          <ScalarProperty Name="storename" ColumnName="storename" />
+          <ScalarProperty Name="jcdate" ColumnName="jcdate" />
+          <ScalarProperty Name="jcno" ColumnName="jcno" />
+          <ScalarProperty Name="khjcno" ColumnName="khjcno" />
+          <ScalarProperty Name="hzdno" ColumnName="hzdno" />
+          <ScalarProperty Name="breakpiece" ColumnName="breakpiece" />
+          <ScalarProperty Name="moistpiece" ColumnName="moistpiece" />
+          <ScalarProperty Name="deformpiece" ColumnName="deformpiece" />
+          <ScalarProperty Name="arrowpiece" ColumnName="arrowpiece" />
+          <ScalarProperty Name="dangerpiece" ColumnName="dangerpiece" />
+          <ScalarProperty Name="otherbreakinfo" ColumnName="otherbreakinfo" />
+          <ScalarProperty Name="allpiece" ColumnName="allpiece" />
+          <ScalarProperty Name="lpiece" ColumnName="lpiece" />
+          <ScalarProperty Name="allweight" ColumnName="allweight" />
+          <ScalarProperty Name="allvolume" ColumnName="allvolume" />
+          <ScalarProperty Name="hwstatus" ColumnName="hwstatus" />
+          <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_Volume_Detaile">
+      <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_Volume_Detaile">
+        <MappingFragment StoreEntitySet="Ex_Volume_Detaile">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="jcno" ColumnName="jcno" />
+          <ScalarProperty Name="longs" ColumnName="longs" />
+          <ScalarProperty Name="widths" ColumnName="widths" />
+          <ScalarProperty Name="heighs" ColumnName="heighs" />
+          <ScalarProperty Name="piece" ColumnName="piece" />
+          <ScalarProperty Name="packagetypecode" ColumnName="packagetypecode" />
+          <ScalarProperty Name="packagetypename" ColumnName="packagetypename" />
+          <ScalarProperty Name="islimit" ColumnName="islimit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_WffAaxplineWage">
+      <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_WffAaxplineWage">
+        <MappingFragment StoreEntitySet="Ex_WffAaxplineWage">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="wffwageid" ColumnName="wffwageid" />
+          <ScalarProperty Name="items" ColumnName="items" />
+          <ScalarProperty Name="gid" ColumnName="gid" />
+          <ScalarProperty Name="quote" ColumnName="quote" />
+          <ScalarProperty Name="wageinout" ColumnName="wageinout" />
+          <ScalarProperty Name="wagetype" ColumnName="wagetype" />
+          <ScalarProperty Name="wagedom" ColumnName="wagedom" />
+          <ScalarProperty Name="changerate" ColumnName="changerate" />
+          <ScalarProperty Name="num" ColumnName="num" />
+          <ScalarProperty Name="currency" ColumnName="currency" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="wageall" ColumnName="wageall" />
+          <ScalarProperty Name="leastwageall" ColumnName="leastwageall" />
+          <ScalarProperty Name="isfree" ColumnName="isfree" />
+          <ScalarProperty Name="confirmstatus" ColumnName="confirmstatus" />
+          <ScalarProperty Name="confirmman" ColumnName="confirmman" />
+          <ScalarProperty Name="confirmdate" ColumnName="confirmdate" />
+          <ScalarProperty Name="isdel" ColumnName="isdel" />
+          <ScalarProperty Name="addman" ColumnName="addman" />
+          <ScalarProperty Name="adddate" ColumnName="adddate" />
+          <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+          <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+          <ScalarProperty Name="delman" ColumnName="delman" />
+          <ScalarProperty Name="deldate" ColumnName="deldate" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="yssys" ColumnName="yssys" />
+          <ScalarProperty Name="isallin" ColumnName="isallin" />
+          <ScalarProperty Name="ismodify" ColumnName="ismodify" />
+          <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ex_WffAxpline">
+      <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_WffAxpline">
+        <MappingFragment StoreEntitySet="Ex_WffAxpline">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="wffid" ColumnName="wffid" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="system" ColumnName="system" />
+          <ScalarProperty Name="jobno" ColumnName="jobno" />
+          <ScalarProperty Name="czlx" ColumnName="czlx" />
+          <ScalarProperty Name="gid" ColumnName="gid" />
+          <ScalarProperty Name="hwxz" ColumnName="hwxz" />
+          <ScalarProperty Name="khjcbh" ColumnName="khjcbh" />
+          <ScalarProperty Name="mawb" ColumnName="mawb" />
+          <ScalarProperty Name="realpiece" ColumnName="realpiece" />
+          <ScalarProperty Name="realweight" ColumnName="realweight" />
+          <ScalarProperty Name="realvolume" ColumnName="realvolume" />
+          <ScalarProperty Name="zdpiece" ColumnName="zdpiece" />
+          <ScalarProperty Name="zdweight" ColumnName="zdweight" />
+          <ScalarProperty Name="zdvolume" ColumnName="zdvolume" />
+          <ScalarProperty Name="accountweightin" ColumnName="accountweightin" />
+          <ScalarProperty Name="accountweightout" ColumnName="accountweightout" />
+          <ScalarProperty Name="jfweightin" ColumnName="jfweightin" />
+          <ScalarProperty Name="sfg" ColumnName="sfg" />
+          <ScalarProperty Name="zzg" ColumnName="zzg" />
+          <ScalarProperty Name="hbh" ColumnName="hbh" />
+          <ScalarProperty Name="hbrq" ColumnName="hbrq" />
+          <ScalarProperty Name="qfsj" ColumnName="qfsj" />
+          <ScalarProperty Name="bgxx" ColumnName="bgxx" />
+          <ScalarProperty Name="bglx" ColumnName="bglx" />
+          <ScalarProperty Name="dzstatus" ColumnName="dzstatus" />
+          <ScalarProperty Name="pcstatus" ColumnName="pcstatus" />
+          <ScalarProperty Name="bgstatus" ColumnName="bgstatus" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="addman" ColumnName="addman" />
+          <ScalarProperty Name="adddate" ColumnName="adddate" />
+          <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+          <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+          <ScalarProperty Name="delman" ColumnName="delman" />
+          <ScalarProperty Name="deldate" ColumnName="deldate" />
+          <ScalarProperty Name="isdel" ColumnName="isdel" />
+          <ScalarProperty Name="delreason" ColumnName="delreason" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,8 @@
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityModel\bin\Debug\EntityModel.dll.config
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityModel\bin\Debug\EntityModel.dll
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityModel\bin\Debug\EntityModel.pdb
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityModel\bin\Debug\EntityFramework.dll
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityModel\bin\Debug\EntityFramework.xml
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityModel\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityModel\obj\Debug\EntityModel.dll
+D:\Code\AirexpFreightWebApi\AirexpFreightWebApi\AirexpFreightWebApi\EntityModel\obj\Debug\EntityModel.pdb

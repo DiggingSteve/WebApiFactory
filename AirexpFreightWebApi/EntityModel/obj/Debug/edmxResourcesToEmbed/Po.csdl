@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WcPoManagementNew_2011Model" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="WcPoManagementNew_2011Entities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Ex_AiraxpAccount" EntityType="WcPoManagementNew_2011Model.Ex_AiraxpAccount" />
+    <EntitySet Name="Ex_AiraxpAccountWage" EntityType="WcPoManagementNew_2011Model.Ex_AiraxpAccountWage" />
+    <EntitySet Name="Ex_AiraxpCheckBillPch" EntityType="WcPoManagementNew_2011Model.Ex_AiraxpCheckBillPch" />
+    <EntitySet Name="Ex_AiraxpCheckBillPchWage" EntityType="WcPoManagementNew_2011Model.Ex_AiraxpCheckBillPchWage" />
+    <EntitySet Name="Ex_AiraxpInvoice" EntityType="WcPoManagementNew_2011Model.Ex_AiraxpInvoice" />
+    <EntitySet Name="Ex_AiraxpInvoiceWage" EntityType="WcPoManagementNew_2011Model.Ex_AiraxpInvoiceWage" />
+    <EntitySet Name="Ex_AiraxpNode" EntityType="WcPoManagementNew_2011Model.Ex_AiraxpNode" />
+    <EntitySet Name="Ex_Axpline" EntityType="WcPoManagementNew_2011Model.Ex_Axpline" />
+    <EntitySet Name="Ex_AxplineWage" EntityType="WcPoManagementNew_2011Model.Ex_AxplineWage" />
+    <EntitySet Name="Ex_HpoAxpline" EntityType="WcPoManagementNew_2011Model.Ex_HpoAxpline" />
+    <EntitySet Name="Ex_HpoAxplineWage" EntityType="WcPoManagementNew_2011Model.Ex_HpoAxplineWage" />
+    <EntitySet Name="Ex_PoImages" EntityType="WcPoManagementNew_2011Model.Ex_PoImages" />
+    <EntitySet Name="Ex_Store" EntityType="WcPoManagementNew_2011Model.Ex_Store" />
+    <EntitySet Name="Ex_Volume_Detaile" EntityType="WcPoManagementNew_2011Model.Ex_Volume_Detaile" />
+    <EntitySet Name="Ex_WffAaxplineWage" EntityType="WcPoManagementNew_2011Model.Ex_WffAaxplineWage" />
+    <EntitySet Name="Ex_WffAxpline" EntityType="WcPoManagementNew_2011Model.Ex_WffAxpline" />
+    <AssociationSet Name="FK_Ex_Axpline_Ex_Axpline" Association="WcPoManagementNew_2011Model.FK_Ex_Axpline_Ex_Axpline">
+      <End Role="Ex_Axpline" EntitySet="Ex_Axpline" />
+      <End Role="Ex_Axpline1" EntitySet="Ex_Axpline" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Ex_AiraxpAccount">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="jobno" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="accountcode" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="accountdom" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="taxrate" Type="Decimal" Precision="18" Scale="4" />
+    <Property Name="relid" Type="Int32" />
+    <Property Name="wageinout" Type="Int32" />
+    <Property Name="sett_gid" Type="Int32" />
+    <Property Name="payment_gid" Type="Int32" />
+    <Property Name="payment_code" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="payment_name" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="payment_accountno" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="payment_lxr" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="payment_fax" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="payment_deadline" Type="DateTime" Precision="3" />
+    <Property Name="accountman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="accountdate" Type="DateTime" Precision="3" />
+    <Property Name="hbh" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="hbrq" Type="DateTime" Precision="3" />
+    <Property Name="mawb" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="hawb" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="sfg" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="mdg" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="zzg" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="description" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="wageall" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="currency" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="changerate" Type="Decimal" Precision="18" Scale="10" />
+    <Property Name="packagetype" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="piece" Type="Int32" />
+    <Property Name="weight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="volume" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="jfweight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="remark" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="addman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="adddate" Type="DateTime" Precision="3" />
+    <Property Name="modifyman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="modifydate" Type="DateTime" Precision="3" />
+    <Property Name="delman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="deldate" Type="DateTime" Precision="3" />
+    <Property Name="isdel" Type="Int32" />
+    <Property Name="isincl" Type="Int32" />
+    <Property Name="isexport" Type="Int32" />
+    <Property Name="exportman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="exportdate" Type="DateTime" Precision="3" />
+    <Property Name="ready01" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready02" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready03" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready04" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready05" Type="Int32" />
+    <Property Name="ready06" Type="Int32" />
+    <Property Name="ready07" Type="Int32" />
+    <Property Name="ready08" Type="DateTime" Precision="3" />
+    <Property Name="ready09" Type="DateTime" Precision="3" />
+    <Property Name="ready10" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="system" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="oldid" Type="Int32" />
+    <Property Name="accountweight" Type="Decimal" Precision="18" Scale="3" />
+    <Property Name="zdweight" Type="Decimal" Precision="18" Scale="3" />
+    <Property Name="axpjobno" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ex_AiraxpAccountWage">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="sid" Type="Int32" />
+    <Property Name="accountid" Type="Int32" />
+    <Property Name="wageid" Type="Int32" />
+    <Property Name="wageall" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="finishwageall" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="billwageid" Type="Int32" />
+    <Property Name="wagedom" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="addman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="adddate" Type="DateTime" Precision="3" />
+    <Property Name="remark" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready01" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready02" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready03" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready04" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready05" Type="Int32" />
+    <Property Name="ready06" Type="Int32" />
+    <Property Name="ready07" Type="Int32" />
+    <Property Name="ready08" Type="DateTime" Precision="3" />
+    <Property Name="ready09" Type="DateTime" Precision="3" />
+    <Property Name="ready10" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="oldid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Ex_AiraxpCheckBillPch">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="pchno" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="wageinout" Type="Int32" />
+    <Property Name="gid" Type="Int32" />
+    <Property Name="billstatus" Type="Int32" />
+    <Property Name="isdel" Type="Int32" />
+    <Property Name="confirmman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="confirmdate" Type="DateTime" Precision="3" />
+    <Property Name="confirmremark" Type="String" MaxLength="1000" Unicode="true" FixedLength="false" />
+    <Property Name="addman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="adddate" Type="DateTime" Precision="3" />
+    <Property Name="modifyman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="modifydate" Type="DateTime" Precision="3" />
+    <Property Name="delman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="deldate" Type="DateTime" Precision="3" />
+    <Property Name="remark" Type="String" MaxLength="1000" Unicode="true" FixedLength="false" />
+    <Property Name="ready01" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready02" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready03" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready04" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready05" Type="Int32" />
+    <Property Name="ready06" Type="Int32" />
+    <Property Name="ready07" Type="Int32" />
+    <Property Name="ready08" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ready09" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ready10" Type="DateTime" Precision="3" />
+    <Property Name="system" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="oldid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Ex_AiraxpCheckBillPchWage">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="sid" Type="Int32" />
+    <Property Name="billid" Type="Int32" />
+    <Property Name="wageid" Type="Int32" />
+    <Property Name="wageall" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="finishwageall" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="wagedom" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="addman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="adddate" Type="DateTime" Precision="3" />
+    <Property Name="remark" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready01" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready02" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready03" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready04" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready05" Type="Int32" />
+    <Property Name="ready06" Type="Int32" />
+    <Property Name="ready07" Type="Int32" />
+    <Property Name="ready08" Type="DateTime" Precision="3" />
+    <Property Name="ready09" Type="DateTime" Precision="3" />
+    <Property Name="ready10" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="oldid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Ex_AiraxpInvoice">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="invoicecode" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="invoicecode" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="invoiceDom" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="sett_gid" Type="Int32" />
+    <Property Name="payment_gid" Type="Int32" />
+    <Property Name="payment_code" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="payment_name" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="payment_accountno" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="bank" Type="String" MaxLength="80" Unicode="true" FixedLength="false" />
+    <Property Name="bankaccount" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="hbh" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="hbrq" Type="DateTime" Precision="3" />
+    <Property Name="sfg" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="mdg" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="xhg" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="arrivedate" Type="DateTime" Precision="3" />
+    <Property Name="description" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="currency" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="wageall" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="taxrate" Type="Decimal" Precision="18" Scale="4" />
+    <Property Name="remark" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="invoiceman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="invoicedate" Type="DateTime" Precision="3" />
+    <Property Name="addman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="adddate" Type="DateTime" Precision="3" />
+    <Property Name="delman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="deldate" Type="DateTime" Precision="3" />
+    <Property Name="invalidreason" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="hwnames" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="servicenames" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="prices" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="nums" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="wagealls" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="changerates" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="changerwagealls" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="wagesources" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="otheritems" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="otherinfo" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="isdel" Type="Int32" />
+    <Property Name="remarks" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="isexport" Type="Int32" />
+    <Property Name="exportman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="exportdate" Type="DateTime" Precision="3" />
+    <Property Name="ready01" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready02" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready03" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready04" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready05" Type="Int32" />
+    <Property Name="ready06" Type="Int32" />
+    <Property Name="ready07" Type="Int32" />
+    <Property Name="ready08" Type="DateTime" Precision="3" />
+    <Property Name="ready09" Type="DateTime" Precision="3" />
+    <Property Name="ready10" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="MAWB" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="system" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="oldid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Ex_AiraxpInvoiceWage">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="sid" Type="Int32" />
+    <Property Name="invoiceid" Type="Int32" />
+    <Property Name="wageid" Type="Int32" />
+    <Property Name="wageall" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="finishwageall" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="billwageid" Type="Int32" />
+    <Property Name="wagedom" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="addman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="adddate" Type="DateTime" Precision="3" />
+    <Property Name="remark" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready01" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready02" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready03" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready04" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready05" Type="Int32" />
+    <Property Name="ready06" Type="Int32" />
+    <Property Name="ready07" Type="Int32" />
+    <Property Name="ready08" Type="DateTime" Precision="3" />
+    <Property Name="ready09" Type="DateTime" Precision="3" />
+    <Property Name="ready10" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="oldid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Ex_AiraxpNode">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="sid" Type="Int32" Nullable="false" />
+    <Property Name="nodename" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="nodeman" Type="String" Nullable="false" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="codedate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="remark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="addman" Type="String" Nullable="false" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="adddate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="modifyman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="modifydate" Type="DateTime" Precision="3" />
+    <Property Name="codetype" Type="Int32" />
+    <Property Name="timestamp" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Ex_Axpline">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="sid" Type="Int32" />
+    <Property Name="pono" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="jobno" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="hpoid" Type="Int32" />
+    <Property Name="dom" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="gid" Type="Int32" Nullable="false" />
+    <Property Name="hawb" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="dzarriverq" Type="DateTime" Precision="3" />
+    <Property Name="yqsfg" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="mdg" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="yqhbh" Type="String" MaxLength="8" Unicode="false" FixedLength="false" />
+    <Property Name="yqhbrq" Type="DateTime" Precision="3" />
+    <Property Name="ybpiece" Type="Int32" Nullable="false" />
+    <Property Name="ybweight" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="ybvolume" Type="Decimal" Nullable="false" Precision="18" Scale="3" />
+    <Property Name="tradeterm" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="czremark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="otherremark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="area" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="system" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="status" Type="Int32" />
+    <Property Name="hwlx" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="pm" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="khjcno" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="bgfs" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="yjjcdate" Type="DateTime" Precision="3" />
+    <Property Name="jhjcdate" Type="DateTime" Precision="3" />
+    <Property Name="bzlxpiece" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="inwageallinprice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="isinwageallin" Type="Int32" />
+    <Property Name="self_real_bp_freight_in" Type="Decimal" Precision="18" Scale="1" />
+    <Property Name="cus_real_bp_freight_in" Type="Decimal" Precision="18" Scale="1" />
+    <Property Name="address_thr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="lxr_thr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="phone_thr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="address_shr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="lxr_shr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="phone_shr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="mawb_shr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="mawb_fhr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="hawb_shr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="hawb_fhr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="addman" Type="String" Nullable="false" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="adddate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="modifyman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="modifydate" Type="DateTime" Precision="3" />
+    <Property Name="delman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="deldate" Type="DateTime" Precision="3" />
+    <Property Name="isdel" Type="Int32" Nullable="false" />
+    <Property Name="assignman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="assigndate" Type="DateTime" Precision="3" />
+    <Property Name="acceptanceman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="acceptancedate" Type="DateTime" Precision="3" />
+    <Property Name="acceptanceremark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="confirmman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="confirmdate" Type="DateTime" Precision="3" />
+    <Property Name="confirmremark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="submitman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="submitdate" Type="DateTime" Precision="3" />
+    <Property Name="timestamp" Type="Int32" />
+    <NavigationProperty Name="Ex_Axpline1" Relationship="WcPoManagementNew_2011Model.FK_Ex_Axpline_Ex_Axpline" FromRole="Ex_Axpline" ToRole="Ex_Axpline1" />
+    <NavigationProperty Name="Ex_Axpline2" Relationship="WcPoManagementNew_2011Model.FK_Ex_Axpline_Ex_Axpline" FromRole="Ex_Axpline1" ToRole="Ex_Axpline" />
+  </EntityType>
+  <EntityType Name="Ex_AxplineWage">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="sid" Type="Int32" Nullable="false" />
+    <Property Name="items" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="gid" Type="Int32" Nullable="false" />
+    <Property Name="quote" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="wageinout" Type="Int32" Nullable="false" />
+    <Property Name="wagetype" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="wagedom" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="changerate" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+    <Property Name="num" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="currency" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="price" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="wageall" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="leastwageall" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="finishwageall_checkbill" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="finishwageall_invoice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="isfree" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="confirmstatus" Type="Int32" Nullable="false" />
+    <Property Name="confirmman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="confirmdate" Type="DateTime" Precision="3" />
+    <Property Name="isdel" Type="Int32" Nullable="false" />
+    <Property Name="addman" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="adddate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="modifyman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="modifydate" Type="DateTime" Precision="3" />
+    <Property Name="delman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="deldate" Type="DateTime" Precision="3" />
+    <Property Name="remark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="isshare" Type="Int32" />
+    <Property Name="yssys" Type="Int32" Nullable="false" />
+    <Property Name="isallin" Type="Int32" Nullable="false" />
+    <Property Name="ismodify" Type="Int32" Nullable="false" />
+    <Property Name="timestamp" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ex_HpoAxpline">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="sid" Type="Int32" />
+    <Property Name="jobno" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="dom" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="gid" Type="Int32" Nullable="false" />
+    <Property Name="hawb" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="dzarriverq" Type="DateTime" Precision="3" />
+    <Property Name="yqsfg" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="mdg" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="yqhbh" Type="String" MaxLength="8" Unicode="false" FixedLength="false" />
+    <Property Name="yqhbrq" Type="DateTime" Precision="3" />
+    <Property Name="ybpiece" Type="Int32" Nullable="false" />
+    <Property Name="ybweight" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="ybvolume" Type="Decimal" Nullable="false" Precision="18" Scale="3" />
+    <Property Name="tradeterm" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="czremark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="otherremark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="area" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="system" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="status" Type="Int32" Nullable="false" />
+    <Property Name="hwlx" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="pm" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="khjcno" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="bgfs" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="yjjcdate" Type="DateTime" Precision="3" />
+    <Property Name="jhjcdate" Type="DateTime" Precision="3" />
+    <Property Name="inwageallinprice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="isinwageallin" Type="Int32" />
+    <Property Name="self_real_bp_freight_in" Type="Decimal" Precision="18" Scale="1" />
+    <Property Name="cus_real_bp_freight_in" Type="Decimal" Precision="18" Scale="1" />
+    <Property Name="address_thr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="lxr_thr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="phone_thr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="address_shr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="lxr_shr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="phone_shr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="mawb_shr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="mawb_fhr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="hawb_shr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="hawb_fhr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="addman" Type="String" Nullable="false" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="adddate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="modifyman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="modifydate" Type="DateTime" Precision="3" />
+    <Property Name="delman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="deldate" Type="DateTime" Precision="3" />
+    <Property Name="isdel" Type="Int32" Nullable="false" />
+    <Property Name="assignman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="assigndate" Type="DateTime" Precision="3" />
+    <Property Name="timestamp" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Ex_HpoAxplineWage">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="sid" Type="Int32" Nullable="false" />
+    <Property Name="items" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="gid" Type="Int32" Nullable="false" />
+    <Property Name="quote" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="wageinout" Type="Int32" Nullable="false" />
+    <Property Name="wagetype" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="wagedom" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="changerate" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+    <Property Name="num" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="currency" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="price" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="wageall" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="leastwageall" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="isfree" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="confirmstatus" Type="Int32" Nullable="false" />
+    <Property Name="confirmman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="confirmdate" Type="DateTime" Precision="3" />
+    <Property Name="isdel" Type="Int32" />
+    <Property Name="addman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="adddate" Type="DateTime" Precision="3" />
+    <Property Name="modifyman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="modifydate" Type="DateTime" Precision="3" />
+    <Property Name="delman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="deldate" Type="DateTime" Precision="3" />
+    <Property Name="remark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="yssys" Type="Int32" />
+    <Property Name="isallin" Type="Int32" />
+    <Property Name="ismodify" Type="Int32" />
+    <Property Name="timestamp" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Ex_PoImages">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="jobno" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="ftpaddress" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="fileaddress" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="filename" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="rel_filename" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="addman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="adddate" Type="DateTime" Precision="3" />
+    <Property Name="remark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="fileType" Type="Int32" />
+    <Property Name="timestamp" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Ex_Store">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="jobno" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="storename" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="jcdate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="jcno" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="khjcno" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="hzdno" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="breakpiece" Type="Int32" />
+    <Property Name="moistpiece" Type="Int32" />
+    <Property Name="deformpiece" Type="Int32" />
+    <Property Name="arrowpiece" Type="Int32" />
+    <Property Name="dangerpiece" Type="Int32" />
+    <Property Name="otherbreakinfo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="allpiece" Type="Int32" Nullable="false" />
+    <Property Name="lpiece" Type="Int32" />
+    <Property Name="allweight" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="allvolume" Type="Decimal" Nullable="false" Precision="18" Scale="3" />
+    <Property Name="hwstatus" Type="Int32" Nullable="false" />
+    <Property Name="timestamp" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Ex_Volume_Detaile">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="jcno" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="longs" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="widths" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="heighs" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="piece" Type="Int32" Nullable="false" />
+    <Property Name="packagetypecode" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="packagetypename" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="islimit" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ex_WffAaxplineWage">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="sid" Type="Int32" Nullable="false" />
+    <Property Name="wffwageid" Type="Int32" />
+    <Property Name="items" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="gid" Type="Int32" Nullable="false" />
+    <Property Name="quote" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="wageinout" Type="Int32" Nullable="false" />
+    <Property Name="wagetype" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="wagedom" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="changerate" Type="Decimal" Nullable="false" Precision="18" Scale="4" />
+    <Property Name="num" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="currency" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="price" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="wageall" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="leastwageall" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="isfree" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="confirmstatus" Type="Int32" Nullable="false" />
+    <Property Name="confirmman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="confirmdate" Type="DateTime" Precision="3" />
+    <Property Name="isdel" Type="Int32" />
+    <Property Name="addman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="adddate" Type="DateTime" Precision="3" />
+    <Property Name="modifyman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="modifydate" Type="DateTime" Precision="3" />
+    <Property Name="delman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="deldate" Type="DateTime" Precision="3" />
+    <Property Name="remark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="yssys" Type="Int32" />
+    <Property Name="isallin" Type="Int32" />
+    <Property Name="ismodify" Type="Int32" />
+    <Property Name="timestamp" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Ex_WffAxpline">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="wffid" Type="Int32" Nullable="false" />
+    <Property Name="area" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="system" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="jobno" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="czlx" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="gid" Type="Int32" Nullable="false" />
+    <Property Name="hwxz" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="khjcbh" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="mawb" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="realpiece" Type="Int32" />
+    <Property Name="realweight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="realvolume" Type="Decimal" Precision="18" Scale="3" />
+    <Property Name="zdpiece" Type="Int32" />
+    <Property Name="zdweight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="zdvolume" Type="Decimal" Precision="18" Scale="3" />
+    <Property Name="accountweightin" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="accountweightout" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="jfweightin" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="sfg" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="zzg" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="hbh" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="hbrq" Type="DateTime" Precision="3" />
+    <Property Name="qfsj" Type="DateTime" Precision="3" />
+    <Property Name="bgxx" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="bglx" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="dzstatus" Type="Int32" Nullable="false" />
+    <Property Name="pcstatus" Type="Int32" Nullable="false" />
+    <Property Name="bgstatus" Type="Int32" Nullable="false" />
+    <Property Name="remark" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="addman" Type="String" Nullable="false" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="adddate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="modifyman" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="modifydate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="delman" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="deldate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="isdel" Type="Int32" />
+    <Property Name="delreason" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Ex_Axpline_Ex_Axpline">
+    <End Role="Ex_Axpline" Type="WcPoManagementNew_2011Model.Ex_Axpline" Multiplicity="1" />
+    <End Role="Ex_Axpline1" Type="WcPoManagementNew_2011Model.Ex_Axpline" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Ex_Axpline">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Ex_Axpline1">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

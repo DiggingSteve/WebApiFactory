@@ -1,0 +1,743 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WcStore_2011Model" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="WcStore_2011Entities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Ex_BqModify" EntityType="WcStore_2011Model.Ex_BqModify" />
+    <EntitySet Name="Ex_Dcb_Detaile" EntityType="WcStore_2011Model.Ex_Dcb_Detaile" />
+    <EntitySet Name="Ex_Dcb_Protect" EntityType="WcStore_2011Model.Ex_Dcb_Protect" />
+    <EntitySet Name="Ex_Document_Detaile" EntityType="WcStore_2011Model.Ex_Document_Detaile" />
+    <EntitySet Name="Ex_ExpDataLog" EntityType="WcStore_2011Model.Ex_ExpDataLog" />
+    <EntitySet Name="Ex_Hawb" EntityType="WcStore_2011Model.Ex_Hawb" />
+    <EntitySet Name="Ex_HbqScan" EntityType="WcStore_2011Model.Ex_HbqScan" />
+    <EntitySet Name="Ex_Jjd" EntityType="WcStore_2011Model.Ex_Jjd" />
+    <EntitySet Name="Ex_Kw" EntityType="WcStore_2011Model.Ex_Kw" />
+    <EntitySet Name="ex_kw_kwqy" EntityType="WcStore_2011Model.ex_kw_kwqy" />
+    <EntitySet Name="Ex_Log" EntityType="WcStore_2011Model.Ex_Log" />
+    <EntitySet Name="Ex_Mawb" EntityType="WcStore_2011Model.Ex_Mawb" />
+    <EntitySet Name="Ex_Photo_Detaile" EntityType="WcStore_2011Model.Ex_Photo_Detaile" />
+    <EntitySet Name="Ex_SandK" EntityType="WcStore_2011Model.Ex_SandK" />
+    <EntitySet Name="Ex_Store" EntityType="WcStore_2011Model.Ex_Store" />
+    <EntitySet Name="Ex_Store_Expand" EntityType="WcStore_2011Model.Ex_Store_Expand" />
+    <EntitySet Name="Ex_Store_Kh" EntityType="WcStore_2011Model.Ex_Store_Kh" />
+    <EntitySet Name="Ex_StoreManager" EntityType="WcStore_2011Model.Ex_StoreManager" />
+    <EntitySet Name="Ex_StoreNewValue" EntityType="WcStore_2011Model.Ex_StoreNewValue" />
+    <EntitySet Name="Ex_Truck" EntityType="WcStore_2011Model.Ex_Truck" />
+    <EntitySet Name="Ex_Truck_Detaile" EntityType="WcStore_2011Model.Ex_Truck_Detaile" />
+    <EntitySet Name="Ex_Truck_Protect" EntityType="WcStore_2011Model.Ex_Truck_Protect" />
+    <EntitySet Name="Ex_Volume_Detaile" EntityType="WcStore_2011Model.Ex_Volume_Detaile" />
+    <EntitySet Name="IM_Gzd" EntityType="WcStore_2011Model.IM_Gzd" />
+    <EntitySet Name="Log" EntityType="WcStore_2011Model.Log" />
+    <EntitySet Name="Tmp__Ex_Dcb_Protect" EntityType="WcStore_2011Model.Tmp__Ex_Dcb_Protect" />
+  </EntityContainer>
+  <EntityType Name="Ex_BqModify">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="mawb" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="gzdno" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="oldmsg" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="newmsg" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="newdate" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="recvdate" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="recvman" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready6" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready7" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready8" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready9" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready10" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ex_Dcb_Detaile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="GzdNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DcbNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DcbWeight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Kwh" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="BreakPiece" Type="Int32" />
+    <Property Name="MoistPiece" Type="Int32" />
+    <Property Name="DeformPiece" Type="Int32" />
+    <Property Name="Piece" Type="Int32" />
+    <Property Name="Weight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Bh" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Storeid" Type="Int32" />
+    <Property Name="Zcstatus" Type="Int32" />
+    <Property Name="Photos" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="Czman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Czdate" Type="DateTime" Precision="3" />
+    <Property Name="Czmethod" Type="Int32" />
+    <Property Name="ready1" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ready2" Type="Int32" />
+    <Property Name="ready3" Type="Int32" />
+    <Property Name="ready4" Type="DateTime" Precision="3" />
+    <Property Name="ready5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready6" Type="Int32" />
+    <Property Name="ready7" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="ready8" Type="Int32" />
+    <Property Name="ready9" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready10" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready11" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready12" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready13" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready14" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready15" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready16" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready17" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready18" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready19" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready20" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ex_Dcb_Protect">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="DcbNo" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="DcbNo" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DcbType" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DcbWeight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="DcbStatus" Type="Int32" />
+    <Property Name="Dcbkwh" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DcbStoreid" Type="Int32" />
+    <Property Name="DcbTp" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DcbRemark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="Ckr" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="Ckdate" Type="DateTime" Precision="3" />
+    <Property Name="ready1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready2" Type="DateTime" Precision="3" />
+    <Property Name="ready3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready6" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready7" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready8" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready9" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready10" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ex_Document_Detaile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="JcNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Mawb" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="FileType" Type="Int32" />
+    <Property Name="FileNumber" Type="Int32" />
+    <Property Name="Remark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="Indate" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Inman" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready6" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready7" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready8" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready9" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready10" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ex_ExpDataLog">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="wtkhcode" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="wtkhname" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="expdate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Ex_Hawb">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="mawb" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="hawb" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="reaady3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready6" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready7" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready8" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="reawdy9" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready10" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready11" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready12" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready13" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready14" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready15" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready16" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready17" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready18" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready19" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready20" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ex_HbqScan">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="scannum" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Ex_Jjd">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="GzdNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Mawb" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="Hawb" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="JjTypeCode" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="JjTypeName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="JjdateTime" Type="DateTime" Precision="3" />
+    <Property Name="BxWeight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="BW" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="BxNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ZbPiece" Type="Int32" />
+    <Property Name="ZbWeight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Remark" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="ready1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready6" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready7" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready8" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready9" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready10" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ex_Kw">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="qyid" Type="Int32" />
+    <Property Name="Kwh" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="KwUse" Type="Int32" />
+    <Property Name="KwStatus" Type="Int32" />
+    <Property Name="KwNum" Type="Int32" />
+    <Property Name="UseKwNum" Type="Int32" />
+    <Property Name="ready1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready2" Type="Int32" />
+    <Property Name="ready3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready6" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready7" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready8" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready9" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready10" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="ex_kw_kwqy">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="storeid" Type="Int32" />
+    <Property Name="kwqy" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="bh" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="hwlx" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="isauto" Type="Int32" />
+    <Property Name="kwpackage" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="kwlx" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="kwrl" Type="Int32" />
+    <Property Name="kqheight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="oper" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="operdate" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="remark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="usekwrl" Type="Int32" />
+    <Property Name="ready1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready6" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready7" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready8" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready9" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready10" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="lockstatus" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Ex_Log">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="g_title" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="g_content" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="czman" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="czdate" Type="DateTime" Precision="3" />
+    <Property Name="cdate" Type="DateTime" Precision="3" />
+    <Property Name="remark" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="ready01" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready02" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready03" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready04" Type="Int32" />
+    <Property Name="ready05" Type="Int32" />
+    <Property Name="ready06" Type="Int32" />
+    <Property Name="ready07" Type="DateTime" Precision="3" />
+    <Property Name="ready08" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Ex_Mawb">
+    <Key>
+      <PropertyRef Name="mawb" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="mawb" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="hbh" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="hbrq" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="qyg" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="dest" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready6" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready7" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready8" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready9" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready10" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready11" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready12" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready13" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready14" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready15" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready16" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready17" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready18" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready19" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready20" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ex_Photo_Detaile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="JcNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="PhotoUrl" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="ready1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ex_SandK">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="GzdNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="KhJcxh" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="OperateMan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="OperateDate" Type="DateTime" Precision="3" />
+    <Property Name="ConsumMan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ConsumDate" Type="DateTime" Precision="3" />
+    <Property Name="ready1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ex_Store">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="JcNo" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Gzdno" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Mawb" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="Hawb" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="StoreId" Type="Int32" />
+    <Property Name="JcDate" Type="DateTime" Precision="3" />
+    <Property Name="JcTime" Type="DateTime" Precision="3" />
+    <Property Name="JcNo" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="KhJcNo" Type="String" MaxLength="300" Unicode="true" FixedLength="false" />
+    <Property Name="ShMan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ShDw" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="WtKhCode" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="WtKhName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="HzdNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="CarNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Goodstype" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DressNorm" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="Dress" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="BreakPiece" Type="Int32" />
+    <Property Name="MoistPiece" Type="Int32" />
+    <Property Name="DeformPiece" Type="Int32" />
+    <Property Name="GoodsMark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="GoodsRemark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="GfWeight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="FDocument" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="AllPiece" Type="Int32" />
+    <Property Name="LPiece" Type="Int32" />
+    <Property Name="AllWeight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="AllVolum" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="IsCx" Type="Int32" />
+    <Property Name="DcbNum" Type="Int32" />
+    <Property Name="CkType" Type="Int32" />
+    <Property Name="GoodsTp" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="CkDate" Type="DateTime" Precision="3" />
+    <Property Name="CkMan" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Cksd" Type="Int32" />
+    <Property Name="NCkReason" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="YqCkDate" Type="DateTime" Precision="3" />
+    <Property Name="IsReadyCk" Type="Int32" />
+    <Property Name="Rkman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Modifyman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Modifydate" Type="DateTime" Precision="3" />
+    <Property Name="Photos" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="Photos_basic" Type="Int32" />
+    <Property Name="Iskh" Type="Int32" />
+    <Property Name="Kh_Jcno" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Kh_Storeid" Type="Int32" />
+    <Property Name="Kh_Jcdate" Type="DateTime" Precision="3" />
+    <Property Name="Kh_Jctime" Type="DateTime" Precision="3" />
+    <Property Name="Kh_Rkman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Kh_AllPiece" Type="Int32" />
+    <Property Name="Kh_AllWeight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Kh_AllVolum" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Kh_Status" Type="Int32" />
+    <Property Name="Kh_Remark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="IsBackStore" Type="Int32" />
+    <Property Name="ready1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready6" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready7" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready8" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready9" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready10" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready11" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready12" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready13" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready14" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready15" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready16" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready17" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready18" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready19" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready20" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Isdel" Type="Int32" />
+    <Property Name="KhHawbid" Type="Int32" />
+    <Property Name="KhStoreStatus" Type="Int32" />
+    <Property Name="hwstatus" Type="Int32" />
+    <Property Name="gid" Type="Int32" />
+    <Property Name="rkyq" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="labelman" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="labeldate" Type="DateTime" Precision="3" />
+    <Property Name="accman" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="accdate" Type="DateTime" Precision="3" />
+    <Property Name="securityman" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="securitydate" Type="DateTime" Precision="3" />
+    <Property Name="securitycheckman" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="securitycheckdate" Type="DateTime" Precision="3" />
+    <Property Name="securitybukleman" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="securitybukledate" Type="DateTime" Precision="3" />
+    <Property Name="securityreleaseman" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="securityreleasedate" Type="DateTime" Precision="3" />
+    <Property Name="connman" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="conndate" Type="DateTime" Precision="3" />
+    <Property Name="securityshutoutman" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="securityshutoutdate" Type="DateTime" Precision="3" />
+    <Property Name="timestamp" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="phman" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="phdate" Type="DateTime" Precision="3" />
+    <Property Name="zcman" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="zcdate" Type="DateTime" Precision="3" />
+    <Property Name="sealpiece" Type="Int32" />
+    <Property Name="arrowpiece" Type="Int32" />
+    <Property Name="dangerpiece" Type="Int32" />
+    <Property Name="otherbreakinfo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="sharegoodstype" Type="Int32" />
+    <Property Name="packagetype" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="fdocumenttype" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="productname" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="drivermobile" Type="String" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="KhJcnoHead" Type="String" MaxLength="300" Unicode="true" FixedLength="false" />
+    <Property Name="KhJcnoEnd" Type="String" MaxLength="300" Unicode="true" FixedLength="false" />
+    <Property Name="TallyState" Type="Int32" />
+    <Property Name="TallyDate" Type="DateTime" Precision="3" />
+    <Property Name="TallyMan" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="LabelState" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Ex_Store_Expand">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Gzdno" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="PcStatus" Type="Int32" />
+    <Property Name="GoosInStatus" Type="Int32" />
+    <Property Name="GoosOutStatus" Type="Int32" />
+    <Property Name="GoosLockStatus" Type="Int32" />
+    <Property Name="JssqStatus" Type="Int32" />
+    <Property Name="JsspStatus" Type="Int32" />
+    <Property Name="ZcStatus" Type="Int32" />
+    <Property Name="ready1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready6" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready7" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready8" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready9" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready10" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ex_Store_Kh">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="KhJcxh" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="YjStore" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Mawb" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Hawb" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Hbh" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Hbrq" Type="DateTime" Precision="3" />
+    <Property Name="Hbsj" Type="DateTime" Precision="3" />
+    <Property Name="YjStoreTime" Type="DateTime" Precision="3" />
+    <Property Name="KPiece" Type="Int32" />
+    <Property Name="KWeight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="KVolum" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="KhCode" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="KhName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="KhJcbh" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="GoodsMark" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Remark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="ready1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready6" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready7" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready8" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready9" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready10" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ex_StoreManager">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="storename" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="begintime" Type="DateTime" Precision="3" />
+    <Property Name="endtime" Type="DateTime" Precision="3" />
+    <Property Name="isjg" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="remark" Type="String" MaxLength="1000" Unicode="true" FixedLength="false" />
+    <Property Name="ready1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready6" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready7" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready8" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready9" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready10" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ex_StoreNewValue">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="mawbno" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="jcno" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="piece" Type="Int32" />
+    <Property Name="mawbtype" Type="Int32" />
+    <Property Name="Weight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Volum" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="AddMan" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="AddDate" Type="DateTime" Precision="3" />
+    <Property Name="Zcstatus" Type="Int32" />
+    <Property Name="isdel" Type="Int32" />
+    <Property Name="Remark" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Ready01" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Ready02" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Ready03" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Ready04" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Ready05" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Ex_Truck">
+    <Key>
+      <PropertyRef Name="GzdNo" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="GzdNo" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Sfg" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Sfd" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Servicetype" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Dest" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Truckid" Type="Int32" />
+    <Property Name="TruckNo" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TruckName" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TruckPhone" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TruckStype" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TruckTime" Type="DateTime" Precision="3" />
+    <Property Name="truckaddman" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="price" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="weight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="hgprice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="hgweight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="FengNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="CusCarNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="islockstatus" Type="Int32" />
+    <Property Name="islockaddman" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="islockaddtime" Type="DateTime" Precision="3" />
+    <Property Name="AddMan" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="AddDate" Type="DateTime" Precision="3" />
+    <Property Name="isdel" Type="Int32" />
+    <Property Name="DelMan" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="DelDate" Type="DateTime" Precision="3" />
+    <Property Name="isedit" Type="Int32" />
+    <Property Name="ishgedit" Type="Int32" />
+    <Property Name="wooddcbnum" Type="Int32" />
+    <Property Name="othernum" Type="Int32" />
+    <Property Name="Remark" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Ready01" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Ready02" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Ready03" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Ready04" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Ready05" Type="DateTime" Precision="3" />
+    <Property Name="Receiptno" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TranStatus" Type="Int32" />
+    <Property Name="TruckBackTime" Type="DateTime" Precision="3" />
+    <Property Name="BreakPiece" Type="Int32" />
+    <Property Name="MoistPiece" Type="Int32" />
+    <Property Name="DeformPiece" Type="Int32" />
+    <Property Name="TruckGrade" Type="Int32" />
+    <Property Name="Truckfee1" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Truckfee2" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="TruckJobno" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Ischeck1" Type="Int32" />
+    <Property Name="Ischeck2" Type="Int32" />
+    <Property Name="type" Type="Int32" />
+    <Property Name="TGroup" Type="Int32" />
+    <Property Name="Truckfeeremark" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="jcno" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="dcbid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Ex_Truck_Detaile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Tid" Type="Int32" />
+    <Property Name="DcbNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="AddMan" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="AddDate" Type="DateTime" Precision="3" />
+    <Property Name="Remark" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Ready01" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Ready02" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Ready03" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Ready04" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Ready05" Type="DateTime" Precision="3" />
+    <Property Name="dcbid" Type="Int32" />
+    <Property Name="jcno" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ex_Truck_Protect">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Tid" Type="Int32" />
+    <Property Name="jcNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DCBNO" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="AddMan" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="AddDate" Type="DateTime" Precision="3" />
+    <Property Name="Remark" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Ready01" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Ready02" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Ready03" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Ready04" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Ready05" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Ex_Volume_Detaile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="GzdNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Longs" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Widths" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Heights" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Piece" Type="Int32" />
+    <Property Name="PackageTypeCode" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="PackageTypeName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="IsLimit" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="ready1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready3" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready4" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready5" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready6" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready7" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready8" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready9" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ready10" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="IM_Gzd">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="TCID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="GzdNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="mawb" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="hawb" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="TCID" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="PPCC" Type="String" Nullable="false" MaxLength="2" Unicode="true" FixedLength="true" />
+    <Property Name="YJmark" Type="Boolean" Nullable="false" />
+    <Property Name="EndDate" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="oper" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Area" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Piece" Type="Int32" Nullable="false" />
+    <Property Name="Weight" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="IsEnd" Type="Boolean" Nullable="false" />
+    <Property Name="Ready1" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Ready2" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Ready3" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Ready4" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Ready5" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Ready6" Type="Int32" Nullable="false" />
+    <Property Name="Ready7" Type="Int32" Nullable="false" />
+    <Property Name="Ready8" Type="Int32" Nullable="false" />
+    <Property Name="Ready9" Type="Int32" Nullable="false" />
+    <Property Name="Ready10" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="InvoiceTime" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Log">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="AddTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Thread" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Level" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Logger" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="Message" Type="String" MaxLength="3000" Unicode="true" FixedLength="false" />
+    <Property Name="Exception" Type="String" MaxLength="4000" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Tmp__Ex_Dcb_Protect">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="dcbno" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="dcbweight" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="status" Type="Int32" />
+  </EntityType>
+</Schema>

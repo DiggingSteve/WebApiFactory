@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WcPoManagementNew_2011Model" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="WcPoManagementNew_2011Entities2" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Ex_HpoAxpline" EntityType="WcPoManagementNew_2011Model.Ex_HpoAxpline" />
+  </EntityContainer>
+  <EntityType Name="Ex_HpoAxpline">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="sid" Type="Int32" />
+    <Property Name="hpono" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="dom" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="gid" Type="Int32" Nullable="false" />
+    <Property Name="hawb" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="dzarriverq" Type="DateTime" Precision="3" />
+    <Property Name="yqsfg" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="mdg" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="yqhbh" Type="String" MaxLength="8" Unicode="false" FixedLength="false" />
+    <Property Name="yqhbrq" Type="DateTime" Precision="3" />
+    <Property Name="ybpiece" Type="Int32" Nullable="false" />
+    <Property Name="ybweight" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="ybvolume" Type="Decimal" Nullable="false" Precision="18" Scale="3" />
+    <Property Name="tradeterm" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="czremark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="otherremark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="area" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="system" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="status" Type="Int32" Nullable="false" />
+    <Property Name="hwlx" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="pm" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="khjcno" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="bgfs" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="yjjcdate" Type="DateTime" Precision="3" />
+    <Property Name="jhjcdate" Type="DateTime" Precision="3" />
+    <Property Name="inwageallinprice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="isinwageallin" Type="Int32" />
+    <Property Name="self_real_bp_freight_in" Type="Decimal" Precision="18" Scale="1" />
+    <Property Name="cus_real_bp_freight_in" Type="Decimal" Precision="18" Scale="1" />
+    <Property Name="address_thr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="lxr_thr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="phone_thr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="address_shr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="lxr_shr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="phone_shr" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="mawb_shr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="mawb_fhr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="hawb_shr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="hawb_fhr" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="addman" Type="String" Nullable="false" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="adddate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="modifyman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="modifydate" Type="DateTime" Precision="3" />
+    <Property Name="delman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="deldate" Type="DateTime" Precision="3" />
+    <Property Name="isdel" Type="Int32" Nullable="false" />
+    <Property Name="assignman" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="assigndate" Type="DateTime" Precision="3" />
+    <Property Name="timestamp" Type="Int32" />
+  </EntityType>
+</Schema>

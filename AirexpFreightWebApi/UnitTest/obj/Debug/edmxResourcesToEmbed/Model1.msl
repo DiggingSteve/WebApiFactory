@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WcPoManagementNew_2011ModelStoreContainer" CdmEntityContainer="WcPoManagementNew_2011Entities2">
+    <EntitySetMapping Name="Ex_HpoAxpline">
+      <EntityTypeMapping TypeName="WcPoManagementNew_2011Model.Ex_HpoAxpline">
+        <MappingFragment StoreEntitySet="Ex_HpoAxpline">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="hpono" ColumnName="hpono" />
+          <ScalarProperty Name="dom" ColumnName="dom" />
+          <ScalarProperty Name="gid" ColumnName="gid" />
+          <ScalarProperty Name="hawb" ColumnName="hawb" />
+          <ScalarProperty Name="dzarriverq" ColumnName="dzarriverq" />
+          <ScalarProperty Name="yqsfg" ColumnName="yqsfg" />
+          <ScalarProperty Name="mdg" ColumnName="mdg" />
+          <ScalarProperty Name="yqhbh" ColumnName="yqhbh" />
+          <ScalarProperty Name="yqhbrq" ColumnName="yqhbrq" />
+          <ScalarProperty Name="ybpiece" ColumnName="ybpiece" />
+          <ScalarProperty Name="ybweight" ColumnName="ybweight" />
+          <ScalarProperty Name="ybvolume" ColumnName="ybvolume" />
+          <ScalarProperty Name="tradeterm" ColumnName="tradeterm" />
+          <ScalarProperty Name="czremark" ColumnName="czremark" />
+          <ScalarProperty Name="otherremark" ColumnName="otherremark" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="system" ColumnName="system" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="hwlx" ColumnName="hwlx" />
+          <ScalarProperty Name="pm" ColumnName="pm" />
+          <ScalarProperty Name="khjcno" ColumnName="khjcno" />
+          <ScalarProperty Name="bgfs" ColumnName="bgfs" />
+          <ScalarProperty Name="yjjcdate" ColumnName="yjjcdate" />
+          <ScalarProperty Name="jhjcdate" ColumnName="jhjcdate" />
+          <ScalarProperty Name="inwageallinprice" ColumnName="inwageallinprice" />
+          <ScalarProperty Name="isinwageallin" ColumnName="isinwageallin" />
+          <ScalarProperty Name="self_real_bp_freight_in" ColumnName="self_real_bp_freight_in" />
+          <ScalarProperty Name="cus_real_bp_freight_in" ColumnName="cus_real_bp_freight_in" />
+          <ScalarProperty Name="address_thr" ColumnName="address_thr" />
+          <ScalarProperty Name="lxr_thr" ColumnName="lxr_thr" />
+          <ScalarProperty Name="phone_thr" ColumnName="phone_thr" />
+          <ScalarProperty Name="address_shr" ColumnName="address_shr" />
+          <ScalarProperty Name="lxr_shr" ColumnName="lxr_shr" />
+          <ScalarProperty Name="phone_shr" ColumnName="phone_shr" />
+          <ScalarProperty Name="mawb_shr" ColumnName="mawb_shr" />
+          <ScalarProperty Name="mawb_fhr" ColumnName="mawb_fhr" />
+          <ScalarProperty Name="hawb_shr" ColumnName="hawb_shr" />
+          <ScalarProperty Name="hawb_fhr" ColumnName="hawb_fhr" />
+          <ScalarProperty Name="addman" ColumnName="addman" />
+          <ScalarProperty Name="adddate" ColumnName="adddate" />
+          <ScalarProperty Name="modifyman" ColumnName="modifyman" />
+          <ScalarProperty Name="modifydate" ColumnName="modifydate" />
+          <ScalarProperty Name="delman" ColumnName="delman" />
+          <ScalarProperty Name="deldate" ColumnName="deldate" />
+          <ScalarProperty Name="isdel" ColumnName="isdel" />
+          <ScalarProperty Name="assignman" ColumnName="assignman" />
+          <ScalarProperty Name="assigndate" ColumnName="assigndate" />
+          <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
